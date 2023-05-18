@@ -1,4 +1,4 @@
-This is the minimal set of modules needed to build the servlet TCK
+This is the minimal set of maven modules needed to build the servlet TCK
 tests using the legacy JavaTest framework.
 
 There are 1739 tests annotated with a javadoc @testName tag:
