@@ -1,0 +1,6 @@
+servlet_ee_platform_deploy_resref_single_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.deploy.resref.single.ServletTest
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.shared.resref.single.ByteArrayDataSource
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.shared.resref.single.TestCode
+  WEB-INF/classes/com.sun.ts.tests.common.web.ServletWrapper
+  WEB-INF/classes/com.sun.ts.tests.common.web.WebUtil

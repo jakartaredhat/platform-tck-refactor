@@ -1,0 +1,13 @@
+servlet_sec_metadatacomplete_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.metadatacomplete.DenyAllServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.metadatacomplete.GuestPageTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.metadatacomplete.ServletSecTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.metadatacomplete.UnProtectedTestServlet
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.BaseUrlClient
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.Goldenfile
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.TestCase
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.TestFailureException
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.TestSequence
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.Util
+  WEB-INF/classes/com.sun.ts.tests.common.webclient.WebTestCase
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.metadatacomplete.Client

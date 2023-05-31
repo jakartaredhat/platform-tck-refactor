@@ -1,0 +1,7 @@
+servlet_js_filter_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filter.DoFilterTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filter.DoFilter_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filter.InitFilterConfigTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filter.InitFilter_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

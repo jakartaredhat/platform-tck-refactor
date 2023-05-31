@@ -1,0 +1,8 @@
+servlet_js_servletcontext303_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext303.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.sharedfiles.SCAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.sharedfiles.SCListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.sharedfiles.SRAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.sharedfiles.SRListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

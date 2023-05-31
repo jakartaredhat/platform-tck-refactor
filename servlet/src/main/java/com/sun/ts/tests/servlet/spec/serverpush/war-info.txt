@@ -1,0 +1,11 @@
+servlet_spec_serverpush_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet3
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet4
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet5
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet6
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.serverpush.TestServlet7
+  WEB-INF/classes/com.sun.ts.lib.harness.EETest$Fault
+  WEB-INF/classes/com.sun.ts.lib.harness.EETest
+  WEB-INF/classes/com.sun.ts.lib.porting.TSURL

@@ -1,0 +1,6 @@
+servlet_jsh_servletcontext303_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.servletcontext303.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.sharedfiles.HSessionAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.sharedfiles.HSessionListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

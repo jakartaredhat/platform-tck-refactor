@@ -1,0 +1,20 @@
+servlet_plu_filterrequestdispatcher_web.war
+  WEB-INF/lib/servlet_plu_filterrequestdispatcher.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/DummyServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/ErrorPage.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/ForwardTest1Servlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/ForwardTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/ForwardedServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/IncludeTest1Servlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/IncludeTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/IncludedServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/RequestTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/TestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterrequestdispatcher/Test_Filter.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml
+    /dummy.html
+    /dummyJSP.jsp

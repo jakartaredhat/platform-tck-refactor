@@ -1,0 +1,7 @@
+servlet_jsh_httpservletrequest31_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.request.HttpRequestTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.request.RequestTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.request.RequestTests
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

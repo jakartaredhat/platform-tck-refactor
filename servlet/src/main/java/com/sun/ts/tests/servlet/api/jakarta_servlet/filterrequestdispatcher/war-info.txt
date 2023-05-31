@@ -1,0 +1,15 @@
+servlet_js_filterrequestdispatcher_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.DummyServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.ErrorPage
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.ForwardTest1Servlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.ForwardTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.ForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.IncludeTest1Servlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.IncludeTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.IncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.RequestTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterrequestdispatcher.Test_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

@@ -1,0 +1,9 @@
+servlet_pluh_httpservletresponse30_web.war
+  WEB-INF/lib/servlet_pluh_httpservletresponse30.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/common/response/HttpResponseTestServlet.class
+    /com/sun/ts/tests/servlet/api/common/response/ResponseTests.class
+    /com/sun/ts/tests/servlet/common/servlets/HttpCheckTestResultServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/HttpTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

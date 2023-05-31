@@ -1,0 +1,9 @@
+servlet_sec_secbasic_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.GuestPageAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.GuestPageTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.RoleReverseAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.RoleReverseTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.ServletSecAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.ServletSecTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.UnProtectedAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secbasic.UnProtectedTestServlet

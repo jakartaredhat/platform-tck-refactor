@@ -1,0 +1,15 @@
+servlet_js_filterconfig_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetFilterNameTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetFilterName_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamNamesNullTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamNamesNull_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamNamesTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamNames_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamNullTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamNull_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParamTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetInitParam_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetServletContextTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterconfig.GetServletContext_Filter
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

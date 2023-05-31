@@ -1,0 +1,10 @@
+servlet_spec_errorpage1_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage1.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage1.TestServletException
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage.SecondServletErrorPage
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage.ServletErrorPage
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage.TestException
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.errorpage.WrappedException

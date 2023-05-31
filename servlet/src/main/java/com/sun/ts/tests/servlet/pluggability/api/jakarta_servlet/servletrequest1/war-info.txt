@@ -1,0 +1,8 @@
+servlet_plu_servletrequest1_web.war
+  WEB-INF/lib/servlet_plu_servletrequest1.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/common/request/RequestTestServlet.class
+    /com/sun/ts/tests/servlet/api/common/request/RequestTests.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

@@ -1,0 +1,18 @@
+servlet_js_registration_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.registration.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.registration.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddFilterClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddFilterNotFound
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddFilterString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddServletClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddServletNotFound
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddServletString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.BadFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.BadListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.BadServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.StaticLog

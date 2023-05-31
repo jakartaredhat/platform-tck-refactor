@@ -1,0 +1,3 @@
+servlet_spec_servletresponse_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.servletresponse.HttpTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.servletresponse.TestServlet

@@ -1,0 +1,2 @@
+servlet_compat_LeadingSlash_With_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.compat.LeadingSlash.WithLeadingSlash.WithLeadingSlashTestServlet

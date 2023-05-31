@@ -1,0 +1,9 @@
+servlet_annotationservlet_webfilter_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webfilter.Servlet1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webfilter.TestFilter1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webfilter.TestFilter2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webfilter.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.StaticLog

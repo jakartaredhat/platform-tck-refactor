@@ -1,0 +1,6 @@
+servlet_spec_servletcontext_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.servletcontext.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.StaticLog

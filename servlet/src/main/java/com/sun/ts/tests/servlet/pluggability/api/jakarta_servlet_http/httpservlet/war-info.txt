@@ -1,0 +1,12 @@
+servlet_pluh_httpservlet_web.war
+  WEB-INF/lib/servlet_pluh_httpservlet.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservlet/DestroyTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservlet/InitTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservlet/Init_ServletConfigTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservlet/ServiceTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservlet/TestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/HttpTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

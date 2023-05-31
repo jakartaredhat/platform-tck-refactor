@@ -1,0 +1,6 @@
+servlet_ee_platform_cdi_listener_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.listener.SRAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.listener.SRListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.listener.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.TCKTestBean

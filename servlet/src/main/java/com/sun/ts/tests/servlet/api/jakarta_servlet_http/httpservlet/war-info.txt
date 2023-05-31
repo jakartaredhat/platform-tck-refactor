@@ -1,0 +1,9 @@
+servlet_jsh_httpservlet_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservlet.DestroyTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservlet.InitTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservlet.Init_ServletConfigTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservlet.ServiceTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservlet.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

@@ -1,0 +1,4 @@
+servlet_spec_rdspecialchar_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.rdspecialchar.IncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.rdspecialchar.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet

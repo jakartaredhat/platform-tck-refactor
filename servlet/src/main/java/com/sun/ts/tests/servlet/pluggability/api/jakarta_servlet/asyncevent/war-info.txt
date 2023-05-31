@@ -1,0 +1,6 @@
+servlet_plu_asyncevent_web.war
+  WEB-INF/lib/servlet_plu_asyncevent.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/asyncevent/AsyncTestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /META-INF/web-fragment.xml

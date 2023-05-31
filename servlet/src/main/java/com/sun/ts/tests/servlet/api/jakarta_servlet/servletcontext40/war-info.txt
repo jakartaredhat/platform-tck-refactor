@@ -1,0 +1,11 @@
+servlet_js_servletcontext40_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext40.AddListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext40.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext40.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext40.TestServlet2
+  WEB-INF/classes/com.sun.ts.lib.harness.EETest$Fault
+  WEB-INF/classes/com.sun.ts.lib.harness.EETest
+  WEB-INF/classes/com.sun.ts.lib.porting.TSURL
+  WEB-INF/lib/tagfile.jar
+    /META-INF/MANIFEST.MF
+    /META-INF/listener.tld

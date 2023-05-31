@@ -1,0 +1,24 @@
+servlet_spec_aordering1_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.pluggability.common.RequestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.pluggability.common.TestServlet1
+  WEB-INF/lib/servlet_spec_aordering11.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/pluggability/common/RequestListener1.class
+    /com/sun/ts/tests/servlet/pluggability/common/TestServlet1.class
+    /META-INF/web-fragment.xml
+  WEB-INF/lib/servlet_spec_aordering12.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/pluggability/common/RequestListener2.class
+    /META-INF/web-fragment.xml
+  WEB-INF/lib/servlet_spec_aordering13.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/pluggability/common/RequestListener3.class
+    /META-INF/web-fragment.xml
+  WEB-INF/lib/servlet_spec_aordering14.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/pluggability/common/RequestListener4.class
+    /META-INF/web-fragment.xml
+  WEB-INF/lib/servlet_spec_aordering15.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/pluggability/common/RequestListener5.class
+    /META-INF/web-fragment.xml

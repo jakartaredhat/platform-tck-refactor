@@ -1,0 +1,11 @@
+servlet_annotationservlet_weblistener_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.ContextListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.HSAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.HSListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.HttpTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.SCAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.SRAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.SRListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.weblistener.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet

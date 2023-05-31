@@ -1,0 +1,6 @@
+servlet_sec_denyUncovered_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.denyUncovered.AllMethodsAllowedAnno
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.denyUncovered.ExcludeAuthConstraint
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.denyUncovered.PartialDDServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.denyUncovered.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.denyUncovered.Client

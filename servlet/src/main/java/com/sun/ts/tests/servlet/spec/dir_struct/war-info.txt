@@ -1,0 +1,3 @@
+servlet_spec_dirstruct_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.dir_struct.ClassFileTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.dir_struct.JarFileTestServlet

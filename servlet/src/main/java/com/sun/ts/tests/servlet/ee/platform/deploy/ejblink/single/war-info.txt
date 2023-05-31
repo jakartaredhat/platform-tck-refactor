@@ -1,0 +1,25 @@
+servlet_ee_platform_deploy_ejblink_single_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.deploy.ejblink.single.ServletTest
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.BMPExternal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.BMPExternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.BMPInternal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.BMPInternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP11External
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP11ExternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP11Internal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP11InternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP20External
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP20ExternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP20Internal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.CMP20InternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatefulExternal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatefulExternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatefulInternal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatefulInternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatelessExternal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatelessExternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatelessInternal
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.refbean.StatelessInternalHome
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.shared.ejbref.single.TestCode
+  WEB-INF/classes/com.sun.ts.tests.common.web.ServletWrapper
+  WEB-INF/classes/com.sun.ts.tests.common.web.WebUtil

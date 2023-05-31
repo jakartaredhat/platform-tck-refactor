@@ -1,0 +1,11 @@
+servlet_pluh_httpsession_web.war
+  WEB-INF/lib/servlet_pluh_httpsession.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpsession/ExpireHttpSession.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpsession/GetLastAccessedTime.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpsession/TestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/HttpTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /index.html
+    /META-INF/web-fragment.xml

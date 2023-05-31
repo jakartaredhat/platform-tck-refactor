@@ -1,0 +1,13 @@
+servlet_plu_servletrequest_web.war
+  WEB-INF/lib/servlet_plu_servletrequest.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequest/GetParameterNamesEmptyEnumTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequest/GetReaderUnsupportedEncodingExceptionTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequest/SetCharacterEncodingTest.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequest/SetCharacterEncodingUnsupportedEncodingExceptionTest.class
+    /com/sun/ts/tests/servlet/api/common/request/RequestTestServlet.class
+    /com/sun/ts/tests/servlet/api/common/request/RequestTests.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

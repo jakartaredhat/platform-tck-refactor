@@ -1,0 +1,18 @@
+servlet_plu_filterconfig_web.war
+  WEB-INF/lib/servlet_plu_filterconfig.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetFilterNameTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetFilterName_Filter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamNamesNullTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamNamesNull_Filter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamNamesTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamNames_Filter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamNullTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamNull_Filter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParamTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetInitParam_Filter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetServletContextTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filterconfig/GetServletContext_Filter.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

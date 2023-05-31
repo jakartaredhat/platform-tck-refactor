@@ -1,0 +1,6 @@
+servlet_spec_httpservletresponse_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.httpservletresponse.HttpTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.httpservletresponse.RedirectedTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

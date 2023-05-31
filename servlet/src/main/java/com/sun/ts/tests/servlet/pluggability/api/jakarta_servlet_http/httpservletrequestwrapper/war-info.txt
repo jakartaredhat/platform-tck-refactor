@@ -1,0 +1,14 @@
+servlet_pluh_HSReqWrapper_web.war
+  WEB-INF/lib/servlet_pluh_HSReqWrapper.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservletrequestwrapper/SetCharacterEncodingTest.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservletrequestwrapper/SetCharacterEncodingTestWrapper.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservletrequestwrapper/SetCharacterEncodingUnsupportedEncodingExceptionTest.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservletrequestwrapper/SetCharacterEncodingUnsupportedEncodingExceptionTestWrapper.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservletrequestwrapper/TCKHttpSessionIDListener.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservletrequestwrapper/TestServlet.class
+    /com/sun/ts/tests/servlet/api/common/request/HttpRequestTestServlet.class
+    /com/sun/ts/tests/servlet/api/common/request/RequestTests.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

@@ -1,0 +1,19 @@
+servlet_sec_secform_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ControlServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.GuestPageAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.GuestPageTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.IncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.OneTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.RoleReverseAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.RoleReverseTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.SampleTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ServletProgrammaticAuthen
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ServletProgrammaticLogin
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ServletProgrammaticLogout
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ServletSecAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.ServletSecTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.TwoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.UnProtectedAnnoTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.UnProtectedTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.secform.allRolesTestServlet

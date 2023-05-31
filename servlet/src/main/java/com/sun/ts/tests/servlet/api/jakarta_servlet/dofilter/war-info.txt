@@ -1,0 +1,10 @@
+servlet_js_dofilter_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.dofilter.CTSResponseWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.dofilter.ForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.dofilter.IncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.dofilter.SetHeaderResponseFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.dofilter.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.dofilter.WrapResponseFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

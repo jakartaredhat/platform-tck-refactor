@@ -1,0 +1,9 @@
+servlet_ee_spec_security_permissiondd_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.spec.security.permissiondd.PermDDLibrary$1
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.spec.security.permissiondd.PermDDLibrary
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.spec.security.permissiondd.TestServlet$1
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.spec.security.permissiondd.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.spec.security.permissiondd.Client
+  WEB-INF/lib/permddlib.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/ee/spec/security/permissiondd/PermDDLibrary.class

@@ -1,0 +1,5 @@
+servlet_spec_listenerorder_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.listenerorder.ServletRequestListener1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.listenerorder.ServletRequestListener2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.listenerorder.ServletRequestListener3
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.listenerorder.TestServlet

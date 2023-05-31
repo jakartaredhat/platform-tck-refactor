@@ -1,0 +1,11 @@
+servlet_spec_srlistener_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.srlistener.ForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.srlistener.IncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.srlistener.SRListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.srlistener.SecondForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.srlistener.SecondIncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.srlistener.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.StaticLog

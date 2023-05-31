@@ -1,0 +1,21 @@
+servlet_plu_registration_web.war
+  WEB-INF/lib/servlet_plu_registration.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/registration/TestListener.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/registration/TestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/AddFilterClass.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/AddFilterNotFound.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/AddFilterString.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/AddServletClass.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/AddServletNotFound.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/AddServletString.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/BadFilter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/BadListener.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/BadServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/CreateFilter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletcontext30/CreateServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /com/sun/ts/tests/servlet/common/util/StaticLog.class
+    /META-INF/web-fragment.xml

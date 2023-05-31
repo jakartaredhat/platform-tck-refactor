@@ -1,0 +1,5 @@
+servlet_spec_i18n_encoding_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.i18n.encoding.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

@@ -1,0 +1,8 @@
+servlet_jsh_HSRespWrapper_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletresponsewrapper.RedirectedTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletresponsewrapper.SetCharacterEncodingTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletresponsewrapper.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.response.HttpResponseTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.response.ResponseTests
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

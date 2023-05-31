@@ -1,0 +1,4 @@
+servlet_ee_platform_cdi_filter_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.filter.TestFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.filter.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.cdi.TCKTestBean

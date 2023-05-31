@@ -1,0 +1,17 @@
+servlet_spec_multifiltermapping_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.ErrorPage
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.TestServlet6
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.TestServlet7
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.Test_ErrorFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.Test_ForwardFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.Test_IncludeFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.multifiltermapping.Test_RequestFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet3
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet4
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet5

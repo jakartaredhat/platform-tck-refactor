@@ -1,0 +1,11 @@
+servlet_sci_getservletregistrations_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.getservletregistrations.TCKServletContainerInitializer
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.getservletregistrations.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.getservletregistrations.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/lib/initilizer.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/scinitializer/getservletregistrations/TCKServletContainerInitializer.class
+    /META-INF/services/jakarta.servlet.ServletContainerInitializer

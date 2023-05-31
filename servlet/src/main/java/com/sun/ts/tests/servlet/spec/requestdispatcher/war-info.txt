@@ -1,0 +1,9 @@
+servlet_spec_requestdispatcher_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestdispatcher.ForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestdispatcher.HttpTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestdispatcher.IncludedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestdispatcher.MultiForwardedServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestdispatcher.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestdispatcher.WrapServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet

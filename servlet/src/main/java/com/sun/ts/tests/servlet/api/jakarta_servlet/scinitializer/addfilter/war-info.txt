@@ -1,0 +1,12 @@
+servlet_sci_addfilter_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.addfilter.AddFilterString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.addfilter.TCKServletContainerInitializer
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.addfilter.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.scinitializer.addfilter.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/lib/initilizer.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/scinitializer/addfilter/TCKServletContainerInitializer.class
+    /META-INF/services/jakarta.servlet.ServletContainerInitializer

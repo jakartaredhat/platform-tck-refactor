@@ -1,0 +1,10 @@
+servlet_plu_scevent_web.war
+  WEB-INF/lib/servlet_plu_scevent.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/scevent/SContextEventListener.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/scevent/TestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /com/sun/ts/tests/servlet/common/util/StaticLog.class
+    /META-INF/web-fragment.xml

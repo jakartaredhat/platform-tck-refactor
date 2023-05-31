@@ -1,0 +1,6 @@
+servlet_js_servletcontext_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext.GetNamedDispatcherTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

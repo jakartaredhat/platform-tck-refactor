@@ -1,0 +1,5 @@
+servlet_ee_platform_deploy_enventry_single_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.ee.platform.deploy.enventry.single.ServletTest
+  WEB-INF/classes/com.sun.ts.tests.assembly.util.shared.enventry.single.TestCode
+  WEB-INF/classes/com.sun.ts.tests.common.web.ServletWrapper
+  WEB-INF/classes/com.sun.ts.tests.common.web.WebUtil

@@ -1,0 +1,23 @@
+servlet_spec_async_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter10
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter4
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter5
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter6
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter7
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter8
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Filter9
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet10
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet3
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet4
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet5
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet6
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet7
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet8
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.Servlet9
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.TestServlet$1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.async.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

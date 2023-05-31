@@ -1,0 +1,24 @@
+servlet_js_asynccontext_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.ACListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.ACListener1
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.ACListener2
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.ACListenerBad
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$1
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$10
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$11
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$12
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$13
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$2
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$3
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$4
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$5
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$6
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$7
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$8
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet$9
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.AsyncTests
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.RequestWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.asynccontext.ResponseWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.client.AbstractUrlClient
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet

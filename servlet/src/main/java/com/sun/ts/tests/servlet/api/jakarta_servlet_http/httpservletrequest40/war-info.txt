@@ -1,0 +1,13 @@
+servlet_jsh_httpservletrequest40_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.DispatchServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.ForwardFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.ForwardServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.IncludeServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.NamedForwardServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.NamedIncludeServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.TrailerTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequest40.Utilities
+  WEB-INF/classes/com.sun.ts.lib.harness.EETest$Fault
+  WEB-INF/classes/com.sun.ts.lib.harness.EETest
+  WEB-INF/classes/com.sun.ts.lib.porting.TSURL

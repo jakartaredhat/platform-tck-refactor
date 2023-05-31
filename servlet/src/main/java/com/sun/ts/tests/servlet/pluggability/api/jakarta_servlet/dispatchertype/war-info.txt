@@ -1,0 +1,7 @@
+servlet_plu_dispatchertype_web.war
+  WEB-INF/lib/servlet_plu_dispatchertype.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/dispatchertype/TestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

@@ -1,0 +1,5 @@
+servlet_jsh_writelistener_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.writelistener.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.writelistener.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

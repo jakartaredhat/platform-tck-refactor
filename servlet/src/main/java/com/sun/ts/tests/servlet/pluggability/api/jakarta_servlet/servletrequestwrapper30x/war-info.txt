@@ -1,0 +1,7 @@
+servlet_plu_servletrequestwrapper30x_web.war
+  WEB-INF/lib/servlet_plu_servletrequestwrapper30x.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequestwrapper30x/IsWrapperForTest.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequestwrapper30x/TCKServletRequestWrapper.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletrequestwrapper30x/TCKServletRequestsubWrapper.class
+    /META-INF/web-fragment.xml

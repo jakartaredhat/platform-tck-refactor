@@ -1,0 +1,9 @@
+servlet_plu_unavailableexception_web.war
+  WEB-INF/lib/servlet_plu_unavailableexception.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/unavailableexception/TestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/unavailableexception/UnavailableServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

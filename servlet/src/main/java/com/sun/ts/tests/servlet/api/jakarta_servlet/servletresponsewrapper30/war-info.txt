@@ -1,0 +1,5 @@
+servlet_js_servletresponsewrapper30_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletresponsewrapper30.IsWrapperForTest
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletresponsewrapper30.TCKServletResponseWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletresponsewrapper30.TCKServletResponsesubWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.client.AbstractUrlClient

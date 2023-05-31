@@ -1,0 +1,16 @@
+servlet_plu_genericservlet_web.war
+  WEB-INF/lib/servlet_plu_genericservlet.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/DestroyTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/InitServletExceptionTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/InitTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/Init_ServletConfigServletExceptionTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/Init_ServletConfigTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/ServiceTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/ServletErrorPage.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/genericservlet/TestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpservlet/ServiceTestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/GenericTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

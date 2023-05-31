@@ -1,0 +1,2 @@
+clientcert_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.security.clientcert.ServletSecTestServlet

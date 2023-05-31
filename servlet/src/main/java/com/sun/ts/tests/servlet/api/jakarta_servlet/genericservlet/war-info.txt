@@ -1,0 +1,13 @@
+servlet_js_genericservlet_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.DestroyTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.InitServletExceptionTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.InitTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.Init_ServletConfigServletExceptionTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.Init_ServletConfigTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.ServiceTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.ServletErrorPage
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.genericservlet.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservlet.ServiceTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

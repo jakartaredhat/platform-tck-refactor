@@ -1,0 +1,10 @@
+servlet_plu_filter_web.war
+  WEB-INF/lib/servlet_plu_filter.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filter/DoFilterTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filter/DoFilter_Filter.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filter/InitFilterConfigTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/filter/InitFilter_Filter.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

@@ -1,0 +1,10 @@
+servlet_plu_servletresponsewrapper_web.war
+  WEB-INF/lib/servlet_plu_servletresponsewrapper.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletresponsewrapper/SetCharacterEncodingTestServlet.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet/servletresponsewrapper/TestServlet.class
+    /com/sun/ts/tests/servlet/api/common/response/ResponseTestServlet.class
+    /com/sun/ts/tests/servlet/api/common/response/ResponseTests.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /META-INF/web-fragment.xml

@@ -1,0 +1,11 @@
+servlet_jsh_asynccontext_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.ACListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.ACListener1
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.ACListener2
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.ACListenerBad
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.AsyncTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.AsyncTests
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.RequestWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.asynccontext.ResponseWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.client.AbstractUrlClient
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet

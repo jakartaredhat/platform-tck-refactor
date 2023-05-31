@@ -1,0 +1,9 @@
+servlet_jsh_servletcontext304_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.servletcontext304.AddHttpSessionListenerClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.servletcontext304.AddHttpSessionListenerString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.servletcontext304.CreateHttpSessionListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.servletcontext304.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.servletcontext304.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.HttpTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.StaticLog

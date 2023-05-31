@@ -1,0 +1,6 @@
+servlet_js_filterchain_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterchain.FilterChainTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterchain.FilterChain_Filter1
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.filterchain.FilterChain_Filter2
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil

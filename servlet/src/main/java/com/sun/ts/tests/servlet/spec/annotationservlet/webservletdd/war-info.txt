@@ -1,0 +1,6 @@
+servlet_annotationservlet_webservletdd_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webservlet.Servlet1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webservlet.Servlet2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webservlet.Servlet3
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webservlet.Servlet4
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.annotationservlet.webservlet.Servlet5

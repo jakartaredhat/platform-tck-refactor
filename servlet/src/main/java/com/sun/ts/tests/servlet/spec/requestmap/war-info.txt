@@ -1,0 +1,6 @@
+servlet_js_requestmap_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet1
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet2
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet3
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet4
+  WEB-INF/classes/com.sun.ts.tests.servlet.spec.requestmap.TestServlet5

@@ -1,0 +1,11 @@
+servlet_jsh_HSReqWrapper_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequestwrapper.SetCharacterEncodingTest
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequestwrapper.SetCharacterEncodingTestWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequestwrapper.SetCharacterEncodingUnsupportedEncodingExceptionTest
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequestwrapper.SetCharacterEncodingUnsupportedEncodingExceptionTestWrapper
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequestwrapper.TCKHttpSessionIDListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet_http.httpservletrequestwrapper.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.request.HttpRequestTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.common.request.RequestTests
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
