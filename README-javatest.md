@@ -1,7 +1,229 @@
 This is the minimal set of modules needed to build the servlet TCK
 tests using the legacy JavaTest framework.
+Comparing the *.java files under the servlet/src/main/java tree, along with the war-info.txt files in this branch
+to the servletupdate branch *.java files should provide a basis for training the model on what needs to happen in
+order to go from the legacy JavaTest approach to the Junit5/Arquillian approach.
 
+Comparing the com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30 package in both branches, the pre-servletupdate
+branch to the servletupdate branch, the war-info.txt file in the pre-servletupdate branch contains:
+
+```text
+servlet_js_servletcontext30_web.war
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddFilterClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddFilterNotFound
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddFilterString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSCAttributeListenerClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSCAttributeListenerString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSCListenerClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSCListenerString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSRAttributeListenerClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSRAttributeListenerString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSRListenerClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddSRListenerString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddServletClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddServletNotFound
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.AddServletString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.BadFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.BadListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.BadServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateFilter
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateSCAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateSCListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateSRAttributeListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateSRListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.CreateServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.DuplicateFilterClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.DuplicateFilterString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.DuplicateServletClass
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.DuplicateServletString
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.FilterTestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.TestListener
+  WEB-INF/classes/com.sun.ts.tests.servlet.api.jakarta_servlet.servletcontext30.TestServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.servlets.GenericTCKServlet
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.Data
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.ServletTestUtil
+  WEB-INF/classes/com.sun.ts.tests.servlet.common.util.StaticLog
+```
+
+And the URLClient.java file contains a main entry point, a run entry point, and several methods with @testName
+javadoc tags to identify the test methods.
+```java
+public class URLClient extends AbstractUrlClient {
+
+    /**
+     * Entry point for different-VM execution. It should delegate to method
+     * run(String[], PrintWriter, PrintWriter), and this method should not contain
+     * any test configuration.
+     */
+    public static void main(String[] args) {
+        URLClient theTests = new URLClient();
+        Status s = theTests.run(args, new PrintWriter(System.out),
+                new PrintWriter(System.err));
+        s.exit();
+    }
+
+    /**
+     * Entry point for same-VM execution. In different-VM execution, the main
+     * method delegates to this method.
+     */
+    public Status run(String args[], PrintWriter out, PrintWriter err) {
+
+        setContextRoot("/servlet_js_servletcontext30_web");
+        setServletName("TestServlet");
+
+        return super.run(args, out, err);
+    }
+
+    //...
+    /*
+     * @testName: getContextPathTest
+     *
+     * @assertion_ids: Servlet:JAVADOC:124; Servlet:JAVADOC:258;
+     * Servlet:JAVADOC:637; Servlet:JAVADOC:671.1; Servlet:JAVADOC:671.2;
+     * Servlet:JAVADOC:671.3; Servlet:JAVADOC:672.1; Servlet:JAVADOC:672.2;
+     * Servlet:JAVADOC:672.3; Servlet:JAVADOC:673.1; Servlet:JAVADOC:673.2;
+     * Servlet:JAVADOC:673.3; Servlet:JAVADOC:679;
+     *
+     * @test_Strategy: In TestServlet verify that the result from the
+     * ServletContext.getServletContextPath call returns the context path.
+     *
+     * In client verify that all Listeners are added correctly and invoked in the
+     * order added.
+     */
+    public void getContextPathTest() throws Exception {
+        TEST_PROPS.setProperty(APITEST, "getContextPathTest");
+        TEST_PROPS.setProperty(SEARCH_STRING,
+                "AddSRListenerClass_INVOKED" + "|AddSRListenerString_INVOKED"
+                        + "|CreateSRListener_INVOKED" + "|AttributeAddedClass"
+                        + "|AttributeAddedString");
+        invoke();
+    }
+//...
+}
+```
+
+In the servletupdate branch, the URLClient.java file contains a setupServletName method annotated with Junit5 @BeforeEach
+to invoke the superclass setServletName() method which was done in the run() method of the pre-servletupdate branch. It
+contains a getTestArchive() method annotated with the Arquillian @Deployment(testable = false) instead of a war-info.txt
+file. This method creates the test war artifact before the tests are run. 
+
+```java
+public class URLClient extends AbstractUrlClient {
+
+    @BeforeEach
+    public void setupServletName() throws Exception {
+        setServletName("TestServlet");
+    }
+
+    /**
+     * Deployment for the test
+     */
+    @Deployment(testable = false)
+    public static WebArchive getTestArchive() throws Exception {
+        return ShrinkWrap.create(WebArchive.class, "servlet_js_servletcontext30_web.war")
+                .addAsLibraries(CommonServlets.getCommonServletsArchive())
+                .addClasses(AddFilterClass.class, AddFilterNotFound.class, AddFilterString.class, AddSCAttributeListenerClass.class,
+                        AddSCAttributeListenerString.class, AddSCListenerClass.class, AddSCListenerString.class, AddServletClass.class,
+                        AddServletNotFound.class, AddServletString.class, AddSRAttributeListenerClass.class, AddSRAttributeListenerString.class,
+                        AddSRListenerClass.class, AddSRListenerString.class, BadFilter.class, BadListener.class, BadServlet.class,
+                        CreateFilter.class, CreateSCAttributeListener.class, CreateSCListener.class, CreateServlet.class, CreateSRAttributeListener.class,
+                        CreateSRListener.class, DuplicateFilterClass.class, DuplicateFilterString.class, DuplicateServletClass.class, DuplicateServletString.class,
+                        FilterTestServlet.class, TestListener.class, TestServlet.class)
+                .setWebXML(URLClient.class.getResource("servlet_js_servletcontext30_web.xml"));
+    }
+
+    //...  
+    /*
+     * @testName: getContextPathTest
+     *
+     * @assertion_ids: Servlet:JAVADOC:124; Servlet:JAVADOC:258;
+     * Servlet:JAVADOC:637; Servlet:JAVADOC:671.1; Servlet:JAVADOC:671.2;
+     * Servlet:JAVADOC:671.3; Servlet:JAVADOC:672.1; Servlet:JAVADOC:672.2;
+     * Servlet:JAVADOC:672.3; Servlet:JAVADOC:673.1; Servlet:JAVADOC:673.2;
+     * Servlet:JAVADOC:673.3; Servlet:JAVADOC:679;
+     *
+     * @test_Strategy: In TestServlet verify that the result from the
+     * ServletContext.getServletContextPath call returns the context path.
+     *
+     * In client verify that all Listeners are added correctly and invoked in the
+     * order added.
+     */
+    @Test
+    public void getContextPathTest() throws Exception {
+        TEST_PROPS.setProperty(APITEST, "getContextPathTest");
+        TEST_PROPS.setProperty(SEARCH_STRING,
+                "AddSRListenerClass_INVOKED" + "|AddSRListenerString_INVOKED"
+                        + "|CreateSRListener_INVOKED" + "|AttributeAddedClass"
+                        + "|AttributeAddedString");
+        invoke();
+    }
+    //...
+}
+```
+
+Unfortunately there is not a one to one correspondence between the war-info.txt file and the `getTestArchive()` method
+as some behavior from the ant build.xml has been folded into the java code and shows up as the `.addAsLibraries(CommonServlets.getCommonServletsArchive())`
+call in the `getTestArchive()` method. Navigating to the `CommonServlets.getCommonServletsArchive()` method you find
+that the archive is composed of the following classes:
+
+```java
+        archives.add(ShrinkWrap.create(JavaArchive.class, "common-servlets.jar")
+                .addClasses(GenericCheckTestResultServlet.class, GenericTCKServlet.class, RequestTestServlet.class,
+                        HttpCheckTestResultServlet.class, HttpRequestTestServlet.class, RequestTests.class,
+                        HttpTCKServlet.class, Data.class, StaticLog.class, ServletTestUtil.class,
+                        ResponseTests.class, ResponseTestServlet.class, HttpResponseTestServlet.class,
+                        HSessionListener.class, HSessionAttributeListener.class));
+```
+
+This is a superset of the classes from the com/sun/ts/tests/servlet/common package found in the war-info.txt.
+
+Another example is the com.sun.ts.tests.servlet.pluggability.api.jakarta_servlet_http.httpsessionlistener package. Here
+the war-info.txt in the pre-servletupdate branch contains:
+```text
+servlet_pluh_httpsessionlistener_web.war
+  WEB-INF/lib/servlet_pluh_httpsessionlistener.jar
+    /META-INF/MANIFEST.MF
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpsessionlistener/HSListener.class
+    /com/sun/ts/tests/servlet/api/jakarta_servlet_http/httpsessionlistener/TestServlet.class
+    /com/sun/ts/tests/servlet/common/servlets/HttpTCKServlet.class
+    /com/sun/ts/tests/servlet/common/util/Data.class
+    /com/sun/ts/tests/servlet/common/util/ServletTestUtil.class
+    /com/sun/ts/tests/servlet/common/util/StaticLog.class
+    /META-INF/web-fragment.xml
+```
+
+and the corresponding `@Deployment` is:
+```java
+public class URLClient extends AbstractUrlClient {
+    //...
+
+    @Deployment(testable = false)
+    public static WebArchive getTestArchive() throws Exception {
+        JavaArchive javaArchive = ShrinkWrap.create(JavaArchive.class, "fragment-1.jar")
+                .addClasses(TestServlet1.class, RequestListener1.class)
+                .addAsResource(URLClient.class.getResource("servlet_pluh_httpsessionlistener_web-fragment.xml"),
+                        "META-INF/web-fragment.xml");
+        return ShrinkWrap.create(WebArchive.class, "servlet_pluh_httpsessionlistener_web.war")
+                .addAsLibraries(CommonServlets.getCommonServletsArchive())
+                .addClasses(HSListener.class, TestServlet.class)
+                .addAsLibraries(javaArchive);
+    }
+}
+```
+
+There are a few differences, one of which could be semantically different. In the pre-servletupdate branch, the war contains
+classes and a web-fragment.xml file only in a nested servlet_pluh_httpsessionlistener.jar found in the WEB-INF/lib/ location.
+
+The `getTestArchive()` method of the servletupdate branch has changed the name of the embedded jar to fragment-1.jar,
+and has moved the HSListener.class and TestServlet.class out of the jar and into the war's WEB-INF/classes directory. 
+The later change could be semantically different on some servlet implementations although it should behave the same
+according to the specification rules for handling of classes. As before it also is including the classes from the
+com.sun.ts.tests.servlet.common as a library via the `addAsLibraries(CommonServlets.getCommonServletsArchive())` call.
+
+=== Scan for @testName tagged methods
+The following highlights the search results for the JavaTest tests in this pre-servletupdate branch.
 There are 1739 tests annotated with a javadoc @testName tag:
+
 
 ```shell
 Targets
