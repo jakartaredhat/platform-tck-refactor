@@ -749,6 +749,7 @@
 
                 <plugins>
                     <plugin>
+                        <!--  Run with: mvn -Prewrite-javatest rewrite:run | tee build.log -->
                         <groupId>org.openrewrite.maven</groupId>
                         <artifactId>rewrite-maven-plugin</artifactId>
                         <version>4.46.0</version>
