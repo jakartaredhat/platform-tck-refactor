@@ -30,7 +30,6 @@ import java.rmi.*;
 import java.math.*;
 
 import jakarta.xml.ws.soap.AddressingFeature;
-import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -66,7 +65,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature() constructor. Verify
    * AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest1() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest1");
     boolean pass = true;
@@ -104,7 +102,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature(true) constructor.
    * Verify AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest2() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest2");
     boolean pass = true;
@@ -142,7 +139,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature(false) constructor.
    * Verify AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest3() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest2");
     boolean pass = true;
@@ -181,7 +177,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature(true, true)
    * constructor. Verify AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest4() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest4");
     boolean pass = true;
@@ -224,7 +219,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature(true, false)
    * constructor. Verify AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest5() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest5");
     boolean pass = true;
@@ -267,7 +261,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature(false, true)
    * constructor. Verify AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest6() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest6");
     boolean pass = true;
@@ -310,7 +303,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via AddressingFeature(false, false)
    * constructor. Verify AddressingFeature object created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest7() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest7");
     boolean pass = true;
@@ -355,7 +347,6 @@ public class Client extends ServiceEETest {
    * AddressingFeature.Responses) constructor. Verify AddressingFeature object
    * created successfully.
    */
-  @Test
   public void AddressingFeatureConstructorTest8() throws Fault {
     TestUtil.logTrace("AddressingFeatureConstructorTest8");
     boolean pass = true;
@@ -401,7 +392,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test getting the unique identifier for this
    * AddressingFeature object. Verify value returned is set correctly.
    */
-  @Test
   public void getIDTest() throws Fault {
     TestUtil.logTrace("getIDTest");
     boolean pass = true;
@@ -443,7 +433,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test setting isRequired of AddressingFeature object. Get
    * value and verify value returned is set correctly.
    */
-  @Test
   public void isRequiredTest() throws Fault {
     TestUtil.logTrace("isRequiredTest");
     boolean pass = true;
@@ -505,7 +494,6 @@ public class Client extends ServiceEETest {
    * AddressingFeature.Responses) constructor. Verify AddressingFeature object
    * created successfully. Verify responses.
    */
-  @Test
   public void getResponsesTest() throws Fault {
     TestUtil.logTrace("getResponsesTest");
     boolean pass = true;

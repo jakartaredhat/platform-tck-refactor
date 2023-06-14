@@ -31,8 +31,6 @@ import com.sun.ts.tests.jaxws.common.*;
 
 import javax.xml.namespace.QName;
 
-import org.junit.jupiter.api.Test;
-
 public class Client extends ServiceEETest {
 
   // The webserver defaults (overidden by harness properties)
@@ -179,7 +177,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Use a handler that is specified on the SEI and see that it
    * transforms the body
    */
-  @Test
   public void HandlerChainOnSEITest() throws Fault {
     TestUtil.logMsg("HandlerChainOnSEITest");
     boolean pass = true;

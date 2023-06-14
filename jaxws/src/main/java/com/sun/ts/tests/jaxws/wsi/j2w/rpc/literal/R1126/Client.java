@@ -27,8 +27,6 @@ import com.sun.javatest.Status;
 
 import java.util.Properties;
 import java.io.InputStream;
-
-import org.junit.jupiter.api.Test;
 import java.io.IOException;
 
 import com.sun.ts.lib.harness.*;
@@ -80,7 +78,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testFaultResponseStatusCode() throws EETest.Fault {
     InputStream response;
     try {

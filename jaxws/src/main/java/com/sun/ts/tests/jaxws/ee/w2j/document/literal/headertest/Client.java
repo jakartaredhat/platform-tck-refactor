@@ -35,8 +35,6 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.ts.tests.jaxws.common.*;
 
 public class Client extends ServiceEETest {
@@ -187,7 +185,6 @@ public class Client extends ServiceEETest {
    * ignored. The RPC request must succeed.
    *
    */
-  @Test
   public void GoodOrderTestWithSoapHeaderAndMUFalse() throws Fault {
     TestUtil.logMsg("GoodOrderTestWithSoapHeaderAndMUFalse");
     boolean pass = true;
@@ -252,7 +249,6 @@ public class Client extends ServiceEETest {
    * understood by the service endpoint and the soap header is valid. The RPC
    * request must succeed.
    */
-  @Test
   public void GoodOrderTestWithSoapHeaderAndMUTrue() throws Fault {
     TestUtil.logMsg("GoodOrderTestWithSoapHeaderAndMUTrue");
     boolean pass = true;
@@ -322,7 +318,6 @@ public class Client extends ServiceEETest {
    * (ConfigFault).
    *
    */
-  @Test
   public void SoapHeaderFaultTest() throws Fault {
     TestUtil.logMsg("SoapHeaderFaultTest");
     boolean pass = true;
@@ -392,7 +387,6 @@ public class Client extends ServiceEETest {
    * the service endpoint must throw back the SOAP Fault (BadOrderFault).
    *
    */
-  @Test
   public void SoapFaultTest() throws Fault {
     TestUtil.logMsg("SoapFaultTest");
     boolean pass = true;

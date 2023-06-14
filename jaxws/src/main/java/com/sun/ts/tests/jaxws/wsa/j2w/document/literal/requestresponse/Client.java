@@ -33,7 +33,6 @@ import java.net.URL;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 
 import java.util.Properties;
@@ -221,7 +220,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL input/output
    *
    */
-  @Test
   public void testDefaultRequestResponseAction() throws Fault {
     TestUtil.logMsg("testDefaultRequestResponseAction");
     boolean pass = true;
@@ -255,7 +253,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action pattern for WSDL input/output
    *
    */
-  @Test
   public void testExplicitRequestResponseAction() throws Fault {
     TestUtil.logMsg("testExplicitRequestResponseAction");
     boolean pass = true;
@@ -285,7 +282,6 @@ public class Client extends ServiceEETest {
    * wsa:ReplyTo, or wsa:MessageID headers as these are optional in WSA Core
    * Spec.
    */
-  @Test
   public void testMessageAddressingHeaderRequiredFault() throws Fault {
     TestUtil.logMsg("testMessageAddressingHeaderRequiredFault");
     boolean pass = true;
@@ -350,7 +346,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test for InvalidCardinality fault. Send a message that
    * contains two wsa:ReplyTo headers. Expect an InvalidCardinality fault.
    */
-  @Test
   public void testInvalidCardinalityFault() throws Fault {
     TestUtil.logMsg("testInvalidCardinalityFault");
     boolean pass = true;
@@ -422,7 +417,6 @@ public class Client extends ServiceEETest {
    * SOAPACTIONURI to a wrong value.
    *
    */
-  @Test
   public void testActionMismatchOrActionNotSupportedFaultCase1() throws Fault {
     TestUtil.logMsg("testActionMismatchOrActionNotSupportedFaultCase1");
     boolean pass = true;
@@ -492,7 +486,6 @@ public class Client extends ServiceEETest {
    * SOAPACTIONURI to a wrong value.
    *
    */
-  @Test
   public void testActionMismatchOrActionNotSupportedFaultCase2() throws Fault {
     TestUtil.logMsg("testActionMismatchOrActionNotSupportedFaultCase2");
     boolean pass = true;
@@ -562,7 +555,6 @@ public class Client extends ServiceEETest {
    * SOAPACTIONURI to a wrong value.
    *
    */
-  @Test
   public void testActionMismatchOrActionNotSupportedFaultCase3() throws Fault {
     TestUtil.logMsg("testActionMismatchOrActionNotSupportedFaultCase3");
     boolean pass = true;

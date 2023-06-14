@@ -27,8 +27,6 @@ import com.sun.javatest.Status;
 import java.net.*;
 
 import jakarta.xml.ws.*;
-import org.junit.jupiter.api.Test;
-
 import java.util.Properties;
 import com.sun.ts.tests.jaxws.common.*;
 
@@ -201,7 +199,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Use a handler that is specified on the Provider and see
    * that it transforms the body
    */
-  @Test
   public void HandlerChainOnProviderTest() throws Fault {
     TestUtil.logMsg("HandlerChainOnProviderTest");
     boolean pass = true;

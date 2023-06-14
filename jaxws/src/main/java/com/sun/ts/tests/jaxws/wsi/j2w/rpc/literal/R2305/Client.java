@@ -24,7 +24,6 @@ import java.util.ArrayList;
 import java.util.Properties;
 import java.util.StringTokenizer;
 
-import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -91,7 +90,6 @@ public class Client extends ServiceEETest implements DescriptionConstants {
    *
    * @throws Fault
    */
-  @Test
   public void testParameterOrder() throws Fault {
     document = client.getDocument();
     Element[] portTypes = DescriptionUtils.getPortTypes(document);

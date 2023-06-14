@@ -24,8 +24,6 @@ import java.util.Properties;
 
 import com.sun.ts.lib.harness.*;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.javatest.Status;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 
@@ -87,7 +85,6 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
-  @Test
   public void testUseAttributeDefaulting() throws Fault {
     String result;
     try {

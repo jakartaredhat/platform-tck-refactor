@@ -33,8 +33,6 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 import jakarta.xml.ws.handler.*;
 
@@ -156,7 +154,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void PortInfoTest() throws Fault {
     TestUtil.logTrace("PortInfoTest");
     boolean pass = true;

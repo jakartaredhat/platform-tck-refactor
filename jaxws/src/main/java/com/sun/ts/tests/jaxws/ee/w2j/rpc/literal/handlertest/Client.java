@@ -29,7 +29,6 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.handler.*;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 
@@ -306,7 +305,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the client-side
    * logical message handler callbacks are called.
    */
-  @Test
   public void ClientLogicalHandlerTest() throws Fault {
     TestUtil.logTrace("ClientLogicalHandlerTest");
     boolean pass = true;
@@ -472,7 +470,6 @@ public class Client extends ServiceEETest {
    * port-name-pattern tags are used in the handler xml file to denote what what
    * handlers will and won't be instanciated
    */
-  @Test
   public void ClientHandlerDoesNotGetCalledTest() throws Fault {
     TestUtil.logTrace("ClientHandlerDoesNotGetCalledTest");
     boolean pass = true;
@@ -606,7 +603,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerLogicalHandlerTest() throws Fault {
     TestUtil.logTrace("ServerLogicalHandlerTest");
     boolean pass = true;
@@ -723,7 +719,6 @@ public class Client extends ServiceEETest {
    * port-name-pattern tags are used in the handler xml file to denote what what
    * handlers will and won't be instanciated
    */
-  @Test
   public void ServerHandlerDoesNotGetCalledTest() throws Fault {
     TestUtil.logTrace("ServerHandlerDoesNotGetCalledTest");
     boolean pass = true;

@@ -30,7 +30,6 @@ import java.util.*;
 import java.rmi.*;
 
 import jakarta.xml.ws.http.*;
-import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -66,7 +65,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via HTTPException(int statusCode)
    * constructor. Verify HTTPException object created successfully.
    */
-  @Test
   public void HTTPExceptionConstructorTest() throws Fault {
     TestUtil.logTrace("HTTPExceptionConstructorTest");
     boolean pass = true;
@@ -97,7 +95,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via HTTPException(int statusCode)
    * constructor. Verify HTTPException.getStatusCode() returns expected code.
    */
-  @Test
   public void getStatusCodeTest() throws Fault {
     TestUtil.logTrace("getStatusCodeTest");
     boolean pass = true;

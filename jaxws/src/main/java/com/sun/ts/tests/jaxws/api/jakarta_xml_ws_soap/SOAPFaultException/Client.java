@@ -31,7 +31,6 @@ import java.rmi.*;
 
 import javax.xml.namespace.QName;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 
 import com.sun.javatest.Status;
@@ -107,7 +106,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via SOAPFaultException constructor. Verify
    * SOAPFaultException object created successfully.
    */
-  @Test
   public void SOAPFaultExceptionConstructorTest() throws Fault {
     TestUtil.logTrace("SOAPFaultExceptionConstructorTest");
     boolean pass = true;
@@ -133,7 +131,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via SOAPFaultException constructor. Get the
    * embedded SOAPFault instance and verify it is what was set.
    */
-  @Test
   public void getFaultTest() throws Fault {
     TestUtil.logTrace("getFaultTest");
     SOAPFault theFault;

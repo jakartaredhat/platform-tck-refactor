@@ -23,8 +23,6 @@ package com.sun.ts.tests.jaxws.wsi.w2j.rpc.literal.R2030;
 import java.util.Properties;
 
 import com.sun.javatest.Status;
-
-import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 
 import com.sun.ts.lib.harness.*;
@@ -89,7 +87,6 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
-  @Test
   public void testRpcLiteralDocumentationElement() throws Fault {
     String result;
     try {

@@ -32,8 +32,6 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.ts.tests.jaxws.common.*;
 
 public class Client extends ServiceEETest {
@@ -205,7 +203,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Send a good SOAP RPC request over an HttpURLConnection.
    * Verify that we get a correct HTTP status code of 2xx.
    */
-  @Test
   public void TestGoodSoapMessage() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
@@ -246,7 +243,6 @@ public class Client extends ServiceEETest {
    * Soap message does not contain the XML declaration. Verify that we get a
    * correct HTTP status code of 2xx.
    */
-  @Test
   public void TestGoodSoapMessageNoXMLDeclaration() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
@@ -288,7 +284,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Send a good SOAP RPC request over an HttpURLConnection.
    * Verify that we get a correct HTTP status code of 2xx.
    */
-  @Test
   public void TestGoodOneWaySoapMessage() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
@@ -330,7 +325,6 @@ public class Client extends ServiceEETest {
    * Soap message does not contain the XML declaration. Verify that we get a
    * correct HTTP status code of 2xx.
    */
-  @Test
   public void TestGoodOneWaySoapMessageNoXMLDeclaration() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
@@ -373,7 +367,6 @@ public class Client extends ServiceEETest {
    * Send SOAP RPC request using utf-16 encoding. Verify that we get a correct
    * HTTP status code of 2xx.
    */
-  @Test
   public void TestSoapMessageUsingUTF16Encoding() throws Fault {
     boolean pass = true;
     Iterator iterator = null;

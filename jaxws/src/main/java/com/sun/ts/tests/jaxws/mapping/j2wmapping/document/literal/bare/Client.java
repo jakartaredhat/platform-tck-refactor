@@ -25,7 +25,6 @@ import com.sun.ts.lib.harness.*;
 
 import java.util.*;
 
-import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -189,7 +188,6 @@ public class Client extends ServiceEETest
    * generated WSDL. Conformance requirement done: - service naming
    *
    */
-  @Test
   public void VerifyServiceNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyServiceNameWithAnnotation");
     boolean pass = true;
@@ -217,7 +215,6 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifyPortTypeNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortTypeNameWithAnnotation");
     boolean pass = true;
@@ -245,7 +242,6 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifyPortNameWithoutAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortNameWithoutAnnotation");
     boolean pass = true;
@@ -276,7 +272,6 @@ public class Client extends ServiceEETest
    * definitions element.
    *
    */
-  @Test
   public void VerifyWsdlMessagePartAndAttrStyle() throws Fault {
     TestUtil.logMsg("VerifyWsdlMessagePartAndAttrStyle");
     boolean pass = true;
@@ -343,7 +338,6 @@ public class Client extends ServiceEETest
    * @test_Strategy: Verify the Action and FaultAction annotations are correct
    * in the generated WSDL.
    */
-  @Test
   public void ActionFaultActionAndAddressingAnnotationsTest() throws Fault {
     TestUtil.logTrace("ActionFaultActionAndAddressingAnnotationsTest");
     boolean pass = true;

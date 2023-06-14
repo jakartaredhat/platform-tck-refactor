@@ -22,7 +22,6 @@ package com.sun.ts.tests.jaxws.wsi.j2w.document.literal.R2204;
 
 import java.util.Properties;
 
-import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 
 import com.sun.ts.lib.harness.*;
@@ -88,7 +87,6 @@ public class Client extends ServiceEETest
    * 
    * @throws Fault
    */
-  @Test
   public void testDocumentLiteralParts() throws Fault {
     Document document = client.getDocument();
     PartAttributeVerifier verifier = new PartAttributeVerifier(document, 2204);

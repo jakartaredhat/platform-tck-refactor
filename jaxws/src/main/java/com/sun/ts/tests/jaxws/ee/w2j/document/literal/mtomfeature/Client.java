@@ -31,8 +31,6 @@ import java.net.*;
 import java.awt.Image;
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.MTOMFeature;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 
 import jakarta.activation.DataHandler;
@@ -357,7 +355,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on input.
    */
-  @Test
   public void ClientEnabledServerEnabledMTOMInTest() throws Fault {
     TestUtil.logMsg("ClientEnabledServerEnabledMTOMInTest");
     boolean pass = true;
@@ -413,7 +410,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on input and output.
    */
-  @Test
   public void ClientEnabledServerEnabledMTOMInOutTest() throws Fault {
     TestUtil.logMsg("ClientEnabledServerEnabledMTOMInOutTest");
     boolean pass = true;
@@ -508,7 +504,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on output.
    */
-  @Test
   public void ClientEnabledServerEnabledMTOMOutTest() throws Fault {
     TestUtil.logMsg("ClientEnabledServerEnabledMTOMOutTest");
     boolean pass = true;
@@ -572,7 +567,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on output.
    */
-  @Test
   public void ClientEnabledServerEnabledMTOMOut2Test() throws Fault {
     TestUtil.logMsg("ClientEnabledServerEnabledMTOMOut2Test");
     boolean pass = true;
@@ -612,7 +606,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on input.
    */
-  @Test
   public void ClientEnabledServerDisabledMTOMInTest() throws Fault {
     TestUtil.logMsg("ClientEnabledServerDisabledMTOMInTest");
     boolean pass = true;
@@ -668,7 +661,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on input and output.
    */
-  @Test
   public void ClientEnabledServerDisabledMTOMInOutTest() throws Fault {
     TestUtil.logMsg("ClientEnabledServerDisabledMTOMInOutTest");
     boolean pass = true;
@@ -763,7 +755,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on output.
    */
-  @Test
   public void ClientEnabledServerDisabledMTOMOutTest() throws Fault {
     TestUtil.logMsg("ClientEnabledServerDisabledMTOMOutTest");
     boolean pass = true;
@@ -827,7 +818,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on output.
    */
-  @Test
   public void ClientEnabledServerDisabledMTOMOut2Test() throws Fault {
     TestUtil.logMsg("ClientEnabledServerDisabledMTOMOut2Test");
     boolean pass = true;
@@ -870,7 +860,6 @@ public class Client extends ServiceEETest {
    * less than 2000 bytes. The endpoint has mtom enabled with the threshold set
    * to 2000
    */
-  @Test
   public void ClientEnabledServerEnabledLT2000Test() throws Fault {
     TestUtil.logMsg("ClientEnabledServerEnabledLT2000Test");
     boolean pass = true;
@@ -914,7 +903,6 @@ public class Client extends ServiceEETest {
    * greater than 2000 bytes. The endpoint has mtom enabled with the threshold
    * set to 2000
    */
-  @Test
   public void ClientEnabledServerEnabledGT2000Test() throws Fault {
     TestUtil.logMsg("ClientEnabledServerEnabledGT2000Test");
     boolean pass = true;
@@ -958,7 +946,6 @@ public class Client extends ServiceEETest {
    * is less than 2000 bytes. The endpoint has mtom enabled with the threshold
    * set to 2000
    */
-  @Test
   public void ClientDisabledServerEnabledLT2000Test() throws Fault {
     TestUtil.logMsg("ClientDisabledServerEnabledLT2000Test");
     boolean pass = true;
@@ -1002,7 +989,6 @@ public class Client extends ServiceEETest {
    * is greater than 2000 bytes. The endpoint has mtom enabled with the
    * threshold set to 2000
    */
-  @Test
   public void ClientDisabledServerEnabledGT2000Test() throws Fault {
     TestUtil.logMsg("ClientDisabledServerEnabledGT2000Test");
     boolean pass = true;
@@ -1046,7 +1032,6 @@ public class Client extends ServiceEETest {
    * less than 2000 bytes. The endpoint has mtom disabled with the threshold set
    * to 2000
    */
-  @Test
   public void ClientEnabledServerDisabledLT2000Test() throws Fault {
     TestUtil.logMsg("ClientEnabledServerDisabledLT2000Test");
     boolean pass = true;
@@ -1090,7 +1075,6 @@ public class Client extends ServiceEETest {
    * greater than 2000 bytes. The endpoint has mtom disabled with the threshold
    * set to 2000
    */
-  @Test
   public void ClientEnabledServerDisabledGT2000Test() throws Fault {
     TestUtil.logMsg("ClientEnabledServerDisabledGT2000Test");
     boolean pass = true;
@@ -1134,7 +1118,6 @@ public class Client extends ServiceEETest {
    * less than 2000 bytes. The endpoint has mtom disabled with the threshold set
    * to 2000
    */
-  @Test
   public void ClientDisabledServerDisabledLT2000Test() throws Fault {
     TestUtil.logMsg("ClientDisabledServerDisabledLT2000Test");
     boolean pass = true;
@@ -1178,7 +1161,6 @@ public class Client extends ServiceEETest {
    * less than 2000 bytes. The endpoint has mtom disabled with the threshold set
    * to 2000
    */
-  @Test
   public void ClientDisabledServerDisabledGT2000Test() throws Fault {
     TestUtil.logMsg("ClientDisabledServerDisabledGT2000Test");
     boolean pass = true;

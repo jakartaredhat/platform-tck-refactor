@@ -25,8 +25,6 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import com.sun.javatest.Status;
-
-import org.junit.jupiter.api.Test;
 import com.sun.ts.lib.harness.*;
 
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
@@ -81,7 +79,6 @@ public class Client extends ServiceEETest
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testNoResponseBodyForOneWay() throws EETest.Fault {
     InputStream response = null;
     try {

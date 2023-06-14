@@ -33,8 +33,6 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 
 import jakarta.xml.soap.*;
@@ -212,7 +210,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void getSOAPBindingTest() throws Fault {
     TestUtil.logTrace("getSOAPBindingTest");
     boolean pass = true;
@@ -240,7 +237,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void setGetRolesForDispatchObjTest() throws Fault {
     TestUtil.logTrace("setGetRolesForDispatchObjTest");
     boolean pass = true;
@@ -307,7 +303,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void soapBindingConstantsTest() throws Fault {
     TestUtil.logTrace("soapBindingConstantsTest");
     boolean pass = true;
@@ -359,7 +354,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void getMessageFactoryTest() throws Fault {
     TestUtil.logTrace("getMessageFactoryTest");
     boolean pass = true;
@@ -395,7 +389,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void getSOAPFactoryTest() throws Fault {
     TestUtil.logTrace("getSOAPFactoryTest");
     boolean pass = true;
@@ -434,7 +427,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void isSetMTOMEnabledTest() throws Fault {
     TestUtil.logTrace("isSetMTOMEnabledTest");
     boolean pass = true;

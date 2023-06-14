@@ -24,7 +24,6 @@ import com.sun.ts.lib.porting.*;
 import com.sun.ts.lib.harness.*;
 
 import jakarta.xml.ws.soap.SOAPFaultException;
-import org.junit.jupiter.api.Test;
 
 import com.sun.ts.tests.jaxws.common.*;
 import com.sun.ts.tests.jaxws.wsa.common.WsaSOAPUtils;
@@ -386,9 +385,8 @@ public class Client extends ServiceEETest {
    * Enabled, Client Enabled. Addressing headers MUST be present on SOAPRequest
    * and SOAPResponse.
    */
-  @Test
   public void afCltEnabledNotREQSvrEnabledREQrbfSvrEnabledCltEnabledTest()
-    throws Fault {
+      throws Fault {
     TestUtil
         .logMsg("afCltEnabledNotREQSvrEnabledREQrbfSvrEnabledCltEnabledTest");
     TestUtil.logMsg(
@@ -427,9 +425,8 @@ public class Client extends ServiceEETest {
    * Client Enabled. Addressing headers MUST be present on SOAPRequest and
    * SOAPResponse.
    */
-  @Test
   public void afCltEnabledREQSvrEnabledREQrbfSvrEnabledCltEnabledTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("afCltEnabledREQSvrEnabledREQrbfSvrEnabledCltEnabledTest");
     TestUtil.logMsg(
         "Verify Addressing headers are present on SOAPRequest and SOAPResponse");
@@ -466,9 +463,8 @@ public class Client extends ServiceEETest {
    * the correct information in it. The SOAP Fault faultcode must be:
    * MessageAddressingHeaderRequired.
    */
-  @Test
   public void afCltNotEnabledSvrEnabledREQrbfSvrEnabledCltEnabledTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("afCltNotEnabledSvrEnabledREQrbfSvrEnabledCltEnabledTest");
     TestUtil.logMsg(
         "Verify MessageAddressingHeaderRequired soap fault is thrown by endpoint");
@@ -536,9 +532,8 @@ public class Client extends ServiceEETest {
    * Client Enabled. Addressing headers MAY be present on SOAPRequest and MUST
    * NOT be present on SOAPResponse
    */
-  @Test
   public void afCltEnabledNotREQSvrNotEnabledrbfSvrEnabledCltEnabledTest()
-    throws Fault {
+      throws Fault {
     TestUtil
         .logMsg("afCltEnabledNotREQSvrNotEnabledrbfSvrEnabledCltEnabledTest");
     TestUtil.logMsg(
@@ -576,9 +571,8 @@ public class Client extends ServiceEETest {
    * Enabled/Required, Server NotEnabled; RespectBinding Server Enabled, Client
    * Enabled. This scenario MUST throw back a WebServiceException.
    */
-  @Test
   public void afCltEnabledREQSvrNotEnabledrbfSvrEnabledCltEnabledTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("afCltEnabledREQSvrNotEnabledrbfSvrEnabledCltEnabledTest");
     TestUtil.logMsg("Verify WebServiceException thrown");
     boolean pass = true;

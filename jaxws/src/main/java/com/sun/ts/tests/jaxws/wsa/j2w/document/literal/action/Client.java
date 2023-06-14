@@ -28,7 +28,6 @@ import java.net.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
 
 import java.util.Properties;
 import javax.xml.namespace.QName;
@@ -196,7 +195,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test no action for input/output elements.
    *
    */
-  @Test
   public void testNoActionOnInputOutput() throws Fault {
     TestUtil.logMsg("testNoActionOnInputOutput ");
     boolean pass = true;
@@ -230,7 +228,6 @@ public class Client extends ServiceEETest {
    * explicit message names
    *
    */
-  @Test
   public void testEmptyActionOnInputOutput() throws Fault {
     TestUtil.logMsg("testEmptyActionOnInputOutput");
     boolean pass = true;
@@ -262,7 +259,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for input/output elements
    *
    */
-  @Test
   public void testExplicitInputOutputActions1() throws Fault {
     TestUtil.logMsg("testExplicitInputOutputActions1");
     boolean pass = true;
@@ -294,7 +290,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for input/output elements
    *
    */
-  @Test
   public void testExplicitInputOutputActions2() throws Fault {
     TestUtil.logMsg("testExplicitInputOutputActions2");
     boolean pass = true;
@@ -328,7 +323,6 @@ public class Client extends ServiceEETest {
    * action for WSDL input element
    *
    */
-  @Test
   public void testDefaultOutputActionExplicitInputAction() throws Fault {
     TestUtil.logMsg("testDefaultOutputActionExplicitInputAction");
     boolean pass = true;
@@ -361,7 +355,6 @@ public class Client extends ServiceEETest {
    * explicit input/output action elements
    * 
    */
-  @Test
   public void testSendingWrongSOAPActionHTTPHeaderValue() throws Fault {
     TestUtil.logMsg("testSendingWrongSOAPActionHTTPHeaderValue");
     boolean pass = true;
@@ -400,7 +393,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for fault element
    *
    */
-  @Test
   public void testOneFaultExplicitAction() throws Fault {
     TestUtil.logMsg("testOneFaultExplicitAction");
     boolean pass = true;
@@ -427,7 +419,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for fault element
    *
    */
-  @Test
   public void testTwoFaultsExplicitAction1() throws Fault {
     TestUtil.logMsg("testTwoFaultsExplicitAction1");
     boolean pass = true;
@@ -457,7 +448,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for fault element
    *
    */
-  @Test
   public void testTwoFaultsExplicitAction2() throws Fault {
     TestUtil.logMsg("testTwoFaultsExplicitAction2");
     boolean pass = true;
@@ -487,7 +477,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for fault element
    *
    */
-  @Test
   public void testTwoFaultsExplicitAddNumbersFault3() throws Fault {
     TestUtil.logMsg("testTwoFaultsExplicitAddNumbersFault3");
     boolean pass = true;
@@ -517,7 +506,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test no action for fault element
    *
    */
-  @Test
   public void testTwoFaultsDefaultTooBigNumbersFault3() throws Fault {
     TestUtil.logMsg("testTwoFaultsDefaultTooBigNumbersFault3");
     boolean pass = true;
@@ -546,7 +534,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for WSDL fault element
    *
    */
-  @Test
   public void testTwoFaultsExplicitAddNumbersFault4() throws Fault {
     TestUtil.logMsg("testTwoFaultsExplicitAddNumbersFault4");
     boolean pass = true;
@@ -575,7 +562,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action for WSDL fault element
    *
    */
-  @Test
   public void testTwoFaultsDefaultTooBigNumbersFault4() throws Fault {
     TestUtil.logMsg("testTwoFaultsDefaultTooBigNumbersFault4");
     boolean pass = true;
@@ -604,7 +590,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action for WSDL fault element
    *
    */
-  @Test
   public void testTwoFaultsDefaultAddNumbersFault5() throws Fault {
     TestUtil.logMsg("testTwoFaultsDefaultAddNumbersFault5");
     boolean pass = true;
@@ -633,7 +618,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for WSDL fault element
    *
    */
-  @Test
   public void testTwoFaultsExplicitTooBigNumbersFault5() throws Fault {
     TestUtil.logMsg("testTwoFaultsExplicitTooBigNumbersFault5");
     boolean pass = true;
@@ -662,7 +646,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for WSDL fault element
    *
    */
-  @Test
   public void testOnlyFaultActionsBothExplicit1() throws Fault {
     TestUtil.logMsg("testOnlyFaultActionsBothExplicit1");
     boolean pass = true;
@@ -691,7 +674,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit action for WSDL fault element
    *
    */
-  @Test
   public void testOnlyFaultActionsBothExplicit2() throws Fault {
     TestUtil.logMsg("testOnlyFaultActionsBothExplicit2");
     boolean pass = true;
@@ -720,7 +702,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action for WSDL fault element
    *
    */
-  @Test
   public void testOnlyFaultActionsFault7BothEmpty1() throws Fault {
     TestUtil.logMsg("testOnlyFaultActionsFault7BothEmpty1");
     boolean pass = true;
@@ -749,7 +730,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action for WSDL fault element
    *
    */
-  @Test
   public void testOnlyFaultActionsFault7BothEmpty2() throws Fault {
     TestUtil.logMsg("testOnlyFaultActionsFault7BothEmpty2");
     boolean pass = true;

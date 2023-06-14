@@ -35,8 +35,6 @@ import jakarta.xml.ws.ProtocolException;
 import jakarta.xml.ws.WebServiceException;
 import jakarta.xml.ws.handler.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
@@ -346,7 +344,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the client-side
    * logical message handler callbacks are called.
    */
-  @Test
   public void ClientLogicalHandlerTest() throws Fault {
     TestUtil.logTrace("ClientLogicalHandlerTest");
     boolean pass = true;
@@ -526,7 +523,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerLogicalHandlerTest() throws Fault {
     TestUtil.logTrace("ServerLogicalHandlerTest");
     boolean pass = true;
@@ -650,9 +646,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound RuntimeException ClientLogicalHandler6.close()
    * ClientLogicalHandler4.close() ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalInboundHandleMessageThrowsRuntimeExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalInboundHandleMessageThrowsRuntimeExceptionTest");
     boolean pass = true;
@@ -819,9 +814,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound SOAPFaultException ClientLogicalHandler6.close()
    * ClientLogicalHandler4.close() ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalInboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ClientLogicalInboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     try {
@@ -984,9 +978,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound SOAPFaultException ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ClientLogicalOutboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     try {
@@ -1148,9 +1141,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound RuntimeException ServerLogicalHandler4.close()
    * ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalInboundHandleMessageThrowsRuntimeExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ServerLogicalInboundHandleMessageThrowsRuntimeExceptionTest");
     boolean pass = true;
@@ -1274,9 +1266,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound SOAPFaultException ServerLogicalHandler6.handleFault()
    * ServerLogicalHandler4.close() ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalInboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ServerLogicalInboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     if (!setupPorts()) {
@@ -1401,9 +1392,8 @@ public class Client extends ServiceEETest {
    * Throwing an outbound SOAPFaultException ServerLogicalHandler5.close()
    * ServerLogicalHandler4.close() ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalOutboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ServerLogicalOutboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     if (!setupPorts()) {
@@ -1526,9 +1516,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound RuntimeException ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageThrowsRuntimeExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalOutboundHandleMessageThrowsRuntimeExceptionTest");
     boolean pass = true;
@@ -1697,9 +1686,8 @@ public class Client extends ServiceEETest {
    * Throwing an outbound RuntimeException ServerLogicalHandler5.close()
    * ServerLogicalHandler4.close() ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalOutboundHandleMessageThrowsRuntimeExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ServerLogicalOutboundHandleMessageThrowsRuntimeExceptionTest");
     boolean pass = true;
@@ -1826,7 +1814,6 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler4.close() ServerLogicalHandler6.close()
    * 
    */
-  @Test
   public void ServerEndpointRemoteRuntimeExceptionTest() throws Fault {
     TestUtil.logTrace("ServerEndpointRemoteRuntimeExceptionTest");
     boolean pass = true;
@@ -1940,7 +1927,6 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler4.close() ServerLogicalHandler6.close()
    * 
    */
-  @Test
   public void ServerEndpointRemoteSOAPFaultExceptionTest() throws Fault {
     TestUtil.logTrace("ServerEndpointRemoteSOAPFaultExceptionTest");
     boolean pass = true;
@@ -2051,7 +2037,6 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler6.handleMessage().doOutbound()
    * ServerLogicalHandler4.close() ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalInboundHandleMessageFalseTest() throws Fault {
     TestUtil.logTrace("ServerLogicalInboundHandleMessageFalseTest");
     boolean pass = true;
@@ -2133,7 +2118,6 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler5.close() ServerLogicalHandler4.close()
    * ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalOutboundHandleMessageFalseTest() throws Fault {
     TestUtil.logTrace("ServerLogicalOutboundHandleMessageFalseTest");
     boolean pass = true;
@@ -2215,7 +2199,6 @@ public class Client extends ServiceEETest {
    * ClientLogicalHandler6.close() ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalInboundHandleMessageFalseTest() throws Fault {
     TestUtil.logTrace("ClientLogicalInboundHandleMessageFalseTest");
     boolean pass = true;
@@ -2361,7 +2344,6 @@ public class Client extends ServiceEETest {
    * ClientLogicalHandler5.handleMessage().doInbound()
    * ClientLogicalHandler4.close() ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageFalseTest() throws Fault {
     TestUtil.logTrace("ClientLogicalOutboundHandleMessageFalseTest");
     boolean pass = true;
@@ -2510,7 +2492,6 @@ public class Client extends ServiceEETest {
    * ClientLogicalHandler5.close()
    * 
    */
-  @Test
   public void ClientLogicalOutboundHandleFaultFalseTest() throws Fault {
     TestUtil.logTrace("ClientLogicalOutboundHandleFaultFalseTest");
     boolean pass = true;
@@ -2675,7 +2656,6 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler5.close() ServerLogicalHandler4.close()
    * ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalInboundHandleFaultFalseTest() throws Fault {
     TestUtil.logTrace("ServerLogicalInboundHandleFaultFalseTest");
     boolean pass = true;
@@ -2774,9 +2754,8 @@ public class Client extends ServiceEETest {
    * ClientLogicalHandler6.close() ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleFaultThrowsRuntimeExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil
         .logTrace("ClientLogicalOutboundHandleFaultThrowsRuntimeExceptionTest");
     boolean pass = true;
@@ -2945,9 +2924,8 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler5.close() ServerLogicalHandler4.close()
    * ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalInboundHandleFaultThrowsRuntimeExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil
         .logTrace("ServerLogicalInboundHandleFaultThrowsRuntimeExceptionTest");
     boolean pass = true;
@@ -3048,9 +3026,8 @@ public class Client extends ServiceEETest {
    * ClientLogicalHandler6.close() ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleFaultThrowsSOAPFaultExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalOutboundHandleFaultThrowsSOAPFaultExceptionTest");
     boolean pass = true;
@@ -3220,9 +3197,8 @@ public class Client extends ServiceEETest {
    * ServerLogicalHandler5.close() ServerLogicalHandler4.close()
    * ServerLogicalHandler6.close()
    */
-  @Test
   public void ServerLogicalInboundHandleFaultThrowsSOAPFaultExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ServerLogicalInboundHandleFaultThrowsSOAPFaultExceptionTest");
     boolean pass = true;
@@ -3326,9 +3302,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound SOAPFaultException ServerLogicalHandler6.close()
    *
    */
-  @Test
   public void ServerLogicalInboundHandlerThrowsSOAPFaultToClientHandlersTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ServerLogicalInboundHandlerThrowsSOAPFaultToClientHandlersTest");
     boolean pass = true;
@@ -3529,9 +3504,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound SOAPFaultException ServerLogicalHandler6.close()
    *
    */
-  @Test
   public void ServerLogicalOutboundHandlerThrowsSOAPFaultToClientHandlersTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ServerLogicalOutboundHandlerThrowsSOAPFaultToClientHandlersTest");
     boolean pass = true;
@@ -3722,9 +3696,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound WebServiceException ClientLogicalHandler6.close()
    * ClientLogicalHandler4.close() ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalInboundHandleMessageThrowsWebServiceExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalInboundHandleMessageThrowsWebServiceExceptionTest");
     boolean pass = true;
@@ -3887,9 +3860,8 @@ public class Client extends ServiceEETest {
    * Throwing an outbound WebServiceException ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageThrowsWebServiceExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalOutboundHandleMessageThrowsWebServiceExceptionTest");
     boolean pass = true;
@@ -4055,9 +4027,8 @@ public class Client extends ServiceEETest {
    * Throwing an inbound ProtocolException ClientLogicalHandler6.close()
    * ClientLogicalHandler4.close() ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalInboundHandleMessageThrowsProtocolExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalInboundHandleMessageThrowsProtocolExceptionTest");
     boolean pass = true;
@@ -4220,9 +4191,8 @@ public class Client extends ServiceEETest {
    * Throwing an outbound ProtocolException ClientLogicalHandler4.close()
    * ClientLogicalHandler5.close()
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageThrowsProtocolExceptionTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace(
         "ClientLogicalOutboundHandleMessageThrowsProtocolExceptionTest");
     boolean pass = true;

@@ -27,7 +27,6 @@ import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import com.sun.javatest.Status;
 
 import jakarta.xml.soap.SOAPMessage;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.SOAPException;
 import java.util.Properties;
 
@@ -80,7 +79,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testVersionMismatchFaultcode() throws EETest.Fault {
     SOAPMessage response = null;
     try {
@@ -106,9 +104,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testVersionMismatchFaultcodeWithMustUnderstand()
-    throws EETest.Fault {
+      throws EETest.Fault {
     SOAPMessage response = null;
     try {
       response = client.makeSaajRequest(BAD_SOAP_ENVELOPE_WITH_HEADER);
@@ -133,9 +130,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testVersionMismatchFaultcodeWithNonExistantOperation()
-    throws EETest.Fault {
+      throws EETest.Fault {
     SOAPMessage response = null;
     try {
       response = client
@@ -161,7 +157,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testMustUnderstandFaultcode() throws EETest.Fault {
     SOAPMessage response = null;
     try {
@@ -187,9 +182,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testMustUnderstandFaultcodeWithNonExistantOperation()
-    throws EETest.Fault {
+      throws EETest.Fault {
     SOAPMessage response = null;
     try {
       response = client
@@ -215,7 +209,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testClientFaultcode() throws EETest.Fault {
     SOAPMessage response = null;
     try {

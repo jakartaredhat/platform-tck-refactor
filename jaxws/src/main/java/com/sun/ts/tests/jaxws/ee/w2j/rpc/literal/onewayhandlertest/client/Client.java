@@ -29,7 +29,6 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.handler.*;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 
@@ -319,7 +318,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the client-side
    * logical message handler callbacks are called.
    */
-  @Test
   public void ClientOneWayHandlerTest() throws Fault {
     TestUtil.logTrace("ClientOneWayHandlerTest");
     boolean pass = true;
@@ -435,9 +433,8 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ClientLogicalOutboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     try {
@@ -553,9 +550,8 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ClientSOAPOutboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ClientSOAPOutboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     try {
@@ -671,9 +667,8 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ClientLogicalOutboundHandleMessageReturnsFalseTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ClientLogicalOutboundHandleMessageReturnsFalseTest");
     boolean pass = true;
     try {
@@ -789,7 +784,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ClientSOAPOutboundHandleMessageReturnsFalseTest() throws Fault {
     TestUtil.logTrace("ClientSOAPOutboundHandleMessageReturnsFalseTest");
     boolean pass = true;
@@ -905,7 +899,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerLogicalHandlerTest() throws Fault {
     TestUtil.logTrace("ServerLogicalHandlerTest");
     boolean pass = true;
@@ -993,9 +986,8 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerLogicalInboundHandleMessageThrowsSOAPFaultTest()
-    throws Fault {
+      throws Fault {
     TestUtil.logTrace("ServerLogicalInboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
     if (!setupPorts()) {
@@ -1083,7 +1075,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerSOAPInboundHandleMessageThrowsSOAPFaultTest() throws Fault {
     TestUtil.logTrace("ServerSOAPInboundHandleMessageThrowsSOAPFaultTest");
     boolean pass = true;
@@ -1172,7 +1163,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerLogicalInboundHandleMessageReturnsFalseTest() throws Fault {
     TestUtil.logTrace("ServerLogicalInboundHandleMessageReturnsFalseTest");
     boolean pass = true;
@@ -1261,7 +1251,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
-  @Test
   public void ServerSOAPInboundHandleMessageReturnsFalseTest() throws Fault {
     TestUtil.logTrace("ServerSOAPInboundHandleMessageReturnsFalseTest");
     boolean pass = true;

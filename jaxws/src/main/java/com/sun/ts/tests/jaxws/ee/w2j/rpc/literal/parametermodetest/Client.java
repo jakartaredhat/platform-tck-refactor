@@ -35,8 +35,6 @@ import javax.xml.datatype.DatatypeConfigurationException;
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import jakarta.xml.ws.Holder;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
@@ -1152,7 +1150,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InTest() throws Fault {
     TestUtil.logTrace("InTest");
     boolean pass = true;
@@ -1189,7 +1186,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void OutTest() throws Fault {
     TestUtil.logTrace("OutTest");
     boolean pass = true;
@@ -1226,7 +1222,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutTest() throws Fault {
     TestUtil.logTrace("InOutTest");
     boolean pass = true;
@@ -1265,7 +1260,6 @@ public class Client extends ServiceEETest {
    * This specific test does not use the parameterOrder attribute for the
    * operate tag
    */
-  @Test
   public void InOut2Test() throws Fault {
     TestUtil.logTrace("InOut2Test");
     boolean pass = true;
@@ -1304,7 +1298,6 @@ public class Client extends ServiceEETest {
    * This specific test does not use the parameterOrder attribute for the
    * operate tag and it has different part names
    */
-  @Test
   public void InOut3Test() throws Fault {
     TestUtil.logTrace("InOut3Test");
     boolean pass = true;
@@ -1343,7 +1336,6 @@ public class Client extends ServiceEETest {
    * This specific test uses the parameterOrder attribute for the operate tag
    * and has different part names
    */
-  @Test
   public void InOut4Test() throws Fault {
     TestUtil.logTrace("InOut4Test");
     boolean pass = true;
@@ -1381,7 +1373,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void MixTest() throws Fault {
     TestUtil.logTrace("MixTest");
     boolean pass = true;
@@ -1433,7 +1424,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InSimpleTypesTest() throws Fault {
     TestUtil.logTrace("InSimpleTypesTest");
     boolean pass = true;
@@ -1469,7 +1459,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void OutSimpleTypesTest() throws Fault {
     TestUtil.logTrace("OutSimpleTypesTest");
     boolean pass = true;
@@ -1507,7 +1496,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutSimpleTypesTest() throws Fault {
     TestUtil.logTrace("InOutSimpleTypesTest");
     boolean pass = true;
@@ -1544,7 +1532,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InEnumerationTest() throws Fault {
     TestUtil.logTrace("InEnumerationTest");
     boolean pass = true;
@@ -1580,7 +1567,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void OutEnumerationTest() throws Fault {
     TestUtil.logTrace("OutEnumerationTest");
     initialize_out_inoutEnum_data();
@@ -1617,7 +1603,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutEnumerationTest() throws Fault {
     TestUtil.logTrace("InOutEnumerationTest");
     initialize_out_inoutEnum_data();
@@ -1654,7 +1639,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InStructTest() throws Fault {
     TestUtil.logTrace("InStructTest");
     boolean pass = true;
@@ -1689,7 +1673,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutSimpleTypesArrayTest() throws Fault {
     TestUtil.logTrace("InOutSimpleTypesArrayTest");
     boolean pass = true;
@@ -1727,7 +1710,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutUserDefinedTypeTest() throws Fault {
     TestUtil.logTrace("InOutUserDefinedTypeTest");
     boolean pass = true;
@@ -1776,7 +1758,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutUserDefinedTypeArrayTest() throws Fault {
     TestUtil.logTrace("InOutUserDefinedTypeArrayTest");
     boolean pass = true;

@@ -34,7 +34,6 @@ import java.net.*;
 import java.util.*;
 
 import jakarta.xml.ws.handler.*;
-import org.junit.jupiter.api.Test;
 
 public class Client extends ServiceEETest {
   // The webserver defaults (overidden by harness properties)
@@ -231,7 +230,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test the various getPayload and setPayload methods in the
    * handlers
    */
-  @Test
   public void SetGetPayloadSourceTest() throws Fault {
     TestUtil.logTrace("SetGetPayloadSourceTest");
     boolean pass = true;
@@ -274,7 +272,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test the various getPayload and setPayload methods in the
    * handlers
    */
-  @Test
   public void SetGetPayloadJAXBContextTest() throws Fault {
     TestUtil.logTrace("SetGetPayloadJAXBContextTest");
     boolean pass = true;

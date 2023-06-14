@@ -27,7 +27,6 @@ import com.sun.ts.lib.harness.*;
 import java.net.*;
 
 import jakarta.xml.ws.BindingProvider;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 
@@ -187,7 +186,6 @@ public class Client extends ServiceEETest {
    *
    */
 
-  @Test
   public void SessionMaintainPropertyNotSetTest() throws Fault {
     TestUtil.logMsg("SessionMaintainPropertyNotSetTest");
     boolean pass = true;
@@ -221,7 +219,6 @@ public class Client extends ServiceEETest {
    *
    */
 
-  @Test
   public void SessionMaintainPropertySetToFalseTest() throws Fault {
     TestUtil.logMsg("SessionMaintainPropertySetToFalseTest");
     boolean pass = true;
@@ -260,7 +257,6 @@ public class Client extends ServiceEETest {
    *
    */
 
-  @Test
   public void SessionMaintainPropertySetToTrueTest() throws Fault {
     TestUtil.logMsg("SessionMaintainPropertySetToTrueTest");
     boolean pass = true;

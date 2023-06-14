@@ -23,8 +23,6 @@ package com.sun.ts.tests.jaxws.wsi.w2j.document.literal.R2748;
 import java.util.Properties;
 
 import jakarta.xml.ws.*;
-import org.junit.jupiter.api.Test;
-
 import com.sun.javatest.Status;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 
@@ -100,7 +98,6 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
-  @Test
   public void testFalseWSDLRequireds() throws Fault {
     String result;
     try {

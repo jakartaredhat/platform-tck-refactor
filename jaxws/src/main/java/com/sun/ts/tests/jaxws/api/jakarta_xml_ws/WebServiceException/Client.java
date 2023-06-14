@@ -30,7 +30,6 @@ import java.util.*;
 import java.rmi.*;
 
 import jakarta.xml.ws.*;
-import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -63,7 +62,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServiceException() constructor.
    * Verify WebServiceException object created successfully.
    */
-  @Test
   public void WebServiceExceptionConstructorTest1() throws Fault {
     TestUtil.logTrace("WebServiceExceptionConstructorTest1");
     boolean pass = true;
@@ -94,7 +92,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServiceException(String, Throwable).
    * Verify WebServiceException object created successfully.
    */
-  @Test
   public void WebServiceExceptionConstructorTest2() throws Fault {
     TestUtil.logTrace("WebServiceExceptionConstructorTest2");
     boolean pass = true;
@@ -136,7 +133,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServiceException(String). Verify
    * WebServiceException object created successfully.
    */
-  @Test
   public void WebServiceExceptionConstructorTest3() throws Fault {
     TestUtil.logTrace("WebServiceExceptionConstructorTest3");
     boolean pass = true;
@@ -177,7 +173,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServiceException(Throwable). Verify
    * WebServiceException object created successfully.
    */
-  @Test
   public void WebServiceExceptionConstructorTest4() throws Fault {
     TestUtil.logTrace("WebServiceExceptionConstructorTest4");
     boolean pass = true;

@@ -32,8 +32,6 @@ import jakarta.xml.ws.soap.AddressingFeature;
 import javax.xml.namespace.QName;
 
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.transform.dom.DOMResult;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
@@ -210,7 +208,6 @@ public class Client extends ServiceEETest {
    * invocation and verify the reference parameters defined in the EPR in the
    * WSDL are sent across.
    */
-  @Test
   public void GetEPRAndVerifyMetaDataAndRefParamsTest1() throws Fault {
     TestUtil.logMsg("GetEPRAndVerifyMetaDataAndRefParamsTest1");
     boolean pass = true;
@@ -282,7 +279,6 @@ public class Client extends ServiceEETest {
    * Perform invocation and verify that the reference parameters of the inlined
    * EPR in wsdl are sent across.
    */
-  @Test
   public void GetPortAndVerifyRefParamsAreSentTest1() throws Fault {
     TestUtil.logMsg("GetPortAndVerifyRefParamsAreSentTest1");
     boolean pass = true;
@@ -321,7 +317,6 @@ public class Client extends ServiceEETest {
    * Perform invocation and verify that the reference parameters of the inlined
    * EPR in wsdl are sent across.
    */
-  @Test
   public void GetPortAndVerifyRefParamsAreSentTest2() throws Fault {
     TestUtil.logMsg("GetPortAndVerifyRefParamsAreSentTest2");
     boolean pass = true;
@@ -367,7 +362,6 @@ public class Client extends ServiceEETest {
    * Service.getPort(EPR, Class, AddressingFeature(true)). Perform invocation
    * and verify that the modified reference parameters are sent across.
    */
-  @Test
   public void GetPortAndVerifyModifiedRefParamsAreSentTest3() throws Fault {
     TestUtil.logMsg("GetPortAndVerifyModifiedRefParamsAreSentTest3");
     boolean pass = true;

@@ -26,7 +26,6 @@ import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import com.sun.javatest.Status;
 
 import jakarta.xml.soap.SOAPMessage;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.SOAPException;
 import jakarta.xml.soap.SOAPElement;
 import java.util.Properties;
@@ -82,9 +81,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testSoapFaultUnqualifiedChildrenDummyException()
-    throws EETest.Fault {
+      throws EETest.Fault {
     SOAPMessage response = null;
     try {
       response = client.makeSaajRequest(ALWAYS_THROWS_EXCEPTION);
@@ -110,9 +108,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testSoapFaultUnqualifiedChildrenServerException()
-    throws EETest.Fault {
+      throws EETest.Fault {
     SOAPMessage response = null;
     try {
       response = client.makeSaajRequest(ALWAYS_THROWS_SERVER_EXCEPTION);

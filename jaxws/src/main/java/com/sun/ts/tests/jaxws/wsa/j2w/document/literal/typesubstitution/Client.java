@@ -36,8 +36,6 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
-import org.junit.jupiter.api.Test;
-
 public class Client extends ServiceEETest {
 
   // The webserver defaults (overidden by harness properties)
@@ -182,7 +180,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy
    *
    */
-  @Test
   public void getCars() throws Fault {
     TestUtil.logMsg("getCars");
     boolean pass = true;

@@ -27,7 +27,6 @@ import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import com.sun.javatest.Status;
 
 import jakarta.xml.ws.Holder;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.SOAPMessage;
 import jakarta.xml.soap.SOAPException;
 import jakarta.xml.soap.SOAPElement;
@@ -83,7 +82,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void IncludeAllSoapHeadersTest() throws EETest.Fault {
     String result = null;
     ConfigHeader ch1 = new ConfigHeader();

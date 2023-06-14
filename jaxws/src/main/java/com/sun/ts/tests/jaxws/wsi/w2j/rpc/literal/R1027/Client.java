@@ -30,8 +30,6 @@ import com.sun.javatest.Status;
 import jakarta.xml.soap.SOAPMessage;
 import jakarta.xml.soap.SOAPException;
 import jakarta.xml.ws.soap.SOAPFaultException;
-import org.junit.jupiter.api.Test;
-
 import java.util.Properties;
 import java.rmi.ServerException;
 
@@ -84,7 +82,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testNotUnderstoodHeaderInRequest() throws EETest.Fault {
     SOAPMessage response = null;
     try {

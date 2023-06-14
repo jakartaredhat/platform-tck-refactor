@@ -30,7 +30,6 @@ import java.awt.*;
 import java.nio.charset.Charset;
 
 import jakarta.xml.ws.*;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 import jakarta.activation.*;
 import javax.xml.transform.stream.*;
@@ -272,7 +271,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * returned in the soap response.
    *
    */
-  @Test
   public void GetMultipleAttachmentsTest() throws Fault {
     TestUtil.logMsg("GetMultipleAttachmentsTest");
     boolean pass = true;
@@ -314,7 +312,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * response.
    *
    */
-  @Test
   public void PutMultipleAttachmentsTest() throws Fault {
     TestUtil.logMsg("PutMultipleAttachmentsTest");
     boolean pass = true;
@@ -357,7 +354,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * sent in the soap request and returned in the soap response.
    *
    */
-  @Test
   public void EchoMultipleAttachmentsTest() throws Fault {
     TestUtil.logMsg("EchoMultipleAttachmentsTest");
     boolean pass = true;
@@ -396,7 +392,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * soap request or returned in the soap response.
    *
    */
-  @Test
   public void EchoNoAttachmentsTest() throws Fault {
     TestUtil.logMsg("EchoNoAttachmentsTest");
     boolean pass = true;
@@ -438,7 +433,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * mime types.
    *
    */
-  @Test
   public void EchoAllAttachmentTypesTest() throws Fault {
     TestUtil.logMsg("EchoAllAttachmentTypesTest");
     boolean pass = true;
@@ -491,7 +485,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * throw back a soap fault.
    *
    */
-  @Test
   public void EchoAttachmentsAndThrowAFaultTest() throws Fault {
     TestUtil.logMsg("EchoAttachmentsAndThrowAFaultTest");
     boolean pass = true;
@@ -530,7 +523,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * element which must be a child of the root part mime:part element.
    *
    */
-  @Test
   public void EchoAttachmentsWithHeaderTest() throws Fault {
     TestUtil.logMsg("EchoAttachmentsWithHeaderTest");
     boolean pass = true;
@@ -570,7 +562,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * @test_Strategy: Send a header with attachments and throw a fault back using
    * the soapbind:fault element.
    */
-  @Test
   public void EchoAttachmentsWithHeaderAndThrowAFaultTest() throws Fault {
     TestUtil.logMsg("EchoAttachmentsWithHeaderAndThrowAFaultTest");
     boolean pass = true;
@@ -612,7 +603,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * response. The attachments contain SOAP Envelopes.
    *
    */
-  @Test
   public void VerifyPutOfSOAPEnvelopesInAttachmentsTest() throws Fault {
     TestUtil.logMsg("VerifyPutOfSOAPEnvelopesInAttachmentsTest");
     boolean pass = true;
@@ -653,7 +643,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * message without attachments.
    *
    */
-  @Test
   public void VerifyUTF8EncodingOfRootPartWithoutAttachments() throws Fault {
     TestUtil.logMsg("VerifyUTF8EncodingOfRootPartWithoutAttachments");
     boolean pass = true;
@@ -706,7 +695,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * message without attachments.
    *
    */
-  @Test
   public void VerifyUTF16EncodingOfRootPartWithoutAttachments() throws Fault {
     TestUtil.logMsg("VerifyUTF16EncodingOfRootPartWithoutAttachments");
     boolean pass = true;
@@ -749,7 +737,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * SOAP request.
    *
    */
-  @Test
   public void VerifyRequestContentTypeHttpHeaderWithAttachments() throws Fault {
     TestUtil.logMsg("VerifyRequestContentTypeHttpHeaderWithAttachments");
     boolean pass = true;
@@ -793,9 +780,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * SOAP request.
    *
    */
-  @Test
   public void VerifyRequestContentTypeHttpHeaderWithoutAttachments()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("VerifyRequestContentTypeHttpHeaderWithoutAttachments");
     boolean pass = true;
 
@@ -833,9 +819,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * SOAP response.
    *
    */
-  @Test
   public void VerifyResponseContentTypeHttpHeaderWithAttachments()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("VerifyResponseContentTypeHttpHeaderWithAttachments");
     boolean pass = true;
     SOAPMessage request = null;
@@ -885,9 +870,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * SOAP response.
    *
    */
-  @Test
   public void VerifyResponseContentTypeHttpHeaderWithoutAttachments()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("VerifyResponseContentTypeHttpHeaderWithoutAttachments");
     boolean pass = true;
     SOAPMessage request = null;
@@ -938,9 +922,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    * set is correct in the SOAP request.
    *
    */
-  @Test
   public void VerifyRequestContentTransferEncodingMimeHeadersWithAttachments()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg(
         "VerifyRequestContentTransferEncodingMimeHeadersWithAttachments");
     boolean pass = true;

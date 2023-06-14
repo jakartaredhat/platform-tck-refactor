@@ -31,7 +31,6 @@ import java.net.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 import java.util.Properties;
 import javax.xml.namespace.QName;
@@ -358,7 +357,6 @@ public class Client extends ServiceEETest {
    * Test multiple @WebServiceRef annotations can be used due
    * to @Repeatable(value=WebServiceRefs.class)
    */
-  @Test
   public void testAnonymousResponsesAssertion() throws Fault {
     TestUtil.logMsg("testAnonymousResponsesAssertion");
     boolean pass = true;
@@ -387,7 +385,6 @@ public class Client extends ServiceEETest {
    * Test multiple @WebServiceRef annotations can be used due
    * to @Repeatable(value=WebServiceRefs.class)
    */
-  @Test
   public void testNonAnonymousResponsesAssertion() throws Fault {
     TestUtil.logMsg("testNonAnonymousResponsesAssertion");
     boolean pass = true;

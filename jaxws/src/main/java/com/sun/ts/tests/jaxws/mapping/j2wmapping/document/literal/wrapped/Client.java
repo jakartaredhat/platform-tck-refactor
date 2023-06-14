@@ -23,7 +23,7 @@ package com.sun.ts.tests.jaxws.mapping.j2wmapping.document.literal.wrapped;
 import com.sun.ts.lib.util.*;
 
 import java.util.*;
-import org.junit.jupiter.api.Test;
+
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -538,7 +538,6 @@ public class Client extends ServiceEETest
    * Package name mapping
    *
    */
-  @Test
   public void VerifyTargetNamespaceWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyTargetNamespaceWithAnnotation");
     boolean pass = true;
@@ -580,9 +579,8 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifySOAPElementNamespaceUseAttributeWithAnnotation()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("VerifySOAPElementNamespaceUseAttributeWithAnnotation");
     boolean pass = true;
 
@@ -614,9 +612,8 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifySOAPBindingTransportStyleAttributeWithAnnotation()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("VerifySOAPBindingTransportStyleAttributeWithAnnotation");
     boolean pass = true;
 
@@ -670,7 +667,6 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifyPortTypeNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortTypeNameWithAnnotation");
     boolean pass = true;
@@ -694,7 +690,6 @@ public class Client extends ServiceEETest
    * generated WSDL. Conformance requirement done: - service naming
    *
    */
-  @Test
   public void VerifyServiceNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyServiceNameWithAnnotation");
     boolean pass = true;
@@ -722,7 +717,6 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifyPortNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortNameWithAnnotation");
     boolean pass = true;
@@ -753,7 +747,6 @@ public class Client extends ServiceEETest
    * 
    *
    */
-  @Test
   public void VerifyOperationNames() throws Fault {
     TestUtil.logMsg("VerifyOperationNames");
     boolean pass = true;
@@ -810,7 +803,6 @@ public class Client extends ServiceEETest
    * 
    *
    */
-  @Test
   public void VerifyOneWayAndTwoWayOperations() throws Fault {
     TestUtil.logMsg("VerifyOneWayAndTwoWayOperations");
     boolean pass = true;
@@ -900,7 +892,6 @@ public class Client extends ServiceEETest
    * 
    *
    */
-  @Test
   public void VerifyParameterAndResultNaming() throws Fault {
     TestUtil.logMsg("VerifyParameterAndResultNaming");
     boolean pass = true;
@@ -1094,7 +1085,6 @@ public class Client extends ServiceEETest
    * wsdl:types section.
    *
    */
-  @Test
   public void VerifyWsdlMessagePartAndAttrStyle() throws Fault {
     TestUtil.logMsg("VerifyWsdlMessagePartAndAttrStyle");
     boolean pass = true;
@@ -1200,7 +1190,6 @@ public class Client extends ServiceEETest
    * In the absence of customizations, the name of the wsdl:message element MUST
    * be the name of the Java exception.
    */
-  @Test
   public void VerifyWsdlPartNamesAndMessageNamesForMessages() throws Fault {
     TestUtil.logMsg("VerifyWsdlPartNamesAndMessageNamesForMessages");
     boolean pass = true;
@@ -1320,7 +1309,6 @@ public class Client extends ServiceEETest
    * types.
    *
    */
-  @Test
   public void VerifySchemaNamespacesImportsElementsAndTypes() throws Fault {
     TestUtil.logMsg("VerifySchemaNamespacesImportsElementsAndTypes");
     boolean pass = true;
@@ -1347,7 +1335,6 @@ public class Client extends ServiceEETest
    *
    *
    */
-  @Test
   public void VerifyDocumentWrapped() throws Fault {
     TestUtil.logMsg("VerifyDocumentWrapped");
     boolean pass = true;
@@ -1412,9 +1399,8 @@ public class Client extends ServiceEETest
    * element MUST be the name of the Java exception
    *
    */
-  @Test
   public void VerifyInputOutputReturnAndFaultTypeElementMappings()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("VerifyInputOutputReturnAndFaultTypeElementMappings");
     boolean pass = true;
 
@@ -1511,7 +1497,6 @@ public class Client extends ServiceEETest
    * @test_Strategy: Verify that the JAXBMappings are generated
    *
    */
-  @Test
   public void VerifyJAXBMappingsTest() throws Fault {
     TestUtil.logMsg("JAXBMappingsTest");
     boolean pass = true;
@@ -1626,7 +1611,6 @@ public class Client extends ServiceEETest
    * XmlType
    *
    */
-  @Test
   public void VerifyXmlTypeAnnotationOnFaultBean() throws Fault {
     TestUtil.logMsg("VerifyXmlTypeAnnotationOnFaultBean");
     boolean pass = true;

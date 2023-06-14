@@ -33,8 +33,6 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.ts.tests.jaxws.sharedclients.hellosecureclient.*;
 
 public class Client extends ServiceEETest {
@@ -219,7 +217,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void getMessageContextTest() throws Fault {
     boolean pass = true;
     try {
@@ -246,7 +243,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void getEndpointReferenceTest() throws Fault {
     boolean pass = true;
     try {
@@ -274,7 +270,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void getEndpointReference2Test() throws Fault {
     boolean pass = true;
     try {
@@ -299,7 +294,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void getUserPrincipalTest() throws Fault {
     boolean pass = true;
     try {
@@ -324,7 +318,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void isUserInRoleTest() throws Fault {
     boolean pass = true;
     try {

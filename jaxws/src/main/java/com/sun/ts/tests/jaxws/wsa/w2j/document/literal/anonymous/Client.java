@@ -33,7 +33,6 @@ import java.net.*;
 import java.util.UUID;
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 import java.util.Properties;
 import javax.xml.namespace.QName;
@@ -322,7 +321,6 @@ public class Client extends ServiceEETest {
    * Verify that wsa:ReplyTo in the SOAPRequest is the anonymous URI. Verify
    * that wsa:To in the SOAPResponse is the anonymous URI.
    */
-  @Test
   public void testAnonymousResponsesAssertion() throws Fault {
     TestUtil.logMsg("testAnonymousResponsesAssertion");
     boolean pass = true;
@@ -348,7 +346,6 @@ public class Client extends ServiceEETest {
    * assertion. The <ReplyTo> header may or may not be set by default depending
    * on the implementation. The test has to account for this.
    */
-  @Test
   public void testNonAnonymousResponsesAssertion() throws Fault {
     TestUtil.logMsg("testNonAnonymousResponsesAssertion");
     boolean pass = true;
@@ -378,9 +375,8 @@ public class Client extends ServiceEETest {
    * header is set to a NonAnonymousProvider which will process the SOAP
    * response. Verify that the NonAnonymousProvider recieved the SOAP response.
    */
-  @Test
   public void testNonAnonymousResponsesWithReplyToSetToValidProviderEndpoint()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg(
         "testNonAnonymousResponsesWithReplyToSetToValidProviderEndpoint");
     boolean pass = true;
@@ -440,9 +436,8 @@ public class Client extends ServiceEETest {
    * response. Verify that the NonAnonymousProvider received the SOAPFault
    * message.
    */
-  @Test
   public void testNonAnonymousResponsesWithFaultToSetToValidProviderEndpoint()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg(
         "testNonAnonymousResponsesWithFaultToSetToValidProviderEndpoint");
     boolean pass = true;
@@ -509,7 +504,6 @@ public class Client extends ServiceEETest {
    * header is set to the None URI. This value must be accepted.
    *
    */
-  @Test
   public void testAnonymousResponsesWithReplyToSetToNone() throws Fault {
     TestUtil.logMsg("testAnonymousResponsesWithReplyToSetToNone");
     boolean pass = true;
@@ -549,7 +543,6 @@ public class Client extends ServiceEETest {
    * header is set to the None URI. This value must be accepted.
    *
    */
-  @Test
   public void testAnonymousResponsesWithFaultToSetToNone() throws Fault {
     TestUtil.logMsg("testAnonymousResponsesWithFaultToSetToNone");
     boolean pass = true;
@@ -589,7 +582,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test for NonAnonymousResponses assertion where <ReplyTo>
    * header is set to the None URI. This value must be accepted.
    */
-  @Test
   public void testNonAnonymousResponsesWithReplyToSetToNone() throws Fault {
     TestUtil.logMsg("testNonAnonymousResponsesWithReplyToSetToNone");
     boolean pass = true;
@@ -628,7 +620,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test for NonAnonymousResponses assertion where <FaultTo>
    * header is set to the None URI. This value must be accepted.
    */
-  @Test
   public void testNonAnonymousResponsesWithFaultToSetToNone() throws Fault {
     TestUtil.logMsg("testNonAnonymousResponsesWithFaultToSetToNone");
     boolean pass = true;
@@ -670,7 +661,6 @@ public class Client extends ServiceEETest {
    * URI. Expect SOAPFault.
    *
    */
-  @Test
   public void testOnlyAnonymousAddressSupportedFaultBadReplyTo() throws Fault {
     TestUtil.logMsg("testOnlyAnonymousAddressSupportedFaultBadReplyTo");
     boolean pass = true;
@@ -783,7 +773,6 @@ public class Client extends ServiceEETest {
    * URI. Expect SOAPFault.
    *
    */
-  @Test
   public void testOnlyAnonymousAddressSupportedFaultBadFaultTo() throws Fault {
     TestUtil.logMsg("testOnlyAnonymousAddressSupportedFaultBadFaultTo");
     boolean pass = true;
@@ -897,9 +886,8 @@ public class Client extends ServiceEETest {
    * Expect SOAPFault.
    *
    */
-  @Test
   public void testOnlyNonAnonymousAddressSupportedFaultBadReplyTo()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("testOnlyNonAnonymousAddressSupportedFaultBadReplyTo");
     boolean pass = true;
     boolean done = false;
@@ -1013,9 +1001,8 @@ public class Client extends ServiceEETest {
    * Expect SOAPFault.
    *
    */
-  @Test
   public void testOnlyNonAnonymousAddressSupportedFaultBadFaultTo()
-    throws Fault {
+      throws Fault {
     TestUtil.logMsg("testOnlyNonAnonymousAddressSupportedFaultBadFaultTo");
     boolean pass = true;
     boolean done = false;

@@ -33,8 +33,6 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 import jakarta.xml.ws.handler.*;
 import jakarta.xml.ws.EndpointReference;
@@ -228,7 +226,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call jakarta.xml.ws.Service.create(QName) to return a service
    * instance.
    */
-  @Test
   public void createTest1() throws Fault {
     TestUtil.logTrace("createTest1");
     boolean pass = true;
@@ -268,7 +265,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call jakarta.xml.ws.Service.create(URL, QName) to return a
    * service instance.
    */
-  @Test
   public void createTest2() throws Fault {
     TestUtil.logTrace("createTest2");
     boolean pass = true;
@@ -311,7 +307,6 @@ public class Client extends ServiceEETest {
    * WebServiceFeature that the endpoint supports. A valid service object should
    * be returned with that WebServiceFeature enabled.
    */
-  @Test
   public void createWithWSFTest1() throws Fault {
     TestUtil.logTrace("createWithWSFTest1");
     boolean pass = true;
@@ -358,7 +353,6 @@ public class Client extends ServiceEETest {
    * WebServiceFeature that the endpoint supports. A valid service object should
    * be returned with that WebServiceFeature enabled.
    */
-  @Test
   public void createWithWSFTest2() throws Fault {
     TestUtil.logTrace("createWithWSFTest2");
     boolean pass = true;
@@ -405,7 +399,6 @@ public class Client extends ServiceEETest {
    * WebServiceFeature that the endpoint doesn't support. API should throw back
    * a WebServiceException.
    */
-  @Test
   public void createWithWSFNegativeTest1() throws Fault {
     TestUtil.logTrace("createWithWSFNegativeTest1");
     boolean pass = true;
@@ -457,7 +450,6 @@ public class Client extends ServiceEETest {
    * WebServiceFeature that the endpoint doesn't support. API should throw back
    * a WebServiceException.
    */
-  @Test
   public void createWithWSFNegativeTest2() throws Fault {
     TestUtil.logTrace("createWithWSFNegativeTest2");
     boolean pass = true;
@@ -508,7 +500,6 @@ public class Client extends ServiceEETest {
    * proxy for the service port. Pass a valid port name with WSDL access. Verify
    * that the method returns a dynamic proxy.
    */
-  @Test
   public void GetPort1PosTest1WithWsdl() throws Fault {
     TestUtil.logTrace("GetPort1PosTest1WithWsdl");
     boolean pass = true;
@@ -555,7 +546,6 @@ public class Client extends ServiceEETest {
    * to return a dynamic proxy for the service port. Pass a valid port name with
    * WSDL access. Verify that the method returns a dynamic proxy.
    */
-  @Test
   public void GetPortTest1WithFeatures() throws Fault {
     TestUtil.logTrace("GetPortTest1WithFeatures");
     boolean pass = true;
@@ -620,7 +610,6 @@ public class Client extends ServiceEETest {
    * return a dynamic proxy for the service port. Pass a valid port name with
    * WSDL access. Verify that the method returns a dynamic proxy.
    */
-  @Test
   public void GetPortTest2WithFeatures() throws Fault {
     TestUtil.logTrace("GetPortTest2WithFeatures");
     boolean pass = true;
@@ -682,7 +671,6 @@ public class Client extends ServiceEETest {
    * a valid port name with WSDL access. Verify that the method returns a
    * dynamic proxy.
    */
-  @Test
   public void GetPortTest3WithFeatures() throws Fault {
     TestUtil.logTrace("GetPortTest3WithFeatures");
     boolean pass = true;
@@ -756,7 +744,6 @@ public class Client extends ServiceEETest {
    * that the method returns a dynamic proxy. Verify that an exception occurs
    * due to port not found. Expect a WebServiceException.
    */
-  @Test
   public void GetPort1NegTest1WithWsdl() throws Fault {
     TestUtil.logTrace("GetPort1NegTest1WithWsdl");
     boolean pass = true;
@@ -802,7 +789,6 @@ public class Client extends ServiceEETest {
    * the service port. Pass a valid SEI class. Access to WSDL metadata. Verify
    * behavior.
    */
-  @Test
   public void GetPort2PosTest1WithWsdl() throws Fault {
     TestUtil.logTrace("GetPort2PosTest1WithWsdl");
     boolean pass = true;
@@ -851,7 +837,6 @@ public class Client extends ServiceEETest {
    * the service port. Pass an invalid SEI class. WSDL metadata access. Verify
    * behavior. Expect WebServiceException.
    */
-  @Test
   public void GetPort2NegTest1WithWsdl() throws Fault {
     TestUtil.logTrace("GetPort2NegTest1WithWsdl");
     boolean pass = true;
@@ -896,7 +881,6 @@ public class Client extends ServiceEETest {
    * of qualified names of the ports grouped by this service. Create a Service
    * object with access to WSDL metadata.
    */
-  @Test
   public void GetPortsTest1WithWsdl() throws Fault {
     TestUtil.logTrace("GetPortsTest1WithWsdl");
     boolean pass = true;
@@ -945,7 +929,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call Service.getServiceName() to return the name of this
    * service.
    */
-  @Test
   public void GetServiceNameTest1() throws Fault {
     TestUtil.logTrace("GetServiceNameTest1");
     boolean pass = true;
@@ -988,7 +971,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call Service.getWSDLDocumentLocation() to return the
    * location of the WSDL document for this service.
    */
-  @Test
   public void GetWSDLDocumentLocationTest1() throws Fault {
     TestUtil.logTrace("GetWSDLDocumentLocationTest1");
     boolean pass = false;
@@ -1030,7 +1012,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call Service.getHandlerResolver() to get the configured
    * HandlerResolver. Access to WSDL metadata. Verify behavior.
    */
-  @Test
   public void GetHandlerResolverTest1WithWsdl() throws Fault {
     TestUtil.logTrace("GetHandlerResolverTest1WithWsdl");
     boolean pass = false;
@@ -1070,7 +1051,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call Service.getHandlerResolver() to get the configured
    * HandlerResolver. Access to WSDL metadata. Verify behavior.
    */
-  @Test
   public void SetHandlerResolverTest1WithWsdl() throws Fault {
     TestUtil.logTrace("SetHandlerResolverTest1WithWsdl");
     boolean pass = false;
@@ -1115,7 +1095,6 @@ public class Client extends ServiceEETest {
    * Service.createDispatch(QName, Source, Mode). Verify that the Dispatch
    * object was successfully created.
    */
-  @Test
   public void CreateDispatchTest1WithWsdl() throws Fault {
     TestUtil.logTrace("CreateDispatchTest1WithWsdl");
     boolean pass = true;
@@ -1160,7 +1139,6 @@ public class Client extends ServiceEETest {
    * Service.createDispatch(QName, JAXBContext, Mode). Verify that the Dispatch
    * object was successfully created.
    */
-  @Test
   public void CreateDispatchTest2WithWsdl() throws Fault {
     TestUtil.logTrace("CreateDispatchTest2WithWsdl");
     boolean pass = true;
@@ -1202,7 +1180,6 @@ public class Client extends ServiceEETest {
    * Service.createDispatch(QName, Source, Mode, WebsServiceFeature ...). Verify
    * that the Dispatch object was successfully created.
    */
-  @Test
   public void CreateDispatchTest1WithFeatures() throws Fault {
     TestUtil.logTrace("CreateDispatchTest1WithFeatures");
     boolean pass = true;
@@ -1254,7 +1231,6 @@ public class Client extends ServiceEETest {
    * Service.createDispatch(QName, JAXBContext, Mode, WebsServiceFeature ...).
    * Verify that the Dispatch object was successfully created.
    */
-  @Test
   public void CreateDispatchTest2WithFeatures() throws Fault {
     TestUtil.logTrace("CreateDispatchTest2WithFeatures");
     boolean pass = true;
@@ -1306,7 +1282,6 @@ public class Client extends ServiceEETest {
    * createDispatch(EndpointReference, Source, Mode, WebServiceFeature ...).
    * Verify that the Dispatch object was successfully created using EPR.
    */
-  @Test
   public void CreateDispatchObjectUsingEPRWithWFTrueTest() throws Fault {
     TestUtil.logTrace("CreateDispatchObjectUsingEPRWithWFTrueTest");
     boolean pass = true;
@@ -1365,7 +1340,6 @@ public class Client extends ServiceEETest {
    * createDispatch(EndpointReference, JAXBContext, Mode, WebServiceFeature
    * ...). Verify that the Dispatch object was successfully created using EPR.
    */
-  @Test
   public void CreateDispatchObjectUsingEPRWithWFTrueTest2() throws Fault {
     TestUtil.logTrace("CreateDispatchObjectUsingEPRWithWFTrueTest2");
     boolean pass = true;
@@ -1426,7 +1400,6 @@ public class Client extends ServiceEETest {
    * QName. Verify that the call to createDispatch() throws a
    * WebServiceException.
    */
-  @Test
   public void CreateDispatchExceptionTest1WithWsdl() throws Fault {
     TestUtil.logTrace("CreateDispatchExceptionTest1WithWsdl");
     boolean pass = true;
@@ -1472,7 +1445,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create a port for service using Service.addPort(
    * javax.xml.namespace.QName, java.net.String, java.lang.String).
    */
-  @Test
   public void CreatePortTest1WithWsdl() throws Fault {
     TestUtil.logTrace("CreatePortTest1WithWsdl");
     boolean pass = true;
@@ -1511,7 +1483,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Get the Executor for this instance.
    */
-  @Test
   public void getExecutorTest() throws Fault {
     TestUtil.logTrace("getExecutorTest");
     boolean pass = true;
@@ -1562,7 +1533,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Set the Executor for this instance.
    */
-  @Test
   public void setExecutorTest() throws Fault {
     TestUtil.logTrace("setExecutorTest");
     boolean pass = true;

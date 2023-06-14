@@ -35,7 +35,6 @@ import com.sun.javatest.Status;
 import com.sun.ts.tests.jaxws.common.*;
 import com.sun.ts.tests.jaxws.wsa.common.*;
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.ws.soap.AddressingFeature;
 import jakarta.xml.ws.soap.SOAPFaultException;
 import jakarta.xml.bind.JAXBContext;
@@ -265,7 +264,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Retrieve EPR via WebServiceContext.getEndpointReference().
    *
    */
-  @Test
   public void EPRGetEPRViaWSCTest1() throws Fault {
     TestUtil.logMsg("EPRGetEPRViaWSCTest1");
     boolean pass = true;
@@ -312,7 +310,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Retrieve EPR via WebServiceContext.getEndpointReference(
    * java.lang.Class).
    */
-  @Test
   public void EPRGetEPRViaWSCTest2() throws Fault {
     TestUtil.logMsg("EPRGetEPRViaWSCTest2");
     boolean pass = true;
@@ -358,7 +355,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Retrieve EPR via BindingProvider.getEndpointReference().
    *
    */
-  @Test
   public void EPRGetEPRViaBPTest1() throws Fault {
     TestUtil.logMsg("EPRGetEPRViaBPTest1");
     boolean pass = true;
@@ -405,7 +401,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Retrieve EPR via BindingProvider.getEndpointReference(
    * java.lang.Class).
    */
-  @Test
   public void EPRGetEPRViaBPTest2() throws Fault {
     TestUtil.logMsg("EPRGetEPRViaBPTest2");
     boolean pass = true;
@@ -453,7 +448,6 @@ public class Client extends ServiceEETest {
    * java.lang.Class). Pass in an invalid Class. Expect a WebServiceException to
    * be thrown.
    */
-  @Test
   public void EPRGetEPRViaBPWithUnsupportedEPRClassTest() throws Fault {
     TestUtil.logMsg("EPRGetEPRViaBPWithUnsupportedEPRClassTest");
     boolean pass = true;
@@ -489,7 +483,6 @@ public class Client extends ServiceEETest {
    * Write EPR as an XML Infoset Object using writeTo() method and then read EPR
    * back from the XML Infoset Object using readfrom() method.
    */
-  @Test
   public void EPRWriteToAndReadFromTest() throws Fault {
     TestUtil.logMsg("EPRWriteToAndReadFromTest");
     boolean pass = true;
@@ -526,7 +519,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void ServiceGetPortViaWSCAndWSFTrueTest() throws Fault {
     TestUtil.logMsg("ServiceGetPortViaWSCAndWSFTrueTest");
     boolean pass = true;
@@ -575,7 +567,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void ServiceGetPortViaWSCAndWSFFalseTest() throws Fault {
     TestUtil.logMsg("ServiceGetPortViaWSCAndWSFFalseTest");
     boolean pass = true;
@@ -622,7 +613,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void ServiceGetPortViaBPAndWSFTrueTest() throws Fault {
     TestUtil.logMsg("ServiceGetPortViaBPAndWSFTrueTest");
     boolean pass = true;
@@ -672,7 +662,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void ServiceGetPortViaBPAndWSFFalseTest() throws Fault {
     TestUtil.logMsg("ServiceGetPortViaBPAndWSFFalseTest");
     boolean pass = true;
@@ -723,7 +712,6 @@ public class Client extends ServiceEETest {
    * invocation behavior.
    *
    */
-  @Test
   public void EPRGetPortViaWSCAndNoWSFTest() throws Fault {
     TestUtil.logMsg("EPRGetPortViaWSCAndNoWSFTest");
     boolean pass = true;
@@ -775,7 +763,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void EPRGetPortViaWSCAndWSFTrueTest() throws Fault {
     TestUtil.logMsg("EPRGetPortViaWSCAndWSFTrueTest");
     boolean pass = true;
@@ -827,7 +814,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void EPRGetPortViaWSCAndWSFFalseTest() throws Fault {
     TestUtil.logMsg("EPRGetPortViaWSCAndWSFFalseTest");
     boolean pass = true;
@@ -877,7 +863,6 @@ public class Client extends ServiceEETest {
    * invocation behavior.
    *
    */
-  @Test
   public void EPRGetPortViaBPAndNoWSFTest() throws Fault {
     TestUtil.logMsg("EPRGetPortViaBPAndNoWSFTest");
     boolean pass = true;
@@ -930,7 +915,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void EPRGetPortViaBPAndWSFTrueTest() throws Fault {
     TestUtil.logMsg("EPRGetPortViaBPAndWSFTrueTest");
     boolean pass = true;
@@ -983,7 +967,6 @@ public class Client extends ServiceEETest {
    * Verify invocation behavior.
    *
    */
-  @Test
   public void EPRGetPortViaBPAndWSFFalseTest() throws Fault {
     TestUtil.logMsg("EPRGetPortViaBPAndWSFFalseTest");
     boolean pass = true;
@@ -1034,7 +1017,6 @@ public class Client extends ServiceEETest {
    * Pass WebServiceFeature with Addressing=true.
    *
    */
-  @Test
   public void EPRViaWSCCreateDispatchWSFTrueAndInvokeTest1() throws Fault {
     TestUtil.logMsg("EPRViaWSCCreateDispatchWSFTrueAndInvokeTest1");
     boolean pass = true;
@@ -1082,7 +1064,6 @@ public class Client extends ServiceEETest {
    * verify the result. Pass WebServiceFeature with Addressing=true.
    *
    */
-  @Test
   public void EPRViaWSCCreateDispatchWSFTrueAndInvokeTest2() throws Fault {
     TestUtil.logMsg("EPRViaWSCCreateDispatchWSFTrueAndInvokeTest2");
     boolean pass = true;
@@ -1130,7 +1111,6 @@ public class Client extends ServiceEETest {
    * WebServiceException to be thrown.
    *
    */
-  @Test
   public void EPRViaWSCCreateDispatchWSFFalseAndInvokeTest3() throws Fault {
     TestUtil.logMsg("EPRViaWSCCreateDispatchWSFFalseAndInvokeTest3");
     boolean pass = true;
@@ -1170,7 +1150,6 @@ public class Client extends ServiceEETest {
    * result. Pass WebServiceFeature with Addressing=true.
    *
    */
-  @Test
   public void EPRViaWSCCreateJAXBDispatchWSFTrueAndInvokeTest1() throws Fault {
     TestUtil.logMsg("EPRViaWSCCreateJAXBDispatchWSFTrueAndInvokeTest1");
     boolean pass = true;
@@ -1223,7 +1202,6 @@ public class Client extends ServiceEETest {
    * WebServiceException to be thrown.
    *
    */
-  @Test
   public void EPRViaWSCCreateJAXBDispatchWSFFalseAndInvokeTest2() throws Fault {
     TestUtil.logMsg("EPRViaWSCCreateJAXBDispatchWSFFalseAndInvokeTest2");
     boolean pass = true;
@@ -1270,7 +1248,6 @@ public class Client extends ServiceEETest {
    * Pass WebServiceFeature with Addressing=true.
    *
    */
-  @Test
   public void EPRViaBPCreateDispatchWSFTrueAndInvokeTest1() throws Fault {
     TestUtil.logMsg("EPRViaBPCreateDispatchWSFTrueAndInvokeTest1");
     boolean pass = true;
@@ -1319,7 +1296,6 @@ public class Client extends ServiceEETest {
    * WebServiceFeature with Addressing=true.
    *
    */
-  @Test
   public void EPRViaBPCreateDispatchWSFTrueAndInvokeTest2() throws Fault {
     TestUtil.logMsg("EPRViaBPCreateDispatchWSFTrueAndInvokeTest2");
     boolean pass = true;
@@ -1369,7 +1345,6 @@ public class Client extends ServiceEETest {
    * WebServiceException to be thrown.
    *
    */
-  @Test
   public void EPRViaBPCreateDispatchWSFFalseAndInvokeTest3() throws Fault {
     TestUtil.logMsg("EPRViaBPCreateDispatchWSFFalseAndInvokeTest3");
     boolean pass = true;
@@ -1412,7 +1387,6 @@ public class Client extends ServiceEETest {
    * Addressing=true.
    *
    */
-  @Test
   public void EPRViaBPCreateJAXBDispatchWSFTrueAndInvokeTest1() throws Fault {
     TestUtil.logMsg("EPRViaBPCreateJAXBDispatchWSFTrueAndInvokeTest1");
     boolean pass = true;
@@ -1466,7 +1440,6 @@ public class Client extends ServiceEETest {
    * Addressing=false. Expect a WebServiceException to be thrown.
    *
    */
-  @Test
   public void EPRViaBPCreateJAXBDispatchWSFFalseAndInvokeTest2() throws Fault {
     TestUtil.logMsg("EPRViaBPCreateJAXBDispatchWSFFalseAndInvokeTest2");
     boolean pass = true;

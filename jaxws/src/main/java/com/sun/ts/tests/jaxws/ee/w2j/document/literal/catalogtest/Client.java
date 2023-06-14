@@ -31,8 +31,6 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.ts.tests.jaxws.common.*;
 
 public class Client extends ServiceEETest {
@@ -159,7 +157,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Positive test case for oasis catalogs. Valid SystemId and
    * valid URI pointing to a valid WSDL. Must pass.
    */
-  @Test
   public void TestCatalogWithValidSystemIdAndValidURIValidWSDL() throws Fault {
     boolean pass = true;
     Iterator iterator = null;

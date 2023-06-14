@@ -22,7 +22,6 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2110;
 
 import java.util.Properties;
 
-import org.junit.jupiter.api.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -86,7 +85,6 @@ public class Client extends ServiceEETest
    *
    * @throws Fault
    */
-  @Test
   public void testArrayType() throws Fault {
     NodeList list = client.getDocument()
         .getElementsByTagNameNS(XSD_NAMESPACE_URI, XSD_RESTRICTION_LOCAL_NAME);

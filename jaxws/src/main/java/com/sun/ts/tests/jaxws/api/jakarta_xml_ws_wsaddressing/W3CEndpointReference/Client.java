@@ -27,8 +27,6 @@ import java.io.*;
 import java.util.*;
 
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.namespace.QName;
 import javax.xml.transform.stream.StreamResult;
 
@@ -83,7 +81,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void W3CEndpointReferenceConstructorTest() throws Fault {
     TestUtil.logTrace("W3CEndpointReferenceConstructorTest");
     boolean pass = true;
@@ -114,7 +111,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void writeToTest() throws Fault {
     TestUtil.logTrace("writeToTest");
     boolean pass = true;

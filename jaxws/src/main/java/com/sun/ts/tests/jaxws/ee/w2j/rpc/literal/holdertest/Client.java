@@ -27,7 +27,6 @@ import java.util.Properties;
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import jakarta.xml.ws.Holder;
-import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 import javax.xml.datatype.*;
@@ -586,7 +585,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutSimpleTypesTest() throws Fault {
     TestUtil.logTrace("InOutSimpleTypesTest");
     boolean pass = true;
@@ -620,7 +618,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutSimpleTypesArrayTest() throws Fault {
     TestUtil.logTrace("InOutSimpleTypesArrayTest");
     boolean pass = true;
@@ -654,7 +651,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutUserDefinedTypeTest() throws Fault {
     TestUtil.logTrace("InOutUserDefinedTypeTest");
     boolean pass = true;
@@ -701,7 +697,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void InOutUserDefinedTypeArrayTest() throws Fault {
     TestUtil.logTrace("InOutUserDefinedTypeArrayTest");
     boolean pass = true;

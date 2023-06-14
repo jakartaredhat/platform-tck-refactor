@@ -22,7 +22,6 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2303;
 
 import java.util.Properties;
 
-import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -84,7 +83,6 @@ public class Client extends ServiceEETest implements DescriptionConstants {
    *
    * @throws Fault
    */
-  @Test
   public void testOperations() throws Fault {
     Document document = client.getDocument();
     Element[] portTypes = DescriptionUtils.getPortTypes(document);

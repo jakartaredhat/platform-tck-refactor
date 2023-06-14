@@ -27,8 +27,6 @@ import com.sun.javatest.Status;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
 import java.io.InputStream;
-
-import org.junit.jupiter.api.Test;
 import java.io.ByteArrayOutputStream;
 
 import javax.xml.transform.OutputKeys;
@@ -161,7 +159,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void testGETwithQUERYSTRING() throws Fault {
     boolean pass = true;
     try {
@@ -185,7 +182,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void testGETwithPATHINFO() throws Fault {
 
     boolean pass = true;
@@ -210,7 +206,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void testPUTwithQUERYSTRING() throws Fault {
     boolean pass = true;
     try {
@@ -237,7 +232,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void testPUTwithPATHINFO() throws Fault {
 
     boolean pass = true;
@@ -265,7 +259,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void testDELETEwithQUERYSTRING() throws Fault {
     boolean pass = true;
     try {
@@ -292,7 +285,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void testPOST() throws Fault {
 
     boolean pass = true;

@@ -28,7 +28,6 @@ import com.sun.javatest.Status;
 import java.text.MessageFormat;
 
 import jakarta.xml.soap.SOAPMessage;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.SOAPElement;
 import java.util.Properties;
 import java.util.Iterator;
@@ -90,9 +89,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void ChildElementInstanceOfGlobalElementInRequest()
-    throws EETest.Fault {
+      throws EETest.Fault {
     HelloResponse result;
     HelloRequest hr = new HelloRequest();
     hr.setString("ChildElementInstanceOfGlobalElementInRequest");
@@ -113,9 +111,8 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void ChildElementInstanceOfGlobalElementInResponse()
-    throws EETest.Fault {
+      throws EETest.Fault {
     SOAPMessage response;
     try {
       String request = MessageFormat.format(R2712_REQUEST,

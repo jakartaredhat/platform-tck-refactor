@@ -35,8 +35,6 @@ import java.math.BigDecimal;
 import javax.xml.namespace.QName;
 import javax.xml.datatype.XMLGregorianCalendar;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.javatest.Status;
 
 import com.sun.ts.tests.jaxws.common.*;
@@ -198,7 +196,6 @@ public class Client extends ServiceEETest {
    * RPC method and receive it back as the return value. Compare results of each
    * value/type of what was sent and what was returned. Verify they are equal.
    */
-  @Test
   public void MarshallSimpleTypesTest() throws Fault {
     TestUtil.logMsg("MarshallSimpleTypesTest");
     boolean pass = true;
@@ -263,7 +260,6 @@ public class Client extends ServiceEETest {
    * results of each value/type of what was sent and what was returned. Verify
    * they are equal.
    */
-  @Test
   public void MarshallArraysOfSimpleTypesTest() throws Fault {
     TestUtil.logMsg("MarshallArraysOfSimpleTypesTest");
     boolean pass = true;

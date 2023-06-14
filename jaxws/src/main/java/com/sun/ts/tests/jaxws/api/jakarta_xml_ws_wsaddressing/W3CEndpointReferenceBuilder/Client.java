@@ -32,7 +32,6 @@ import java.net.*;
 import java.util.*;
 
 import jakarta.xml.ws.wsaddressing.W3CEndpointReferenceBuilder;
-import org.junit.jupiter.api.Test;
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
 import javax.xml.namespace.QName;
 import javax.xml.transform.dom.*;
@@ -211,7 +210,6 @@ public class Client extends ServiceEETest {
    * constructor. Verify W3CEndpointReferenceBuilder object created
    * successfully.
    */
-  @Test
   public void W3CEndpointReferenceBuilderConstructorTest() throws Fault {
     TestUtil.logTrace("W3CEndpointReferenceBuilderConstructorTest");
     boolean pass = true;
@@ -243,7 +241,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call address() api.
    * 
    */
-  @Test
   public void addressNULLTest() throws Fault {
     TestUtil.logTrace("addressNULLTest");
     boolean pass = true;
@@ -267,7 +264,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call address() api.
    * 
    */
-  @Test
   public void addressNonNULLTest() throws Fault {
     TestUtil.logTrace("addressNonNULLTest");
     boolean pass = true;
@@ -291,7 +287,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call serviceName() api.
    * 
    */
-  @Test
   public void serviceNameNULLTest() throws Fault {
     TestUtil.logTrace("serviceNameNULLTest");
     boolean pass = true;
@@ -315,7 +310,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call serviceName() api.
    * 
    */
-  @Test
   public void serviceNameNonNULLTest() throws Fault {
     TestUtil.logTrace("serviceNameNonNULLTest");
     boolean pass = true;
@@ -339,7 +333,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call interfaceName() api.
    * 
    */
-  @Test
   public void interfaceNameNULLTest() throws Fault {
     TestUtil.logTrace("interfaceNameNULLTest");
     boolean pass = true;
@@ -363,7 +356,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call interfaceName() api.
    * 
    */
-  @Test
   public void interfaceNameNonNULLTest() throws Fault {
     TestUtil.logTrace("interfaceNameNonNULLTest");
     boolean pass = true;
@@ -387,7 +379,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call endpointName() api.
    * 
    */
-  @Test
   public void endpointNameNULLTest() throws Fault {
     TestUtil.logTrace("endpointNameNULLTest");
     boolean pass = true;
@@ -412,7 +403,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call endpointName() api.
    * 
    */
-  @Test
   public void endpointNameNonNULLTest() throws Fault {
     TestUtil.logTrace("endpointNameNonNULLTest");
     boolean pass = true;
@@ -437,7 +427,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call endpointName() api. Test for IllegalStateException.
    * 
    */
-  @Test
   public void endpointNameIllegalStateExceptionTest() throws Fault {
     TestUtil.logTrace("endpointNameIllegalStateExceptionTest");
     boolean pass = true;
@@ -465,7 +454,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call wsdlDocumentLocation() api.
    * 
    */
-  @Test
   public void wsdlDocumentLocationNULLTest() throws Fault {
     TestUtil.logTrace("wsdlDocumentLocationNULLTest");
     boolean pass = true;
@@ -489,7 +477,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call wsdlDocumentLocation() api.
    * 
    */
-  @Test
   public void wsdlDocumentLocationNonNULLTest() throws Fault {
     TestUtil.logTrace("wsdlDocumentLocationNonNULLTest");
     boolean pass = true;
@@ -513,7 +500,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call metadata() api. Test for IllegalArgumentException.
    * 
    */
-  @Test
   public void metadataNULLTest() throws Fault {
     TestUtil.logTrace("metadataNULLTest");
     boolean pass = true;
@@ -541,7 +527,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call metadata() api.
    * 
    */
-  @Test
   public void metadataNonNULLTest() throws Fault {
     TestUtil.logTrace("metadataNonNULLTest");
     boolean pass = true;
@@ -569,7 +554,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call attribute() api. Test for IllegalArgumentException.
    * 
    */
-  @Test
   public void attributeNULLTest() throws Fault {
     TestUtil.logTrace("attributeNULLTest");
     boolean pass = true;
@@ -597,7 +581,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call attribute() api.
    * 
    */
-  @Test
   public void attributeNonNULLTest() throws Fault {
     TestUtil.logTrace("attributeNonNULLTest");
     boolean pass = true;
@@ -621,7 +604,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call element() api. Test for IllegalArgumentException.
    * 
    */
-  @Test
   public void elementNULLTest() throws Fault {
     TestUtil.logTrace("elementNULLTest");
     boolean pass = true;
@@ -649,7 +631,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call element() api.
    * 
    */
-  @Test
   public void elementNonNULLTest() throws Fault {
     TestUtil.logTrace("elementNonNULLTest");
     boolean pass = true;
@@ -677,7 +658,6 @@ public class Client extends ServiceEETest {
    * IllegalArgumentException.
    * 
    */
-  @Test
   public void referenceParameterNULLTest() throws Fault {
     TestUtil.logTrace("referenceParameterNULLTest");
     boolean pass = true;
@@ -706,7 +686,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call referenceParameter() api.
    * 
    */
-  @Test
   public void referenceParameterNonNULLTest() throws Fault {
     TestUtil.logTrace("referenceParameterNonNULLTest");
     boolean pass = true;
@@ -737,7 +716,6 @@ public class Client extends ServiceEETest {
    * build the EndpointReference.
    * 
    */
-  @Test
   public void buildTest1() throws Fault {
     TestUtil.logTrace("buildTest1");
     boolean pass = true;
@@ -776,7 +754,6 @@ public class Client extends ServiceEETest {
    * element() and attribute() and to build the EndpointReference.
    * 
    */
-  @Test
   public void buildTest2() throws Fault {
     TestUtil.logTrace("buildTest2");
     boolean pass = true;
@@ -819,7 +796,6 @@ public class Client extends ServiceEETest {
    * EndpointReference from scratch.
    * 
    */
-  @Test
   public void buildTest3() throws Fault {
     TestUtil.logTrace("buildTest3");
     boolean pass = true;
@@ -870,7 +846,6 @@ public class Client extends ServiceEETest {
    * EndpointReference from scratch.
    * 
    */
-  @Test
   public void buildTest4() throws Fault {
     TestUtil.logTrace("buildTest4");
     boolean pass = true;
@@ -918,7 +893,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call build() api. Test for IllegalStateException.
    * 
    */
-  @Test
   public void buildIllegalStateExceptionTest1() throws Fault {
     TestUtil.logTrace("buildIllegalStateExceptionTest1");
     boolean pass = true;
@@ -946,7 +920,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call build() api. Test for IllegalStateException.
    * 
    */
-  @Test
   public void buildIllegalStateExceptionTest2() throws Fault {
     TestUtil.logTrace("buildIllegalStateExceptionTest2");
     boolean pass = true;
@@ -975,7 +948,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Call build() api. Test for IllegalStateException.
    * 
    */
-  @Test
   public void buildIllegalStateExceptionTest3() throws Fault {
     TestUtil.logTrace("buildIllegalStateExceptionTest3");
     boolean pass = true;

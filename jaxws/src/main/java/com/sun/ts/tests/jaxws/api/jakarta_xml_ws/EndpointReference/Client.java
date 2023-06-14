@@ -32,8 +32,6 @@ import java.text.MessageFormat;
 
 import jakarta.xml.ws.EndpointReference;
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
-import org.junit.jupiter.api.Test;
-
 import javax.xml.transform.Source;
 
 import com.sun.javatest.Status;
@@ -234,7 +232,6 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test factory method to read an EndpointReference from the
    * infoset contained in eprInfoset.
    */
-  @Test
   public void readFromTest() throws Fault {
     TestUtil.logTrace("readFromTest");
     boolean pass = true;
@@ -274,7 +271,6 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
-  @Test
   public void toStringTest() throws Fault {
     TestUtil.logTrace("toStringTest");
     boolean pass = true;
@@ -329,7 +325,6 @@ public class Client extends ServiceEETest {
    * provider. Verify method invocation works from the port obtained from the
    * EPR.
    */
-  @Test
   public void getPortFromEndpointReferenceForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getPortFromEndpointReferenceForDispatchObjTest");
     boolean pass = true;
@@ -358,7 +353,6 @@ public class Client extends ServiceEETest {
    * provider. Verify method invocation works from the port obtained from the
    * EPR.
    */
-  @Test
   public void getPortFromEndpointReferenceForStubObjTest() throws Fault {
     TestUtil.logTrace("getPortFromEndpointReferenceForStubObjTest");
     boolean pass = true;
@@ -387,7 +381,6 @@ public class Client extends ServiceEETest {
    * provider. Verify method invocation works from the port obtained from the
    * EPR.
    */
-  @Test
   public void getPortFromEndpointReference2ForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getPortFromEndpointReference2ForDispatchObjTest");
     boolean pass = true;
@@ -416,7 +409,6 @@ public class Client extends ServiceEETest {
    * provider. Verify method invocation works from the port obtained from the
    * EPR.
    */
-  @Test
   public void getPortFromEndpointReference2ForStubObjTest() throws Fault {
     TestUtil.logTrace("getPortFromEndpointReference2ForStubObjTest");
     boolean pass = true;

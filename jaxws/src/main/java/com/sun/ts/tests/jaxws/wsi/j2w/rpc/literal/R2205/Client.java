@@ -22,7 +22,6 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2205;
 
 import java.util.Properties;
 
-import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 
 import com.sun.javatest.Status;
@@ -86,7 +85,6 @@ public class Client extends ServiceEETest implements DescriptionConstants {
    * 
    * @throws Fault
    */
-  @Test
   public void testParts() throws Fault {
     Document document = client.getDocument();
     PartAttributeVerifier verifier = new PartAttributeVerifier(document, 2205);

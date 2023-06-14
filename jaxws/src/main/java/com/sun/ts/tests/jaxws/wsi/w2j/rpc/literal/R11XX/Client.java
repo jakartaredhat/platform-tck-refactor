@@ -28,8 +28,6 @@ import com.sun.javatest.Status;
 
 import java.util.Properties;
 
-import org.junit.jupiter.api.Test;
-
 public class Client extends ServiceEETest implements SOAPRequests {
 
   private W2JRLR11XXClientOne client1;
@@ -81,7 +79,6 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
-  @Test
   public void testSoapActionHeaderIsQuotedInRequest() throws EETest.Fault {
     String response = "";
     try {

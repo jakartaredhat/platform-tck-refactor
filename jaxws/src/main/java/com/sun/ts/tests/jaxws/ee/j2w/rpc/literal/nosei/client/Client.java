@@ -30,8 +30,6 @@ import javax.xml.namespace.QName;
 
 import java.util.*;
 
-import org.junit.jupiter.api.Test;
-
 import com.sun.javatest.Status;
 
 import com.sun.ts.tests.jaxws.common.*;
@@ -185,7 +183,6 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
-  @Test
   public void echoTest() throws Fault {
     TestUtil.logMsg("echoTest");
     boolean pass = true;
