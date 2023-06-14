@@ -34,6 +34,7 @@ import java.util.*;
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.EndpointReference;
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
+import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 import javax.xml.transform.Source;
@@ -221,6 +222,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Get the Binding for this binding provider.
    */
+  @Test
   public void getBindingForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getBindingForDispatchObjTest");
     boolean pass = true;
@@ -244,6 +246,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the context that is used to initialize the message
    * context for request messages.
    */
+  @Test
   public void getRequestContextForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getRequestContextForDispatchObjTest");
     boolean pass = true;
@@ -283,6 +286,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the context that resulted from processing a response
    * message.
    */
+  @Test
   public void getResponseContextForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getResponseContextForDispatchObjTest");
     boolean pass = true;
@@ -321,6 +325,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Get the Binding for this binding provider.
    */
+  @Test
   public void getBindingForStubObjTest() throws Fault {
     TestUtil.logTrace("getBindingForStubObjTest");
     boolean pass = true;
@@ -344,6 +349,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the context that is used to initialize the message
    * context for request messages.
    */
+  @Test
   public void getRequestContextForStubObjTest() throws Fault {
     TestUtil.logTrace("getRequestContextForStubObjTest");
     boolean pass = true;
@@ -382,6 +388,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the context that resulted from processing a response
    * message.
    */
+  @Test
   public void getResponseContextForStubObjTest() throws Fault {
     TestUtil.logTrace("getResponseContextForStubObjTest");
     boolean pass = true;
@@ -420,6 +427,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the context that is used to initialize the message
    * context for request messages and set all the standard properties.
    */
+  @Test
   public void setStandardPropertiesTest() throws Fault {
     TestUtil.logTrace("setStandardPropertiesTest");
     boolean pass = true;
@@ -468,6 +476,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the context that is used to initialize the message
    * context for request messages and set all the standard properties.
    */
+  @Test
   public void setNonStandardPropertiesTest() throws Fault {
     TestUtil.logTrace("setNonStandardPropertiesTest");
     boolean pass = true;
@@ -511,6 +520,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the EndpointReference for this binding provider.
    * Validate the EndpointReference (EPR) WSDL MetaData.
    */
+  @Test
   public void getEndpointReferenceForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getEndpointReferenceForDispatchObjTest");
     boolean pass = true;
@@ -542,6 +552,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the EndpointReference for this binding provider.
    * Validate the EndpointReference (EPR) WSDL MetaData.
    */
+  @Test
   public void getEndpointReferenceForStubObjTest() throws Fault {
     TestUtil.logTrace("getEndpointReferenceForStubObjTest");
     boolean pass = true;
@@ -579,6 +590,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the EndpointReference for this binding provider.
    * Validate the EndpointReference (EPR) WSDL MetaData.
    */
+  @Test
   public void getEndpointReference2ForDispatchObjTest() throws Fault {
     TestUtil.logTrace("getEndpointReference2ForDispatchObjTest");
     boolean pass = true;
@@ -616,6 +628,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get the EndpointReference for this binding provider.
    * Validate the EndpointReference (EPR) WSDL MetaData.
    */
+  @Test
   public void getEndpointReference2ForStubObjTest() throws Fault {
     TestUtil.logTrace("getEndpointReference2ForStubObjTest");
     boolean pass = true;

@@ -31,6 +31,7 @@ import java.rmi.*;
 import java.math.*;
 
 import jakarta.xml.ws.RespectBindingFeature;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -64,6 +65,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via RespectBindingFeature() constructor.
    * Verify RespectBindingFeature object created successfully.
    */
+  @Test
   public void RespectBindingFeatureConstructorTest() throws Fault {
     TestUtil.logTrace("RespectBindingFeatureConstructorTest");
     boolean pass = true;
@@ -101,6 +103,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via RespectBindingFeature(true)
    * constructor. Verify RespectBindingFeature object created successfully.
    */
+  @Test
   public void RespectBindingFeatureConstructorTest2() throws Fault {
     TestUtil.logTrace("RespectBindingFeatureConstructorTest2");
     boolean pass = true;
@@ -138,6 +141,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via RespectBindingFeature(false)
    * constructor. Verify RespectBindingFeature object created successfully.
    */
+  @Test
   public void RespectBindingFeatureConstructorTest3() throws Fault {
     TestUtil.logTrace("RespectBindingFeatureConstructorTest2");
     boolean pass = true;
@@ -176,6 +180,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test getting the unique identifier for this
    * RespectBindingFeature object. Verify value returned is set correctly.
    */
+  @Test
   public void getIDTest() throws Fault {
     TestUtil.logTrace("getIDTest");
     boolean pass = true;
@@ -219,6 +224,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test setting isEnabled of RespectBindingFeature object. Get
    * enabled value and verify value returned is set correctly.
    */
+  @Test
   public void isEnabledTest() throws Fault {
     TestUtil.logTrace("isEnabledTest");
     boolean pass = true;

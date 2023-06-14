@@ -30,6 +30,8 @@ import java.net.*;
 import java.util.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
@@ -206,6 +208,7 @@ public class Client extends ServiceEETest {
    *
    * Description A client can invoke an RPC method via generated stub.
    */
+  @Test
   public void invokeSynchronousTest() throws Fault {
     TestUtil.logTrace("invokeSynchronousTest");
     boolean pass = true;
@@ -243,6 +246,7 @@ public class Client extends ServiceEETest {
    *
    * Description A client can invoke an RPC method via generated stub.
    */
+  @Test
   public void invokeAsyncPollTest() throws Fault {
     TestUtil.logTrace("invokeAsyncPollTest");
     boolean pass = true;
@@ -292,6 +296,7 @@ public class Client extends ServiceEETest {
    *
    * Description A client can invoke an RPC method via generated stub.
    */
+  @Test
   public void invokeAsyncCallbackTest() throws Fault {
     TestUtil.logTrace("invokeAsyncCallbackTest");
     boolean pass = true;

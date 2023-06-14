@@ -33,6 +33,8 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.namespace.QName;
 import jakarta.xml.ws.handler.*;
 import javax.xml.transform.Source;
@@ -198,6 +200,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    * 
    */
+  @Test
   public void getBindingIDTest() throws Fault {
     TestUtil.logTrace("getBindingIDTest");
     boolean pass = true;
@@ -232,6 +235,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Sets the handler chain for a protocol binding instance.
    * Gets the handler chain for a protocol binding instance.
    */
+  @Test
   public void SetAndGetHandlerChainForDispatchObjTest() throws Fault {
     TestUtil.logTrace("SetAndGetHandlerChainForDispatchObjTest");
     boolean pass = true;
@@ -315,6 +319,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Sets the handler chain for a protocol binding instance.
    * Gets the handler chain for a protocol binding instance.
    */
+  @Test
   public void SetAndGetHandlerChainForStubObjTest() throws Fault {
     TestUtil.logTrace("SetAndGetHandlerChainForStubObjTest");
     boolean pass = true;

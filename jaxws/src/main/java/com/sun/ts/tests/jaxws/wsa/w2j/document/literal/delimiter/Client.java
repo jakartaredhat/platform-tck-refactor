@@ -34,6 +34,8 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
+import org.junit.jupiter.api.Test;
+
 public class Client extends ServiceEETest {
 
   // The webserver defaults (overidden by harness properties)
@@ -182,6 +184,7 @@ public class Client extends ServiceEETest {
    * targetNamespace
    *
    */
+  @Test
   public void testURNDefaultInputOutputActions() throws Fault {
     TestUtil.logMsg("testURNDefaultInputOutputActions");
     boolean pass = true;
@@ -212,6 +215,7 @@ public class Client extends ServiceEETest {
    * targetNamespace
    *
    */
+  @Test
   public void testURNDefaultFaultAction() throws Fault {
     TestUtil.logMsg("testURNDefaultFaultAction");
     boolean pass = true;
@@ -242,6 +246,7 @@ public class Client extends ServiceEETest {
    * targetNamespace
    *
    */
+  @Test
   public void testURNExplicitInputOutputActions() throws Fault {
     TestUtil.logMsg("testURNExplicitInputOutputActions");
     boolean pass = true;
@@ -273,6 +278,7 @@ public class Client extends ServiceEETest {
    * targetNamespace
    *
    */
+  @Test
   public void testURNExplicitFaultAction() throws Fault {
     TestUtil.logMsg("testURNExplicitFaultAction");
     boolean pass = true;

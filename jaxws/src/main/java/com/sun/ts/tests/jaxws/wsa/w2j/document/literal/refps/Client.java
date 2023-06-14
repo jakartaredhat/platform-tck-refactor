@@ -26,7 +26,7 @@ import com.sun.ts.lib.harness.*;
 
 import com.sun.ts.tests.jaxws.common.*;
 import com.sun.ts.tests.jaxws.wsa.common.*;
-
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -306,6 +306,7 @@ public class Client extends ServiceEETest {
    *
    */
 
+  @Test
   public void testReplyToRefps() throws Fault {
     boolean pass = true;
     try {
@@ -342,6 +343,7 @@ public class Client extends ServiceEETest {
    *
    */
 
+  @Test
   public void testFaultToRefps() throws Fault {
     boolean pass = true;
 

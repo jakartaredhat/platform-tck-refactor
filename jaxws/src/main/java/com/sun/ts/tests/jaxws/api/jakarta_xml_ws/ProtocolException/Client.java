@@ -29,6 +29,7 @@ import java.util.*;
 import java.rmi.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -61,6 +62,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via ProtocolException() constructor. Verify
    * ProtocolException object created successfully.
    */
+  @Test
   public void ProtocolExceptionConstructorTest1() throws Fault {
     TestUtil.logTrace("ProtocolExceptionConstructorTest1");
     boolean pass = true;
@@ -91,6 +93,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via ProtocolException(String, Throwable).
    * Verify ProtocolException object created successfully.
    */
+  @Test
   public void ProtocolExceptionConstructorTest2() throws Fault {
     TestUtil.logTrace("ProtocolExceptionConstructorTest2");
     boolean pass = true;
@@ -132,6 +135,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via ProtocolException(String). Verify
    * ProtocolException object created successfully.
    */
+  @Test
   public void ProtocolExceptionConstructorTest3() throws Fault {
     TestUtil.logTrace("ProtocolExceptionConstructorTest3");
     boolean pass = true;
@@ -172,6 +176,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via ProtocolException(Throwable). Verify
    * ProtocolException object created successfully.
    */
+  @Test
   public void ProtocolExceptionConstructorTest4() throws Fault {
     TestUtil.logTrace("ProtocolExceptionConstructorTest4");
     boolean pass = true;

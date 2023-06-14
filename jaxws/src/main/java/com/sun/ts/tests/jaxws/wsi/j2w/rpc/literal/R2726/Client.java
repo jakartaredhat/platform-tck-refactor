@@ -22,6 +22,7 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2726;
 
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 
 import com.sun.javatest.Status;
@@ -83,6 +84,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testSOAPElementNamespace() throws Fault {
     Document document = client.getDocument();
     NamespaceAttributeVerifier verifier = new NamespaceAttributeVerifier(

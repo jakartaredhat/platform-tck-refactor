@@ -34,6 +34,7 @@ import com.sun.ts.tests.jaxws.sharedclients.dlhelloproviderclient.*;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
+import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 import javax.xml.transform.*;
 
@@ -227,6 +228,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTest1() throws Fault {
     TestUtil.logTrace("invokeTest1");
     boolean pass = true;
@@ -265,6 +267,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTest2() throws Fault {
     TestUtil.logTrace("invokeTest2");
     boolean pass = true;
@@ -308,6 +311,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: do an invoke with the payload set to payload and a source
    * being sent over the wire
    */
+  @Test
   public void invokeTest3() throws Fault {
     TestUtil.logTrace("invokeTest3");
     boolean pass = true;
@@ -352,6 +356,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: do an invoke with the payload set to message and a
    * SOAPMessage being sent over the wire
    */
+  @Test
   public void invokeTest4() throws Fault {
     TestUtil.logTrace("invokeTest4");
     boolean pass = true;
@@ -398,6 +403,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: do an invoke with the payload set to payload and a Source
    * being sent over the wire
    */
+  @Test
   public void invokeTest5() throws Fault {
     TestUtil.logTrace("invokeTest5");
     boolean pass = true;
@@ -436,6 +442,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test provider endpoint using JAXB request object which
    * sends Empty Payload response back
    */
+  @Test
   public void invokeTest6() throws Fault {
     TestUtil.logTrace("invokeTest6");
     boolean pass = true;
@@ -475,6 +482,7 @@ public class Client extends ServiceEETest {
    * sends Empty Payload response back as an Empty StreamSource, DOMSource or
    * SAXSource.
    */
+  @Test
   public void invokeTest7() throws Fault {
     TestUtil.logTrace("invokeTest7");
     boolean pass = true;
@@ -519,6 +527,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test provider endpoint using JAXB request object for oneway
    * op and sends Empty Payload null back
    */
+  @Test
   public void invokeTest8() throws Fault {
     TestUtil.logTrace("invokeTest8");
     boolean pass = true;

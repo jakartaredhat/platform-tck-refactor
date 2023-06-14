@@ -26,7 +26,7 @@ import java.util.Properties;
 import jakarta.xml.soap.SOAPBody;
 import jakarta.xml.soap.SOAPElement;
 import jakarta.xml.soap.SOAPMessage;
-
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -96,6 +96,7 @@ public class Client extends ServiceEETest implements DescriptionConstants {
    *
    * @throws Fault
    */
+  @Test
   public void testOrder() throws Fault {
     document = client.getDocument();
     Element operation = getOperation();

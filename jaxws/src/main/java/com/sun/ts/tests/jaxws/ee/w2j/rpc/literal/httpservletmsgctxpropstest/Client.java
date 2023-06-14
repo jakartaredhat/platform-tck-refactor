@@ -31,6 +31,8 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
+import org.junit.jupiter.api.Test;
+
 import com.sun.ts.tests.jaxws.common.*;
 
 import javax.naming.InitialContext;
@@ -188,6 +190,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test the servlet message context properties.
    *
    */
+  @Test
   public void TestServletMessageContextProperties() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
@@ -212,6 +215,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test the http message context properties.
    *
    */
+  @Test
   public void TestHttpMessageContextProperties() throws Fault {
     boolean pass = true;
     Iterator iterator = null;

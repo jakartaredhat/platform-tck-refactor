@@ -30,6 +30,7 @@ import java.rmi.*;
 import java.math.*;
 
 import jakarta.xml.ws.soap.MTOMFeature;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -65,6 +66,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via MTOMFeature() constructor. Verify
    * MTOMFeature object created successfully.
    */
+  @Test
   public void MTOMFeatureDefaultConstructorTest() throws Fault {
     TestUtil.logTrace("MTOMFeatureDefaultConstructorTest");
     boolean pass = true;
@@ -110,6 +112,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via MTOMFeature(true) constructor. Verify
    * MTOMFeature object created successfully.
    */
+  @Test
   public void MTOMFeatureConstructorTest1() throws Fault {
     TestUtil.logTrace("MTOMFeatureConstructorTest1");
     boolean pass = true;
@@ -147,6 +150,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via MTOMFeature(false) constructor. Verify
    * MTOMFeature object created successfully.
    */
+  @Test
   public void MTOMFeatureConstructorTest2() throws Fault {
     TestUtil.logTrace("MTOMFeatureConstructorTest2");
     boolean pass = true;
@@ -185,6 +189,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via MTOMFeature(true, int) constructor.
    * Verify MTOMFeature object created successfully.
    */
+  @Test
   public void MTOMFeatureConstructorTest3() throws Fault {
     TestUtil.logTrace("MTOMFeatureConstructorTest3");
     boolean pass = true;
@@ -226,6 +231,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via MTOMFeature(false, int) constructor.
    * Verify MTOMFeature object created successfully.
    */
+  @Test
   public void MTOMFeatureConstructorTest4() throws Fault {
     TestUtil.logTrace("MTOMFeatureConstructorTest4");
     boolean pass = true;
@@ -267,6 +273,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via MTOMFeature(int) constructor. Verify
    * MTOMFeature object created successfully.
    */
+  @Test
   public void MTOMFeatureConstructorTest5() throws Fault {
     TestUtil.logTrace("MTOMFeatureConstructorTest5");
     boolean pass = true;
@@ -313,6 +320,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test getting ID string of MTOMFeature object. Verify value
    * returned is set correctly.
    */
+  @Test
   public void getIDTest() throws Fault {
     TestUtil.logTrace("getIDTest");
     boolean pass = true;
@@ -354,6 +362,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test setting threshold of MTOMFeature object. Get value and
    * verify value returned is set correctly.
    */
+  @Test
   public void getSetThresholdTest() throws Fault {
     TestUtil.logTrace("getSetThresholdTest");
     boolean pass = true;

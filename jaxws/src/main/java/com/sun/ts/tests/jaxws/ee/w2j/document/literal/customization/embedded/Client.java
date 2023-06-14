@@ -35,6 +35,8 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
+import org.junit.jupiter.api.Test;
+
 public class Client extends ServiceEETest {
   // need to create jaxbContext
   private static final ObjectFactory of = new ObjectFactory();
@@ -187,6 +189,7 @@ public class Client extends ServiceEETest {
    *
    * 
    */
+  @Test
   public void CustomizationEmbeddedTest() throws Fault {
     TestUtil.logTrace("CustomizationEmbeddedTest");
     boolean pass = true;
@@ -256,6 +259,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: A jaxb customization test
    *
    */
+  @Test
   public void jaxbCustomizationTest() throws Fault {
     TestUtil.logTrace("jaxbCustomizationTest");
     boolean pass = true;

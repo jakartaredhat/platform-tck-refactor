@@ -33,6 +33,7 @@ import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -112,6 +113,7 @@ public class Client extends ServiceEETest
    *
    * @throws Fault
    */
+  @Test
   public void testResponseEncoding() throws Fault {
     InputStream is;
     Charset cs = Charset.forName("UTF-8");
@@ -180,6 +182,7 @@ public class Client extends ServiceEETest
    *
    * @throws Fault
    */
+  @Test
   public void testRequestEncoding() throws Fault {
     String result;
     try {

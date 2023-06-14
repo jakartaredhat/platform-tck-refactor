@@ -30,6 +30,8 @@ import javax.xml.namespace.QName;
 
 import java.util.*;
 
+import org.junit.jupiter.api.Test;
+
 import com.sun.javatest.Status;
 
 import com.sun.ts.tests.jaxws.common.*;
@@ -204,6 +206,7 @@ public class Client extends ServiceEETest {
    * 
    * @test_Strategy:
    */
+  @Test
   public void JavaKeywordsTest() throws Fault {
     TestUtil.logTrace("JavaKeywordsTest");
     boolean pass = true;
@@ -371,6 +374,7 @@ public class Client extends ServiceEETest {
    * 
    * @test_Strategy:
    */
+  @Test
   public void JavaNamingConventionsTest() throws Fault {
     TestUtil.logTrace("JavaNamingConventionsTest");
     boolean pass = true;

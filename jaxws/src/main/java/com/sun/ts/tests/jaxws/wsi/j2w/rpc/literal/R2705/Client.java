@@ -22,6 +22,7 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2705;
 
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -92,6 +93,7 @@ public class Client extends ServiceEETest
    *
    * @throws Fault
    */
+  @Test
   public void testOperationStyles() throws Fault {
     Document document = client.getDocument();
     Element[] bindings = DescriptionUtils.getBindings(document);

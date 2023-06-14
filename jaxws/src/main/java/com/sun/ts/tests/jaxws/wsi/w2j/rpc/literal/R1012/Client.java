@@ -27,6 +27,8 @@ import java.nio.charset.Charset;
 import java.util.Properties;
 
 import com.sun.javatest.Status;
+
+import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 import com.sun.ts.tests.jaxws.wsi.constants.WSIConstants;
 import com.sun.ts.tests.jaxws.wsi.constants.SOAPConstants;
@@ -98,6 +100,7 @@ public class Client extends ServiceEETest
    *
    * @throws Fault
    */
+  @Test
   public void testResponseEncoding() throws Fault {
     InputStream is;
     Charset cs = Charset.forName("UTF-8");
@@ -154,6 +157,7 @@ public class Client extends ServiceEETest
    *
    * @throws Fault
    */
+  @Test
   public void testRequestEncoding() throws Fault {
     String result;
     try {

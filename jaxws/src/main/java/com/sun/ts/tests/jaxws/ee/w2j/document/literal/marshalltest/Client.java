@@ -36,6 +36,8 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
+import org.junit.jupiter.api.Test;
+
 import com.sun.ts.tests.jaxws.common.*;
 
 import javax.xml.datatype.*;
@@ -294,6 +296,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallPrimitiveTest() throws Fault {
     TestUtil.logMsg("MarshallPrimitiveTest");
     boolean pass = true;
@@ -335,6 +338,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallStandardJavaClassesTest() throws Fault {
     TestUtil.logMsg("MarshallStandardJavaClassesTest");
     boolean pass = true;
@@ -369,6 +373,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallJavaBeanTest() throws Fault {
     TestUtil.logMsg("MarshallJavaBeanTest");
     boolean pass = true;
@@ -415,6 +420,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallJavaArrayTest() throws Fault {
     TestUtil.logMsg("MarshallJavaArrayTest");
     boolean pass = true;
@@ -449,6 +455,7 @@ public class Client extends ServiceEETest {
     if (!pass)
       throw new Fault("MarshallJavaArrayTest failed");
   }
+
   // ====================================================================
   // The void type
   // ====================================================================
@@ -464,6 +471,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallVoidTest() throws Fault {
     TestUtil.logMsg("MarshallVoidTest");
     boolean pass = true;
@@ -496,6 +504,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallNormalizedStringTypeTest() throws Fault {
     TestUtil.logMsg("MarshallNormalizedStringTypeTest");
     boolean pass = true;
@@ -533,6 +542,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallIntegerRangeTypeTest() throws Fault {
     TestUtil.logMsg("MarshallIntegerRangeTypeTest");
     boolean pass = true;
@@ -569,6 +579,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallEnumTypesTest() throws Fault {
     TestUtil.logMsg("MarshallEnumTypesTest");
     boolean pass = true;
@@ -607,6 +618,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallAnonymousTypeTest() throws Fault {
     TestUtil.logMsg("MarshallAnonymousTypeTest");
     boolean pass = true;
@@ -638,6 +650,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallVariousSchemaTypesTest() throws Fault {
     TestUtil.logMsg("MarshallVariousSchemaTypesTest");
     boolean pass = true;
@@ -686,6 +699,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallVariousSchemaTypesListTypeTest() throws Fault {
     TestUtil.logMsg("MarshallVariousSchemaTypesListTypeTest");
     boolean pass = true;
@@ -742,6 +756,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallAnnotationTypeTest() throws Fault {
     TestUtil.logMsg("MarshallAnnotationTypeTest");
     boolean pass = true;
@@ -778,6 +793,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallAnySimpleTypeTest() throws Fault {
     TestUtil.logMsg("MarshallAnySimpleTypeTest");
     boolean pass = true;
@@ -814,6 +830,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallAnyURITypeTest() throws Fault {
     TestUtil.logMsg("MarshallAnyURITypeTest");
     boolean pass = true;
@@ -853,6 +870,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallLanguageTypeTest() throws Fault {
     TestUtil.logMsg("MarshallLanguageTypeTest");
     boolean pass = true;
@@ -890,6 +908,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallTokenTypeTest() throws Fault {
     TestUtil.logMsg("MarshallTokenTypeTest");
     boolean pass = true;
@@ -926,6 +945,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallNameTypeTest() throws Fault {
     TestUtil.logMsg("MarshallNameTypeTest");
     boolean pass = true;
@@ -962,6 +982,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallNCNameTypeTest() throws Fault {
     TestUtil.logMsg("MarshallNCNameTypeTest");
     boolean pass = true;
@@ -998,6 +1019,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallIDTypeTest() throws Fault {
     TestUtil.logMsg("MarshallIDTypeTest");
     boolean pass = true;
@@ -1034,6 +1056,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallStructXMLSchemaTypesTest() throws Fault {
     TestUtil.logMsg("MarshallStructXMLSchemaTypesTest");
     boolean pass = true;
@@ -1068,6 +1091,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallLiteralFaultsTest() throws Fault {
     TestUtil.logMsg("MarshallLiteralFaults");
     boolean pass = true;
@@ -1095,6 +1119,7 @@ public class Client extends ServiceEETest {
    * they are equal.
    *
    */
+  @Test
   public void MarshallComplexTypesTest() throws Fault {
     String testname = "MarshallComplexTypesTest";
     TestUtil.logTrace(testname);
@@ -1137,6 +1162,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallOneWayTest() throws Fault {
     TestUtil.logMsg("MarshallOneWayTest");
     boolean pass = true;
@@ -1172,6 +1198,7 @@ public class Client extends ServiceEETest {
    * value/type of what was sent sent and what was returned. Verify they are
    * equal.
    */
+  @Test
   public void MarshallOtherSimpleTypesTest() throws Fault {
     TestUtil.logMsg("MarshallOtherSimpleTypesTest");
     boolean pass = true;
@@ -1199,6 +1226,7 @@ public class Client extends ServiceEETest {
    * return value. Compare results of each value/type of what was sent sent and
    * what was returned. Verify they are equal.
    */
+  @Test
   public void MarshallUnsignedTypesTest() throws Fault {
     TestUtil.logMsg("MarshallUnsignedTypesTest");
     boolean pass = true;
@@ -1228,6 +1256,7 @@ public class Client extends ServiceEETest {
    * return value. Compare results of each value/type of what was sent sent and
    * what was returned. Verify they are equal.
    */
+  @Test
   public void MarshallBigIntegerTypesTest() throws Fault {
     TestUtil.logMsg("MarshallBigIntegerTypesTest");
     boolean pass = true;
@@ -1256,6 +1285,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallDateTimeTest() throws Fault {
     TestUtil.logMsg("MarshallDateTimeTest");
     boolean pass = true;
@@ -1292,6 +1322,7 @@ public class Client extends ServiceEETest {
    * return value. Compare results of each value/type of what was sent sent and
    * what was returned. Verify they are equal.
    */
+  @Test
   public void MarshallListTypesTest() throws Fault {
     TestUtil.logMsg("MarshallListTypesTest");
     boolean pass = true;
@@ -1326,6 +1357,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void MarshallDurationTest() throws Fault {
     TestUtil.logMsg("MarshallDurationTest");
     boolean pass = true;
@@ -1361,6 +1393,7 @@ public class Client extends ServiceEETest {
    * double, boolean, byte and qname. Verify that what was sent to the service
    * endpoint is echoed back. Description
    */
+  @Test
   public void MarshallMapSimpleTypesTest() throws Fault {
     TestUtil.logMsg("MarshallMapSimpleTypesTest");
     boolean pass = true;
@@ -1526,6 +1559,7 @@ public class Client extends ServiceEETest {
    *
    * Description
    */
+  @Test
   public void MarshallIncludedStringTypeTest() throws Fault {
     TestUtil.logMsg("MarshallIncludedStringTypeTest");
     boolean pass = true;

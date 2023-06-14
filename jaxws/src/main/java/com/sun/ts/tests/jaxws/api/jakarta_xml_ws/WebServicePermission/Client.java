@@ -30,6 +30,7 @@ import java.util.*;
 import java.rmi.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -62,6 +63,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServicePermission(String)
    * constructor. Verify WebServicePermission object created successfully.
    */
+  @Test
   public void WebServicePermissionConstructorTest1() throws Fault {
     TestUtil.logTrace("WebServicePermissionConstructorTest1");
     boolean pass = true;
@@ -92,6 +94,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServicePermission(String, String)
    * constructor. Verify WebServicePermission object created successfully.
    */
+  @Test
   public void WebServicePermissionConstructorTest2() throws Fault {
     TestUtil.logTrace("WebServicePermissionConstructorTest2");
     boolean pass = true;
@@ -123,6 +126,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via WebServicePermission(String, String)
    * constructor. Verify WebServicePermission object created successfully.
    */
+  @Test
   public void WebServicePermissionConstructorTest2a() throws Fault {
     TestUtil.logTrace("WebServicePermissionConstructorTest2a");
     boolean pass = true;

@@ -22,6 +22,7 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2001;
 
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -83,6 +84,7 @@ public class Client extends ServiceEETest implements DescriptionConstants {
    *
    * @throws Fault
    */
+  @Test
   public void testWSDLImports() throws Fault {
     Document document = client.getDocument();
     Element[] imports = DescriptionUtils.getImports(document);

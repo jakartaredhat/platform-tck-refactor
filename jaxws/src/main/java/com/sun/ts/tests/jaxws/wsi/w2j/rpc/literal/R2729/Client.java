@@ -26,6 +26,7 @@ import java.util.Properties;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -90,6 +91,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws Fault
    */
+  @Test
   public void testResponseWrapperElement() throws Fault {
     Document document;
     try {

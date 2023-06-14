@@ -24,6 +24,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.*;
 
 import com.sun.javatest.Status;
@@ -91,6 +92,7 @@ public class Client extends ServiceEETest
    * 
    * @throws Fault
    */
+  @Test
   public void testSchemaTargetNamespace() throws Fault {
     Document document = client.getDocument();
     Element types = DescriptionUtils.getTypes(document);

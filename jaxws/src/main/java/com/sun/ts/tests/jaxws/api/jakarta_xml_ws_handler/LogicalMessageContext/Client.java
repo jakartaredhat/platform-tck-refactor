@@ -31,6 +31,7 @@ import java.util.*;
 
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.handler.*;
+import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 
@@ -315,6 +316,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the client-side
    * logical message context callbacks are called.
    */
+  @Test
   public void ClientMessageContextTest() throws Fault {
     TestUtil.logTrace("ClientMessageContextTest");
     boolean pass = true;
@@ -592,6 +594,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the server-side soap
    * message handler callbacks are called.
    */
+  @Test
   public void ServerMessageContextTest() throws Fault {
     TestUtil.logTrace("ServerMessageContextTest");
     boolean pass = true;
@@ -718,6 +721,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Invoke an RPC method and ensure that the various
    * MessageContext and LogicalMessageContext properties are accessible
    */
+  @Test
   public void ContextPropertiesTest() throws Fault {
     TestUtil.logTrace("ContextPropertiesTest");
     boolean pass = true;

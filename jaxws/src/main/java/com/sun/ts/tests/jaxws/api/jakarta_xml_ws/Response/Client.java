@@ -32,6 +32,7 @@ import java.net.*;
 import java.util.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
 
 import javax.xml.namespace.QName;
 
@@ -202,6 +203,7 @@ public class Client extends ServiceEETest {
    * an stream that contains xml and verify the response returned via "get()" is
    * correct
    */
+  @Test
   public void getXMLTest() throws Fault {
     TestUtil.logTrace("getXMLTest");
     boolean pass = true;
@@ -270,6 +272,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get a Response<Object> using the invokeAsync method passing
    * an stream that contains xml and get the JAXWSontext from that object
    */
+  @Test
   public void getContextXMLTest() throws Fault {
     TestUtil.logTrace("getContextXMLTest");
     boolean pass = true;
@@ -314,6 +317,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get a Response<Object> using the invokeAsync method passing
    * a JAXB Object and verify the response returned via "get()" is correct
    */
+  @Test
   public void getJAXBTest() throws Fault {
     TestUtil.logTrace("getJAXBTest");
     boolean pass = true;
@@ -374,6 +378,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Get a Response<Object> using the invokeAsync method passing
    * an stream that contains xml and get the JAXWSontext from that object
    */
+  @Test
   public void getContextJAXBTest() throws Fault {
     TestUtil.logTrace("getContextJAXBTest");
     boolean pass = true;

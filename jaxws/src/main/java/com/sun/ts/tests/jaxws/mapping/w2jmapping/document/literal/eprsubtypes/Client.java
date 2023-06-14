@@ -30,6 +30,7 @@ import java.util.Properties;
 import java.lang.reflect.Method;
 
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
+import org.junit.jupiter.api.Test;
 import jakarta.xml.ws.Holder;
 
 public class Client extends ServiceEETest {
@@ -71,6 +72,7 @@ public class Client extends ServiceEETest {
    * or its subtypes MUST be mapped to
    * jakarta.xml.ws.wsaddressing.W3CEndpointReferencedefault.
    */
+  @Test
   public void VerifyEPRSubTypesTest1() throws Fault {
     TestUtil.logTrace("VerifyEPRSubTypesTest1");
     boolean pass = true;
@@ -123,6 +125,7 @@ public class Client extends ServiceEETest {
    * or its subtypes MUST be mapped to
    * jakarta.xml.ws.wsaddressing.W3CEndpointReferencedefault.
    */
+  @Test
   public void VerifyEPRSubTypesTest2() throws Fault {
     TestUtil.logTrace("VerifyEPRSubTypesTest2");
     boolean pass = true;
@@ -174,6 +177,7 @@ public class Client extends ServiceEETest {
    * or its subtypes MUST be mapped to
    * jakarta.xml.ws.wsaddressing.W3CEndpointReferencedefault.
    */
+  @Test
   public void VerifyEPRSubTypesTest3() throws Fault {
     TestUtil.logTrace("VerifyEPRSubTypesTest3");
     boolean pass = true;

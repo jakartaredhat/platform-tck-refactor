@@ -26,6 +26,7 @@ import java.util.Properties;
 import jakarta.xml.soap.SOAPBody;
 import jakarta.xml.soap.SOAPException;
 import jakarta.xml.soap.SOAPMessage;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
@@ -89,6 +90,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws Fault
    */
+  @Test
   public void testRequestWithBOM() throws Fault {
     SOAPMessage response;
     try {

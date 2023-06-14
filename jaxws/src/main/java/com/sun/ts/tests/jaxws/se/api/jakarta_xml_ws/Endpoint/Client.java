@@ -41,6 +41,7 @@ import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.*;
 import javax.xml.namespace.QName;
 import jakarta.xml.ws.wsaddressing.W3CEndpointReference;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -257,6 +258,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void createTest() throws Fault {
     TestUtil.logTrace("createTest");
     boolean pass = true;
@@ -283,6 +285,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void createTest2() throws Fault {
     TestUtil.logTrace("createTest2");
     boolean pass = true;
@@ -310,6 +313,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void getBindingTest() throws Fault {
     TestUtil.logTrace("getBindingTest");
     boolean pass = true;
@@ -340,6 +344,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void getImplementorTest() throws Fault {
     TestUtil.logTrace("getImplementorTest");
     boolean pass = true;
@@ -390,6 +395,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void publishTest2() throws Fault {
     TestUtil.logTrace("publishTest2");
     boolean pass = true;
@@ -430,6 +436,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void publishTest3() throws Fault {
     TestUtil.logTrace("publishTest3");
     boolean pass = true;
@@ -469,6 +476,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void stopTest() throws Fault {
     TestUtil.logTrace("stopTest");
     boolean pass = true;
@@ -515,6 +523,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void isPublishedTest() throws Fault {
     TestUtil.logTrace("isPublishedTest");
     boolean pass = true;
@@ -556,6 +565,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void GetSetPropertiesTest() throws Fault {
     TestUtil.logTrace("GetSetPropertiesTest");
     boolean pass = true;
@@ -584,6 +594,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void GetSetExecutorTest() throws Fault {
     TestUtil.logTrace("GetSetExecutorTest");
     boolean pass = true;
@@ -614,6 +625,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void GetSetMetaDataTest() throws Fault {
     TestUtil.logTrace("GetSetMetaDataTest");
     boolean pass = true;
@@ -695,6 +707,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void getEndpointReferenceParamsTest() throws Fault {
     TestUtil.logTrace("getEndpointReferenceParamsTest");
     boolean pass = true;
@@ -743,6 +756,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void getEndpointReferenceClassTest() throws Fault {
     TestUtil.logTrace("getEndpointReferenceClassTest");
     boolean pass = true;

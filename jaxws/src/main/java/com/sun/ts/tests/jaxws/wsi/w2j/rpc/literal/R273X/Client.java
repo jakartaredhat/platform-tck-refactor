@@ -26,6 +26,8 @@ import com.sun.javatest.Status;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import jakarta.xml.soap.*;
+import org.junit.jupiter.api.Test;
+
 import java.util.Iterator;
 import com.sun.ts.tests.jaxws.common.*;
 import com.sun.ts.lib.util.TestUtil;
@@ -101,6 +103,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws Fault
    */
+  @Test
   public void testNamespacesForChildrenOfPartAccessorsOnRequest() throws Fault {
     FooBar fb = new FooBar();
     String expected = "I am a foo request";
@@ -131,8 +134,9 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws Fault
    */
+  @Test
   public void testNamespacesForChildrenOfPartAccessorsOnResponse()
-      throws Fault {
+    throws Fault {
     SOAPMessage response;
     try {
       response = client1.makeSaajRequest(R273X_REQUEST);

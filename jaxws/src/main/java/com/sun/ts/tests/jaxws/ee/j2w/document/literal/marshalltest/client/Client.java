@@ -30,6 +30,8 @@ import javax.xml.namespace.QName;
 
 import java.util.*;
 
+import org.junit.jupiter.api.Test;
+
 import java.math.BigInteger;
 import java.math.BigDecimal;
 
@@ -205,6 +207,7 @@ public class Client extends ServiceEETest {
    * boolean,byte,short,int,long,float,double as well as:
    * Boolean,Byte,Short,Integer,Long,Float,Double
    */
+  @Test
   public void MarshallPrimitiveTest() throws Fault {
     TestUtil.logMsg("MarshallPrimitiveTest");
     boolean pass = true;
@@ -263,6 +266,7 @@ public class Client extends ServiceEETest {
    * Description Standard Java Classes: o java.lang.String o java.util.Calendar
    * o java.math.BigInteger o java.math.BigDecimal
    */
+  @Test
   public void MarshallStandardJavaClassesTest() throws Fault {
     TestUtil.logMsg("MarshallStandardJavaClassesTest");
     boolean pass = true;
@@ -300,6 +304,7 @@ public class Client extends ServiceEETest {
    *
    * Description Single dimensional Java arrays are tested.
    */
+  @Test
   public void MarshallJavaArrayTest() throws Fault {
     TestUtil.logMsg("MarshallJavaArrayTest");
     boolean pass = true;
@@ -366,6 +371,7 @@ public class Client extends ServiceEETest {
    * Description A client can invoke an RPC method via generated stub and
    * receive a fault.
    */
+  @Test
   public void MarshallServiceExceptionTest() throws Fault {
     TestUtil.logMsg("MarshallServiceExceptionTest");
     boolean pass = true;
@@ -410,6 +416,7 @@ public class Client extends ServiceEETest {
    * JavaBean value as input argument and receiving a JavaBean value as a return
    * value.
    */
+  @Test
   public void MarshallJavaBeanTest() throws Fault {
     TestUtil.logMsg("MarshallJavaBeanTest");
     boolean pass = true;
@@ -453,6 +460,7 @@ public class Client extends ServiceEETest {
    * Description A client can invoke an RPC method via generated stub and handle
    * void type.
    */
+  @Test
   public void MarshallVoidTest() throws Fault {
     TestUtil.logMsg("MarshallVoidTest");
     boolean pass = true;

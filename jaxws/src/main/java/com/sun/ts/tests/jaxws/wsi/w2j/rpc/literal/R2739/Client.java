@@ -29,6 +29,8 @@ import com.sun.javatest.Status;
 
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
+
 public class Client extends ServiceEETest implements WSIConstants {
 
   private W2JRLR2739Client client;
@@ -76,6 +78,7 @@ public class Client extends ServiceEETest implements WSIConstants {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testExtraHeader() throws EETest.Fault {
     String response = "";
     try {

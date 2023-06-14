@@ -28,6 +28,8 @@ import java.net.*;
 import java.util.Properties;
 import javax.xml.namespace.QName;
 import com.sun.javatest.Status;
+
+import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.common.*;
 
 public class Client extends ServiceEETest {
@@ -176,6 +178,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbersDefaultAddNumbersFaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbersDefaultAddNumbersFaultAction");
     boolean pass = true;
@@ -206,6 +209,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbersDefaultTooBigNumbersFaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbersDefaultTooBigNumbersFaultAction");
     boolean pass = true;
@@ -237,6 +241,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit association for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers2ExplicitAddNumbers2FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers2ExplicitAddNumbers2FaultAction");
     boolean pass = true;
@@ -268,6 +273,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit association for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers2ExplicitTooBigNumbers2FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers2ExplicitTooBigNumbers2FaultAction");
     boolean pass = true;
@@ -300,6 +306,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit association for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers3ExplicitAddNumbers3FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers3ExplicitAddNumbers3FaultAction");
     boolean pass = true;
@@ -331,6 +338,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers3DefaultTooBigNumbers3FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers3DefaultTooBigNumbers3FaultAction");
     boolean pass = true;
@@ -362,6 +370,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers4DefaultAddNumbers4FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers4DefaultAddNumbers4FaultAction");
     boolean pass = true;
@@ -393,6 +402,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit association for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers4ExplicitTooBigNumbers4FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers4ExplicitTooBigNumbers4FaultAction");
     boolean pass = true;
@@ -425,6 +435,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit association for WSDL fault element
    *
    */
+  @Test
   public void testAddNumbers5ExplicitAddNumbers5FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers5ExplicitAddNumbers5FaultAction");
     boolean pass = true;
@@ -454,6 +465,7 @@ public class Client extends ServiceEETest {
    * Action value is empty string ""
    *
    */
+  @Test
   public void testAddNumbers6EmptyAddNumbers6FaultAction() throws Fault {
     TestUtil.logMsg("testAddNumbers6EmptyAddNumbers6FaultAction");
     boolean pass = true;
@@ -482,6 +494,7 @@ public class Client extends ServiceEETest {
    * explicit message names specified
    *
    */
+  @Test
   public void testDefaultInputOutputActionExplicitMessageNames() throws Fault {
     TestUtil.logMsg("testDefaultInputOutputActionExplicitMessageNames");
     boolean pass = true;
@@ -508,6 +521,7 @@ public class Client extends ServiceEETest {
    * no message names specified
    *
    */
+  @Test
   public void testDefaultInputOutputAction() throws Fault {
     TestUtil.logMsg("testDefaultInputOutputAction");
     boolean pass = true;
@@ -532,6 +546,7 @@ public class Client extends ServiceEETest {
    * when the Action value is empty string ""
    *
    */
+  @Test
   public void testEmptyInputOutputAction() throws Fault {
     TestUtil.logMsg("testEmptyInputOutputAction");
     boolean pass = true;
@@ -555,6 +570,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test explicit association for WSDL input/output elements
    *
    */
+  @Test
   public void testExplicitInputOutputActions() throws Fault {
     TestUtil.logMsg("testExplicitInputOutputActions");
     boolean pass = true;
@@ -580,6 +596,7 @@ public class Client extends ServiceEETest {
    * default association for WSDL output element
    *
    */
+  @Test
   public void testExplicitInputDefaultOutputAction() throws Fault {
     TestUtil.logMsg("testExplicitInputDefaultOutputAction");
     boolean pass = true;

@@ -22,6 +22,7 @@ package com.sun.ts.tests.jaxws.wsi.j2w.rpc.literal.R2112;
 
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -86,6 +87,7 @@ public class Client extends ServiceEETest
    * 
    * @throws Fault
    */
+  @Test
   public void testArrayTypeNames() throws Fault {
     Document document = client.getDocument();
     Element[] types = DescriptionUtils.getChildElements(

@@ -30,6 +30,7 @@ import java.util.*;
 import java.rmi.*;
 
 import jakarta.xml.ws.soap.*;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -101,6 +102,7 @@ public class Client extends ServiceEETest {
    * jakarta.xml.ws.soap.AddressingFeature.Responses.values() returns array
    * containing the constants of this enum type.
    */
+  @Test
   public void valuesTest() throws Fault {
     TestUtil.logTrace("valuesTest");
     boolean pass = true;
@@ -130,6 +132,7 @@ public class Client extends ServiceEETest {
    * jakarta.xml.ws.soap.AddressingFeature.Responses.valueOf(String name) returns
    * the enum constant of this type with specified name.
    */
+  @Test
   public void valueOfTest() throws Fault {
     TestUtil.logTrace("valuesTest");
     boolean pass = true;

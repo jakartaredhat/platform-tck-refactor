@@ -22,6 +22,8 @@ package com.sun.ts.tests.jaxws.wsi.w2j.rpc.literal.R2009;
 import java.util.Properties;
 
 import com.sun.javatest.Status;
+
+import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 import java.math.BigInteger;
 import com.sun.ts.lib.harness.*;
@@ -88,6 +90,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testBOMUTF16Schema() throws Fault {
     BigInteger result;
     try {

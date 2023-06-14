@@ -25,6 +25,8 @@ import com.sun.ts.tests.jaxws.sharedclients.faultclient.*;
 import com.sun.javatest.Status;
 
 import jakarta.xml.ws.soap.SOAPFaultException;
+import org.junit.jupiter.api.Test;
+
 import java.util.Properties;
 
 import com.sun.ts.lib.harness.*;
@@ -76,6 +78,7 @@ public class Client extends ServiceEETest {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testSOAPFaultExceptionDetailNoAttributes() throws EETest.Fault {
     try {
       client.alwaysThrowsSOAPFaultExceptionDetailNoAttributes();
@@ -100,8 +103,9 @@ public class Client extends ServiceEETest {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testSOAPFaultExceptionDetailQualifiedAttributes()
-      throws EETest.Fault {
+    throws EETest.Fault {
     try {
       client.alwaysThrowsSOAPFaultExceptionDetailQualifiedAttributes();
     } catch (SOAPFaultException sfe) {

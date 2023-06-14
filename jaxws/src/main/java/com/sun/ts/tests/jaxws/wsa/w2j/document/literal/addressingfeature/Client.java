@@ -24,6 +24,7 @@ import com.sun.ts.lib.porting.*;
 import com.sun.ts.lib.harness.*;
 
 import jakarta.xml.ws.soap.SOAPFaultException;
+import org.junit.jupiter.api.Test;
 
 import com.sun.ts.tests.jaxws.common.*;
 import com.sun.ts.tests.jaxws.wsa.common.WsaSOAPUtils;
@@ -357,6 +358,7 @@ public class Client extends ServiceEETest {
    * SOAPResponse since Addressing is Optional. If addressing headers exist
    * check them otherwise don't.
    */
+  @Test
   public void afClientEnabledNotREQServerEnabledNotREQTest() throws Fault {
     TestUtil.logMsg("afClientEnabledNotREQServerEnabledNotREQTest");
     TestUtil.logMsg(
@@ -388,6 +390,7 @@ public class Client extends ServiceEETest {
    * enabled/NotRequired. Addressing headers MUST be present on SOAPRequest and
    * SOAPResponse.
    */
+  @Test
   public void afClientEnabledREQServerEnabledNotREQTest() throws Fault {
     TestUtil.logMsg("afClientEnabledREQServerEnabledNotREQTest");
     TestUtil.logMsg(
@@ -419,6 +422,7 @@ public class Client extends ServiceEETest {
    * enabled/NotRequired. Addressing headers MUST not be present on SOAPRequest
    * and SOAPResponse.
    */
+  @Test
   public void afClientNotEnabledServerEnabledNotREQTest() throws Fault {
     TestUtil.logMsg("afClientNotEnabledServerEnabledNotREQTest");
     TestUtil.logMsg(
@@ -452,6 +456,7 @@ public class Client extends ServiceEETest {
    * does send Addressing headers then they MUST be present on SOAPRequest and
    * SOAPResponse since the Server mandates requires addressing.
    */
+  @Test
   public void afClientEnabledNotREQServerEnabledREQTest() throws Fault {
     TestUtil.logMsg("afClientEnabledNotREQServerEnabledREQTest");
     TestUtil.logMsg(
@@ -514,6 +519,7 @@ public class Client extends ServiceEETest {
    * enabled/Required. Addressing headers MUST be present on SOAPRequest and
    * SOAPResponse.
    */
+  @Test
   public void afClientEnabledREQServerEnabledREQTest() throws Fault {
     TestUtil.logMsg("afClientEnabledREQServerEnabledREQTest");
     TestUtil.logMsg(
@@ -545,6 +551,7 @@ public class Client extends ServiceEETest {
    * SOAP Fault has the correct information in it. The SOAP Fault faultcode must
    * be: MessageAddressingHeaderRequired.
    */
+  @Test
   public void afClientNotEnabledServerEnabledREQTest() throws Fault {
     TestUtil.logMsg("afClientNotEnabledServerEnabledREQTest");
     TestUtil.logMsg(
@@ -606,6 +613,7 @@ public class Client extends ServiceEETest {
    * notenabled. Addressing headers MAY be present in the SOAPRequest but MUST
    * not be present in the SOAPResponse.
    */
+  @Test
   public void afClientEnabledNotREQServerNotEnabledTest() throws Fault {
     TestUtil.logMsg("afClientEnabledNotREQServerEnableNotREQTest");
     TestUtil
@@ -635,6 +643,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test Addressing Feature. Client enabled/Required, Server
    * not enabled. This scenario MUST throw back a WebServiceException.
    */
+  @Test
   public void afClientEnabledREQServerNotEnabledTest() throws Fault {
     TestUtil.logMsg("afClientEnabledREQServerNotEnabledTest");
     TestUtil.logMsg("Verify WebServiceException is thrown");

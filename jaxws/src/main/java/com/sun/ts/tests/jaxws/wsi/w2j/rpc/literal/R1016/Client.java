@@ -31,6 +31,8 @@ import jakarta.xml.soap.SOAPMessage;
 import jakarta.xml.soap.SOAPException;
 import jakarta.xml.soap.SOAPElement;
 import jakarta.xml.ws.WebServiceException;
+import org.junit.jupiter.api.Test;
+
 import java.util.Properties;
 import java.util.Iterator;
 
@@ -82,6 +84,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testCanAcceptXMLLangAttribute() throws EETest.Fault {
     try {
       client.alwaysThrowsWebServiceException();

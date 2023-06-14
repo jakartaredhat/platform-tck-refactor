@@ -24,6 +24,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -87,6 +88,7 @@ public class Client extends ServiceEETest implements DescriptionConstants {
    * 
    * @throws Fault
    */
+  @Test
   public void testImportLocations() throws Fault {
     Document document = client.getDocument();
     Element[] imports = DescriptionUtils.getImports(document);

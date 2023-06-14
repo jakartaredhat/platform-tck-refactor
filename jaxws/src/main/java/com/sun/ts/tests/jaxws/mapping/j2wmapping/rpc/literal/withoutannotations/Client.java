@@ -24,6 +24,7 @@ import com.sun.ts.lib.util.*;
 
 import java.util.Properties;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -119,6 +120,7 @@ public class Client extends ServiceEETest
    * WSDL 1.1 Mapping). Conformance requirement done: - Package name mapping
    *
    */
+  @Test
   public void VerifyTargetNamespaceWithoutAnnotation() throws Fault {
     TestUtil.logMsg("VerifyTargetNamespaceWithoutAnnotation");
     boolean pass = true;
@@ -161,6 +163,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyOneWayOperationWithoutAnnotation() throws Fault {
     TestUtil.logMsg("VerifyOneWayOperationWithoutAnnotation");
     boolean pass = true;
@@ -251,8 +254,9 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifySOAPElementNamespaceUseAttributeWithoutAnnotation()
-      throws Fault {
+    throws Fault {
     TestUtil.logMsg("VerifySOAPElementNamespaceUseAttributeWithoutAnnotation");
     boolean pass = true;
 
@@ -289,8 +293,9 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifySOAPBindingTransportStyleAttributeWithoutAnnotation()
-      throws Fault {
+    throws Fault {
     TestUtil
         .logMsg("VerifySOAPBindingTransportStyleAttributeWithoutAnnotation");
     boolean pass = true;
@@ -342,6 +347,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyPortTypeNameWithoutAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortTypeNameWithoutAnnotation");
     boolean pass = true;
@@ -366,6 +372,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyServiceNameWithoutAnnotation() throws Fault {
     TestUtil.logMsg("VerifyServiceNameWithoutAnnotation");
     boolean pass = true;
@@ -393,6 +400,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyPortNameWithoutAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortNameWithoutAnnotation");
     boolean pass = true;

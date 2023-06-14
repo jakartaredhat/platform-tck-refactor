@@ -23,6 +23,7 @@ package com.sun.ts.tests.jaxws.wsi.j2w.document.literal.R2201;
 import java.util.Properties;
 import java.util.StringTokenizer;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -90,6 +91,7 @@ public class Client extends ServiceEETest
    * 
    * @throws Fault
    */
+  @Test
   public void testPartAttributeContents() throws Fault {
     Document document = client.getDocument();
     Element[] bindings = DescriptionUtils.getBindings(document);

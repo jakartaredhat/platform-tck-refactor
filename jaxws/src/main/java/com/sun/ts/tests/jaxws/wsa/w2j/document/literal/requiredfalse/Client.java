@@ -34,6 +34,8 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
+import org.junit.jupiter.api.Test;
+
 public class Client extends ServiceEETest {
 
   // The webserver defaults (overidden by harness properties)
@@ -183,6 +185,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testDefaultActions() throws Fault {
     TestUtil.logMsg("testDefaultActions");
     boolean pass = true;
@@ -213,6 +216,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testActionWithExplicitNames() throws Fault {
     TestUtil.logMsg("testActionWithExplicitNames");
     boolean pass = true;
@@ -243,6 +247,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testActionWithInputNameOnly() throws Fault {
     TestUtil.logMsg("testActionWithInputNameOnly");
     boolean pass = true;
@@ -273,6 +278,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testActionWithOutputNameOnly() throws Fault {
     TestUtil.logMsg("testActionWithOutputNameOnly");
     boolean pass = true;
@@ -304,6 +310,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testExplicitActionsBoth() throws Fault {
     TestUtil.logMsg("testExplicitActionsBoth");
     boolean pass = true;
@@ -335,6 +342,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testExplicitActionsInputOnly() throws Fault {
     TestUtil.logMsg("testExplicitActionsInputOnly");
     boolean pass = true;
@@ -366,6 +374,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void testExplicitActionsOutputOnly() throws Fault {
     TestUtil.logMsg("testExplicitActionsOutputOnly");
     boolean pass = true;
@@ -397,6 +406,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy:
    *
    */
+  @Test
   public void TestEmptyActions() throws Fault {
     TestUtil.logMsg("TestEmptyActions");
     boolean pass = true;

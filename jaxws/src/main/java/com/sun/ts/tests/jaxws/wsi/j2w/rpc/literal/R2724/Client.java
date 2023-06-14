@@ -27,6 +27,7 @@ import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import com.sun.javatest.Status;
 
 import jakarta.xml.soap.SOAPMessage;
+import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.SOAPException;
 import java.util.Properties;
 import com.sun.ts.lib.harness.*;
@@ -78,6 +79,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testVersionMismatchFaultcode() throws EETest.Fault {
     SOAPMessage response = null;
     try {
@@ -103,6 +105,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testMustUnderstandFaultcode() throws EETest.Fault {
     SOAPMessage response = null;
     try {
@@ -128,6 +131,7 @@ public class Client extends ServiceEETest implements SOAPRequests {
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testClientFaultcode() throws EETest.Fault {
     SOAPMessage response = null;
     try {

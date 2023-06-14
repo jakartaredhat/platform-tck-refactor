@@ -29,6 +29,8 @@ import com.sun.ts.tests.jaxws.wsi.requests.SOAPRequests;
 import com.sun.javatest.Status;
 
 import jakarta.xml.soap.*;
+import org.junit.jupiter.api.Test;
+
 import java.util.Properties;
 import java.util.Iterator;
 
@@ -81,8 +83,9 @@ public class Client extends ServiceEETest
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testNoEncodingStyleOnResponseEnvelopeElements()
-      throws EETest.Fault {
+    throws EETest.Fault {
     SOAPMessage response = null;
     try {
       response = client.makeSaajRequest(HELLOWORLD_WITH_HANDLER);
@@ -108,8 +111,9 @@ public class Client extends ServiceEETest
    *
    * @throws com.sun.ts.lib.harness.EETest.Fault
    */
+  @Test
   public void testNoEncodingStyleOnRequestEnvelopeElements()
-      throws EETest.Fault {
+    throws EETest.Fault {
     String response = null;
     try {
       response = client.helloWorld();

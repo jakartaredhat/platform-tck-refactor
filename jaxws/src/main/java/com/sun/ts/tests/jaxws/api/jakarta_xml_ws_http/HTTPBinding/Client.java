@@ -33,6 +33,8 @@ import java.util.*;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.http.*;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.transform.Source;
 import jakarta.xml.ws.handler.*;
 
@@ -188,6 +190,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void getHTTPBindingTest() throws Fault {
     TestUtil.logTrace("getHTTPBindingTest");
     boolean pass = true;
@@ -215,6 +218,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void HTTPBindingConstantsTest() throws Fault {
     TestUtil.logTrace("HTTPBindingConstantsTest");
     boolean pass = true;
@@ -237,6 +241,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestJAXB() throws Fault {
     TestUtil.logTrace("invokeTestJAXB");
     boolean pass = true;
@@ -282,6 +287,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestXML() throws Fault {
     TestUtil.logTrace("invokeTestXML");
     boolean pass = true;
@@ -314,6 +320,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestJAXBBad() throws Fault {
     TestUtil.logTrace("invokeTestJAXBBad");
     boolean pass = true;
@@ -352,6 +359,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestJAXBNull() throws Fault {
     TestUtil.logTrace("invokeTestJAXBNull");
     boolean pass = true;
@@ -389,6 +397,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void incompatibleHandlerTest() throws Fault {
     TestUtil.logTrace("incompatibleHandlerTest");
     boolean pass = true;
@@ -430,6 +439,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void getEndpointReferenceTest() throws Fault {
     TestUtil.logTrace("getEndpointReferenceTest");
     boolean pass = false;

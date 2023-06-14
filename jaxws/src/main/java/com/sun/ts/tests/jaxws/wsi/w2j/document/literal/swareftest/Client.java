@@ -29,6 +29,8 @@ import java.net.*;
 import java.awt.*;
 
 import jakarta.activation.*;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.transform.stream.*;
 
 import java.util.Properties;
@@ -237,6 +239,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Send and Receive a single attachment via swaRef type.
    *
    */
+  @Test
   public void EchoSingleSwaRefAttachmentTest() throws Fault {
     TestUtil.logMsg("EchoSingleSwaRefAttachmentTest");
     boolean pass = true;
@@ -280,6 +283,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Send and Receive multiple attachments via swaRef type.
    *
    */
+  @Test
   public void EchoMultipleSwaRefAttachmentsTest() throws Fault {
     TestUtil.logMsg("SwaRefAttachmentsTest2");
     boolean pass = true;

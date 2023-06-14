@@ -23,6 +23,8 @@ package com.sun.ts.tests.jaxws.wsi.w2j.document.literal.R2747;
 import java.util.Properties;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
+
 import com.sun.javatest.Status;
 import com.sun.ts.lib.harness.*;
 
@@ -98,6 +100,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testExtensionElementUnderstanding() throws Fault {
     String result;
     try {

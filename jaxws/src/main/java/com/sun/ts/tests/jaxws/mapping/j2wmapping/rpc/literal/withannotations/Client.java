@@ -24,6 +24,7 @@ import com.sun.ts.lib.util.*;
 
 import java.util.*;
 
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Node;
 import org.w3c.dom.NamedNodeMap;
@@ -629,6 +630,7 @@ public class Client extends ServiceEETest
    * Package name mapping
    *
    */
+  @Test
   public void VerifyTargetNamespaceWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyTargetNamespaceWithAnnotation");
     boolean pass = true;
@@ -668,8 +670,9 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifySOAPElementNamespaceUseAttributeWithAnnotation()
-      throws Fault {
+    throws Fault {
     TestUtil.logMsg("VerifySOAPElementNamespaceUseAttributeWithAnnotation");
     boolean pass = true;
 
@@ -707,8 +710,9 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifySOAPBindingTransportStyleAttributeWithAnnotation()
-      throws Fault {
+    throws Fault {
     TestUtil.logMsg("VerifySOAPBindingTransportStyleAttributeWithAnnotation");
     boolean pass = true;
 
@@ -757,6 +761,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyServiceNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyServiceNameWithAnnotation");
     boolean pass = true;
@@ -784,6 +789,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyPortTypeNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortTypeNameWithAnnotation");
     boolean pass = true;
@@ -811,6 +817,7 @@ public class Client extends ServiceEETest
    *
    *
    */
+  @Test
   public void VerifyPortNameWithAnnotation() throws Fault {
     TestUtil.logMsg("VerifyPortNameWithAnnotation");
     boolean pass = true;
@@ -841,6 +848,7 @@ public class Client extends ServiceEETest
    * 
    *
    */
+  @Test
   public void VerifyOperationNames() throws Fault {
     TestUtil.logMsg("VerifyOperationNames");
     boolean pass = true;
@@ -898,6 +906,7 @@ public class Client extends ServiceEETest
    * 
    *
    */
+  @Test
   public void VerifyOneWayAndTwoWayOperations() throws Fault {
     TestUtil.logMsg("VerifyOneWayAndTwoWayOperations");
     boolean pass = true;
@@ -988,6 +997,7 @@ public class Client extends ServiceEETest
    * 
    *
    */
+  @Test
   public void VerifyParameterAndResultNaming() throws Fault {
     TestUtil.logMsg("VerifyParameterAndResultNaming");
     boolean pass = true;
@@ -1051,6 +1061,7 @@ public class Client extends ServiceEETest
    * type attribute, one per method parameter and for a non-void return value.
    *
    */
+  @Test
   public void VerifyWsdlMessagePartAndAttrStyle() throws Fault {
     TestUtil.logMsg("VerifyWsdlMessagePartAndAttrStyle");
     boolean pass = true;
@@ -1151,6 +1162,7 @@ public class Client extends ServiceEETest
    * schema types.
    *
    */
+  @Test
   public void VerifySchemaNamespacesImportsElementsTypes() throws Fault {
     TestUtil.logMsg("VerifySchemaNamespacesImportsElementsTypes");
     boolean pass = true;
@@ -1175,6 +1187,7 @@ public class Client extends ServiceEETest
    * Conformance Requirement: - Parameter classification
    *
    */
+  @Test
   public void VerifyParameterClassificationForHolders() throws Fault {
     TestUtil.logMsg("VerifyParameterClassificationForHolders");
     boolean pass = true;
@@ -1221,8 +1234,9 @@ public class Client extends ServiceEETest
    * 
    *
    */
+  @Test
   public void VerifyInputOutputReturnAndFaultTypeElementMappings()
-      throws Fault {
+    throws Fault {
     TestUtil.logMsg("VerifyInputOutputReturnAndFaultTypeElementMappings");
     boolean pass = true;
 
@@ -1324,6 +1338,7 @@ public class Client extends ServiceEETest
    * for Addressing(required=true). Verify the Action and FaultAction
    * annotations are correct in the generated WSDL.
    */
+  @Test
   public void ActionFaultActionAndAddressingAnnotationsTest() throws Fault {
     TestUtil.logTrace("ActionFaultActionAndAddressingAnnotationsTest");
     boolean pass = true;
@@ -1355,6 +1370,7 @@ public class Client extends ServiceEETest
    * on 3Impl.java Verify the Addressing annotation is correct in the generated
    * WSDL.
    */
+  @Test
   public void AddressingNotEnabledAnnotationTest() throws Fault {
     TestUtil.logTrace("AddressingNotEnabledAnnotationTest");
     boolean pass = true;
@@ -1382,6 +1398,7 @@ public class Client extends ServiceEETest
    * AddressingFeature.ANONYMOUS). Verify the Addressing annotation is correct
    * in the generated WSDL.
    */
+  @Test
   public void VerifyAnonymousResponsesAddressingElementTest() throws Fault {
     TestUtil.logTrace("VerifyAnonymousResponsesAddressingElementTest");
     boolean pass = true;
@@ -1411,6 +1428,7 @@ public class Client extends ServiceEETest
    * AddressingFeature.NON_ANONYMOUS). Verify the Addressing annotation is
    * correct in the generated WSDL.
    */
+  @Test
   public void VerifyNonAnonymousResponsesAddressingElementTest() throws Fault {
     TestUtil.logTrace("VerifyNonAnonymousResponsesAddressingElementTest");
     boolean pass = true;
@@ -1441,6 +1459,7 @@ public class Client extends ServiceEETest
    * enabled=true,required=true,responses=AddressingFeature.ALL). Verify the
    * Addressing annotation is correct in the generated WSDL.
    */
+  @Test
   public void VerifyAllResponsesAddressingElementsTest() throws Fault {
     TestUtil.logTrace("VerifyAllResponsesAddressingElementsTest");
     boolean pass = true;

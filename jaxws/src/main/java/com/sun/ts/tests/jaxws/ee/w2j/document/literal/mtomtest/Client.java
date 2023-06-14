@@ -31,6 +31,8 @@ import java.net.*;
 import java.awt.Image;
 import jakarta.xml.ws.*;
 import jakarta.xml.ws.soap.SOAPBinding;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.namespace.QName;
 
 import jakarta.activation.DataHandler;
@@ -259,6 +261,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on input.
    */
+  @Test
   public void MTOMInTest() throws Fault {
     TestUtil.logMsg("MTOMInTest");
     boolean pass = true;
@@ -314,6 +317,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on input and output.
    */
+  @Test
   public void MTOMInOutTest() throws Fault {
     TestUtil.logMsg("MTOMInOutTest");
     boolean pass = true;
@@ -408,6 +412,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on output.
    */
+  @Test
   public void MTOMOutTest() throws Fault {
     TestUtil.logMsg("MTOMOutTest");
     boolean pass = true;
@@ -472,6 +477,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM HTTP Content-Type Header for correctness.
    */
+  @Test
   public void MTOMInOut2RequestCheckHttpHeadersTest() throws Fault {
     TestUtil.logMsg("MTOMInOut2RequestCheckHttpHeadersTest");
     boolean pass = true;
@@ -502,6 +508,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM HTTP Content-Type Header for correctness.
    */
+  @Test
   public void MTOMInOut2ResponseCheckHttpHeadersTest() throws Fault {
     TestUtil.logMsg("MTOMInOut2ResponseCheckHttpHeadersTest");
     boolean pass = true;
@@ -533,6 +540,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Test MTOM attachments on output.
    */
+  @Test
   public void MTOMOut2Test() throws Fault {
     TestUtil.logMsg("MTOMOut2Test");
     boolean pass = true;

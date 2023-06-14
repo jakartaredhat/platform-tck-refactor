@@ -28,6 +28,8 @@ import java.util.Properties;
 
 import com.sun.ts.tests.jaxws.common.AnnotationUtils;
 
+import org.junit.jupiter.api.Test;
+
 public class Client extends ServiceEETest {
   /*
    * Test entry point.
@@ -59,6 +61,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void RequestWrapperAnnotationTest() throws Fault {
     TestUtil.logTrace("RequestWrapperAnnotationTest");
     boolean pass = true;
@@ -97,6 +100,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void ResponseWrapperAnnotationTest() throws Fault {
     TestUtil.logTrace("ResponseWrapperAnnotationTest");
     boolean pass = true;
@@ -134,6 +138,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void WebServiceAnnotationTest() throws Fault {
     TestUtil.logTrace("WebServiceAnnotationTest");
     boolean pass = true;
@@ -171,6 +176,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void SOAPBindingAnnotationTest() throws Fault {
     TestUtil.logTrace("SOAPBindingAnnotationTest");
     boolean pass = true;
@@ -234,6 +240,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void HelloOperationAnnotationsTest() throws Fault {
     TestUtil.logTrace("HelloOperationAnnotationsTest");
     boolean pass = true;
@@ -279,6 +286,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void OnewayAnnotationsTest() throws Fault {
     TestUtil.logTrace("OnewayAnnotationsTest");
     boolean pass = true;
@@ -317,6 +325,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void WebParamModesAnnotationsTest() throws Fault {
     TestUtil.logTrace("WebParamModesAnnotationsTest");
     boolean pass = true;
@@ -388,6 +397,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void WebFaultAnnotationsTest() throws Fault {
     TestUtil.logTrace("WebFaultAnnotationsTest");
     boolean pass = true;
@@ -421,6 +431,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void WebServiceClientAnnotationsTest() throws Fault {
     TestUtil.logTrace("WebServiceClientAnnotationsTest");
     boolean pass = true;
@@ -457,6 +468,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void WebEndpointAnnotationsTest() throws Fault {
     TestUtil.logTrace("WebEndpointAnnotationsTest");
     boolean pass = true;
@@ -491,6 +503,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void HandlerChainAnnotationsTest() throws Fault {
     TestUtil.logTrace("HandlerChainAnnotationsTest");
     boolean pass = true;
@@ -528,6 +541,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Generate classes from a wsdl and verify existence of
    * annotations
    */
+  @Test
   public void ActionFaultActionAndAddressingAnnotationsTest() throws Fault {
     TestUtil.logTrace("ActionFaultActionAndAddressingAnnotationsTest");
     boolean pass = true;

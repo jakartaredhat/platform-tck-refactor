@@ -32,6 +32,7 @@ import com.sun.ts.tests.jaxws.sharedclients.*;
 import java.net.URL;
 
 import jakarta.xml.ws.soap.*;
+import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 
 import java.util.Properties;
@@ -197,6 +198,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL input
    *
    */
+  @Test
   public void testDefaultOneWayAction() throws Fault {
     TestUtil.logMsg("testDefaultOneWayAction");
     boolean pass = true;
@@ -223,6 +225,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test default action pattern for WSDL input
    *
    */
+  @Test
   public void testExplicitOneWayAction() throws Fault {
     TestUtil.logMsg("testExplicitOneWayAction");
     boolean pass = true;
@@ -247,6 +250,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Send a message that doesn't contain wsa:To
    *
    */
+  @Test
   public void noToHeaderOneWayTest() throws Fault {
     TestUtil.logMsg("noToHeaderOneWayTest");
     boolean pass = true;
@@ -273,6 +277,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Send a message that doesn't contain wsa:Action
    *
    */
+  @Test
   public void noActionHeaderOneWayTest() throws Fault {
     TestUtil.logMsg("noActionHeaderOneWayTest");
     boolean pass = true;

@@ -35,6 +35,7 @@ import jakarta.xml.bind.JAXBContext;
 
 import jakarta.xml.ws.soap.AddressingFeature;
 import jakarta.xml.ws.soap.MTOMFeature;
+import org.junit.jupiter.api.Test;
 import jakarta.xml.ws.RespectBindingFeature;
 import jakarta.xml.ws.WebServiceFeature;
 
@@ -212,6 +213,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: enable the webservice features on the impl then ensure the
    * endpoint can be reached
    */
+  @Test
   public void WebServiceFeaturesOnProviderTest() throws Fault {
     TestUtil.logMsg("WebServiceFeaturesOnProviderTest");
     boolean pass = true;

@@ -35,6 +35,7 @@ import java.util.concurrent.*;
 import jakarta.xml.ws.*;
 import javax.xml.namespace.QName;
 import jakarta.xml.ws.soap.*;
+import org.junit.jupiter.api.Test;
 import jakarta.xml.soap.*;
 
 import jakarta.xml.bind.JAXBContext;
@@ -273,6 +274,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestXML() throws Fault {
     TestUtil.logTrace("invokeTestXML");
     boolean pass = true;
@@ -304,6 +306,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeAsyncTestXML() throws Fault {
     TestUtil.logTrace("invokeAsyncTestXML");
     boolean pass = true;
@@ -348,6 +351,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeAsyncHandlerTestXML() throws Fault {
     TestUtil.logTrace("invokeAsyncHandlerTestXML");
     boolean pass = true;
@@ -387,6 +391,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeOneWayTestXML() throws Fault {
     TestUtil.logTrace("invokeOneWayTestXML");
     boolean pass = true;
@@ -409,6 +414,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestJAXB() throws Fault {
     TestUtil.logTrace("invokeTestJAXB");
     boolean pass = true;
@@ -445,6 +451,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeAsyncTestJAXB() throws Fault {
     TestUtil.logTrace("invokeAsyncTestJAXB");
     boolean pass = true;
@@ -493,6 +500,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeAsyncHandlerTestJAXB() throws Fault {
     TestUtil.logTrace("invokeAsyncHandlerTestJAXB");
     boolean pass = true;
@@ -545,6 +553,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeOneWayTestJAXB() throws Fault {
     TestUtil.logTrace("invokeOneWayTestJAXB");
     boolean pass = true;
@@ -575,6 +584,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeNegativeTestXML() throws Fault {
     TestUtil.logTrace("invokeNegativeTestXML");
     boolean pass = true;
@@ -603,6 +613,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeOneWayNegTestXML() throws Fault {
     TestUtil.logTrace("invokeOneWayNegTestXML");
     boolean pass = true;
@@ -630,6 +641,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestSOAPMessage() throws Fault {
     TestUtil.logTrace("invokeTestSOAPMessage");
     boolean pass = true;
@@ -659,6 +671,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeAsyncTestSOAPMessage() throws Fault {
     TestUtil.logTrace("invokeAsyncTestSOAPMessage");
     boolean pass = true;
@@ -700,6 +713,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeAsyncHandlerTestSOAPMessage() throws Fault {
     TestUtil.logTrace("invokeAsyncHandlerTestSOAPMessage");
     boolean pass = true;
@@ -738,6 +752,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeOneWayTestSOAPMessage() throws Fault {
     TestUtil.logTrace("invokeOneWayTestSOAPMessage");
     boolean pass = true;
@@ -760,6 +775,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy:
    */
+  @Test
   public void invokeTestJAXBNull() throws Fault {
     TestUtil.logTrace("invokeTestJAXBNull");
     boolean pass = true;

@@ -31,6 +31,7 @@ import java.rmi.*;
 import java.math.*;
 
 import jakarta.xml.ws.Holder;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -66,6 +67,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via Holder() constructor. Verify Holder
    * object created successfully.
    */
+  @Test
   public void HolderConstructorTest1() throws Fault {
     TestUtil.logTrace("HolderConstructorTest1");
     boolean pass = true;
@@ -96,6 +98,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Create instance via Holder(byte) constructor. Verify Holder
    * object created successfully.
    */
+  @Test
   public void HolderConstructorTest2() throws Fault {
     TestUtil.logTrace("HolderConstructorTest2");
     boolean pass = true;
@@ -126,6 +129,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Test using both constructors. Verify value is set correct
    * in each case.
    */
+  @Test
   public void getValueTest() throws Fault {
     TestUtil.logTrace("getValueTest");
     boolean pass = true;

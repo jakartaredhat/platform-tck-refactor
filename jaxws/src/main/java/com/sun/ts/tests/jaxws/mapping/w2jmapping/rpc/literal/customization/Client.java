@@ -29,6 +29,8 @@ import com.sun.ts.lib.harness.ServiceEETest;
 import java.util.Properties;
 
 import com.sun.ts.tests.jaxws.common.JAXWS_Util;
+
+import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.common.AnnotationUtils;
 
 public class Client extends ServiceEETest {
@@ -109,6 +111,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify wsdl:definitions and wsdl:portType mapping
    */
+  @Test
   public void PortTypeTest() throws Fault {
     TestUtil.logTrace("PortTypeTest");
     boolean pass = true;
@@ -134,6 +137,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify mapping of wsdl:operation
    */
+  @Test
   public void OperationTest() throws Fault {
     TestUtil.logTrace("OperationTest");
     boolean pass = true;
@@ -188,6 +192,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify wsdl:fault element mapping
    */
+  @Test
   public void FaultTest() throws Fault {
     TestUtil.logTrace("FaultTest");
     boolean pass = true;
@@ -317,6 +322,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify wsdl:service and wsdl:port element mapping
    */
+  @Test
   public void ServiceAndPortTest() throws Fault {
     TestUtil.logTrace("ServiceAndPortTest");
     boolean pass = true;
@@ -409,6 +415,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify soap:header (Header Binding Extension)
    */
+  @Test
   public void HeaderTest() throws Fault {
     TestUtil.logTrace("HeaderTest");
     boolean pass = true;
@@ -446,6 +453,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify soap:fault/soap:header mappings
    */
+  @Test
   public void SoapHeaderAndFaultTest() throws Fault {
     TestUtil.logTrace("SoapHeaderAndFaultTest");
     boolean pass = true;
@@ -555,6 +563,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify that each message results in a parameter
    */
+  @Test
   public void EnableWrapperStyleTrueTest() throws Fault {
     TestUtil.logTrace("EnableWrapperStyleTrueTest");
     boolean pass = true;
@@ -615,6 +624,7 @@ public class Client extends ServiceEETest {
    *
    * @test_Strategy: Verify that each message results in a paramenter
    */
+  @Test
   public void EnableWrapperStyleFalseTest() throws Fault {
     TestUtil.logTrace("EnableWrapperStyleFalseTest");
     boolean pass = true;

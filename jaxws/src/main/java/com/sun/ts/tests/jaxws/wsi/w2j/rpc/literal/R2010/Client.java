@@ -22,6 +22,8 @@ package com.sun.ts.tests.jaxws.wsi.w2j.rpc.literal.R2010;
 import java.util.Properties;
 
 import com.sun.javatest.Status;
+
+import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 import java.math.BigInteger;
 import com.sun.ts.lib.harness.*;
@@ -92,6 +94,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testImportDirectlyUTF8Schema() throws Fault {
     String result;
     try {
@@ -120,6 +123,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testImportDirectlyUTF16Schema() throws Fault {
     BigInteger result;
     try {
@@ -148,6 +152,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testImportIndirectlyUTF8Schema() throws Fault {
     String result;
     try {
@@ -176,6 +181,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testImportIndirectlyUTF16Schema() throws Fault {
     BigInteger result;
     try {

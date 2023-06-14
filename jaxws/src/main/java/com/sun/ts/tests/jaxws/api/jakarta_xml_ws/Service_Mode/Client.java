@@ -30,6 +30,7 @@ import java.util.*;
 import java.rmi.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
 
 import com.sun.javatest.Status;
 
@@ -96,6 +97,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Verify jakarta.xml.ws.Service.Mode.values() returns array
    * containing the constants of this enum type.
    */
+  @Test
   public void valuesTest() throws Fault {
     TestUtil.logTrace("valuesTest");
     boolean pass = true;
@@ -122,6 +124,7 @@ public class Client extends ServiceEETest {
    * @test_Strategy: Verify jakarta.xml.ws.Service.Mode.valueOf(String name)
    * returns the enum constant of this type with specified name.
    */
+  @Test
   public void valueOfTest() throws Fault {
     TestUtil.logTrace("valuesTest");
     boolean pass = true;

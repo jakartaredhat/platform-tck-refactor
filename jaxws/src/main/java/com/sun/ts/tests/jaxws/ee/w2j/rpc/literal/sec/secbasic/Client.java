@@ -29,6 +29,8 @@ import java.net.*;
 import java.util.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.namespace.QName;
 import com.sun.javatest.Status;
 
@@ -389,6 +391,7 @@ public class Client extends ServiceEETest {
    * throw a WebService- Exception (UnAuthorized).
    */
 
+  @Test
   public void BasicAuthTest1() throws Fault {
     TestUtil.logTrace("BasicAuthTest1");
     boolean pass = true;
@@ -449,6 +452,7 @@ public class Client extends ServiceEETest {
    * password, then the JAXWS runtime must allow access.
    */
 
+  @Test
   public void BasicAuthTest2() throws Fault {
     TestUtil.logTrace("BasicAuthTest2");
     boolean pass = true;
@@ -517,6 +521,7 @@ public class Client extends ServiceEETest {
    * Exception (UnAuthorized).
    */
 
+  @Test
   public void BasicAuthTest3() throws Fault {
     TestUtil.logTrace("BasicAuthTest3");
     boolean pass = true;
@@ -586,6 +591,7 @@ public class Client extends ServiceEETest {
    * a WebServiceException (UnAuthorized).
    */
 
+  @Test
   public void BasicAuthTest4() throws Fault {
     TestUtil.logTrace("BasicAuthTest4");
     boolean pass = true;
@@ -649,6 +655,7 @@ public class Client extends ServiceEETest {
    * access without the need to authenticate.
    */
 
+  @Test
   public void BasicAuthTest5() throws Fault {
     TestUtil.logTrace("BasicAuthTest5");
     boolean pass = true;
@@ -713,6 +720,7 @@ public class Client extends ServiceEETest {
    * guest JAXWS service definition.
    */
 
+  @Test
   public void BasicAuthTest6() throws Fault {
     TestUtil.logTrace("BasicAuthTest6");
     boolean pass = true;

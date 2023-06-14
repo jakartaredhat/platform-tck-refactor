@@ -28,6 +28,8 @@ import java.net.URL;
 import java.util.Properties;
 
 import com.sun.javatest.Status;
+
+import org.junit.jupiter.api.Test;
 import com.sun.ts.tests.jaxws.sharedclients.ClientFactory;
 import com.sun.ts.tests.jaxws.sharedclients.SOAPClient;
 import com.sun.ts.tests.jaxws.sharedclients.rpclitclient.*;
@@ -82,6 +84,7 @@ public class Client extends ServiceEETest {
    *
    * @throws Fault
    */
+  @Test
   public void testDescriptionEncoding() throws Fault {
     String descriptionURL = client.getDescriptionURL();
     try {

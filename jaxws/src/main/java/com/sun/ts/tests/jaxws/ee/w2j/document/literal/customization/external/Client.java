@@ -32,6 +32,8 @@ import java.net.*;
 import java.util.*;
 
 import jakarta.xml.ws.*;
+import org.junit.jupiter.api.Test;
+
 import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
@@ -185,6 +187,7 @@ public class Client extends ServiceEETest {
    * the wsdl file. If the endpoint is reachable then the customization worked.
    *
    */
+  @Test
   public void CustomizationExternalTest() throws Fault {
     TestUtil.logTrace("CustomizationExternalTest");
     boolean pass = true;

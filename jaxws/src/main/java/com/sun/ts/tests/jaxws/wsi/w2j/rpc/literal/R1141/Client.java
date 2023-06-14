@@ -32,6 +32,8 @@ import javax.xml.namespace.QName;
 
 import com.sun.javatest.Status;
 
+import org.junit.jupiter.api.Test;
+
 import com.sun.ts.tests.jaxws.common.*;
 
 public class Client extends ServiceEETest {
@@ -204,6 +206,7 @@ public class Client extends ServiceEETest {
    * a http version of 1.0. Verify that we get a correct HTTP status code of
    * 2xx.
    */
+  @Test
   public void TestHTTP10Message() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
@@ -241,6 +244,7 @@ public class Client extends ServiceEETest {
    * a http version of 1.1. Verify that we get a correct HTTP status code of
    * 2xx.
    */
+  @Test
   public void TestHTTP11Message() throws Fault {
     boolean pass = true;
     Iterator iterator = null;
