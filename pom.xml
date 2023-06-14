@@ -106,7 +106,7 @@
         <module>common</module>
         <module>javaee</module>
         <module>jaxws-common</module>
-        <module>jaxws</module>
+        <!--module>jaxws</module-->
         <module>jsp</module>
         <module>libutil</module>
         <module>servlet</module>
@@ -613,6 +613,15 @@
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.shrinkwrap</groupId>
+            <artifactId>shrinkwrap-impl-base</artifactId>
+            <version>1.2.6</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -764,8 +773,13 @@
                             </dependency>
                             <dependency>
                                 <groupId>org.junit.jupiter</groupId>
-                                <artifactId>junit-jupiter</artifactId>
+                                <artifactId>junit-jupiter-api</artifactId>
                                 <version>5.9.1</version>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.jboss.shrinkwrap</groupId>
+                                <artifactId>shrinkwrap-impl-base</artifactId>
+                                <version>1.2.6</version>
                             </dependency>
                         </dependencies>
                     </plugin>
